@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="3G4GYhsjdaKZcL7BrV6uYOKebseYU3NpQOy7aQKCWJs" />
+<meta name="google-site-verification" content="brm2OztU-e4-koHF4t8NfbOhN2VjqF27AuXnZ71DaHs" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Create custom ski town apparel for your happy place, including shirts, hoodies, tanks, blankets, pajama pants and ski trip gifts.">
+<link rel="canonical" href="https://www.slopeshirts.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Slope Shirts | Custom Ski Town Apparel, Shirts, Hoodies &amp; Gifts">
+<meta property="og:description" content="Create custom ski town apparel for your happy place, including shirts, hoodies, tanks, blankets, pajama pants and ski trip gifts.">
+<meta property="og:url" content="https://www.slopeshirts.com/">
+<meta property="og:site_name" content="Slope Shirts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Slope Shirts | Custom Ski Town Apparel, Shirts, Hoodies &amp; Gifts">
+<meta name="twitter:description" content="Create custom ski town apparel for your happy place, including shirts, hoodies, tanks, blankets, pajama pants and ski trip gifts.">
+
+<title>Slope Shirts | Custom Ski Town Apparel, Shirts, Hoodies &amp; Gifts</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&family=Nunito:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face {
+  font-family: 'Porcelain';
+  src: url('fonts/Porcelain.woff2') format('woff2'),
+       url('fonts/Porcelain.woff') format('woff');
+  font-weight: normal; font-style: normal; font-display: swap;
+}
+:root {
+  --ocean-deep: #071c2c;
+  --ocean-mid:  #0d3352;
+  --ocean-surf: #1a5f8a;
+  --gold:       #f7c948;
+  --coral:      #E84040;
+  --foam:       #e8f4f8;
+  --sand:       #f0e0c0;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--ocean-deep);
+  font-family: 'Nunito', sans-serif;
+  color: var(--foam);
+  overflow-x: hidden;
+}
+
+/* ─── NAV ─── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 0 40px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.4s, backdrop-filter 0.4s, box-shadow 0.4s;
+}
+nav.scrolled {
+  background: rgba(7,28,44,0.92);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+.nav-logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav-logo-img {
+  height: 118px;
+  width: auto;
+  filter: drop-shadow(0 0 18px rgba(232,64,64,0.3));
+  display: none;
+}
+@media (max-width: 768px) {
+  .nav-logo-img { height: 96px; }
+}
+.nav-links {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+.nav-links a {
+  color: var(--foam);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  opacity: 0.85;
+  transition: opacity 0.2s, color 0.2s;
+}
+.nav-links a:hover { opacity: 1; color: var(--gold); }
+
+.nav-cta {
+  background: var(--coral);
+  color: #fff !important;
+  padding: 8px 20px;
+  border-radius: 30px;
+  opacity: 1 !important;
+  transition: background 0.2s, transform 0.2s !important;
+}
+.nav-cta:hover { background: #c83030 !important; transform: scale(1.04); }
+
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 4px;
+}
+.nav-hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--foam);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    padding: 132px 24px 0;
+    text-align: center;
+  }
+  .hero-brand-wrap { align-items: center; }
+  .hero-brand-logo { width: min(430px, 88vw); }
+  .hero-title, .hero-sub { margin-left: auto; margin-right: auto; }
+  .hero-buttons { justify-content: center; }
+}
+
+/* ─── HERO ─── */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(7,28,44,0.25) 0%,
+    rgba(7,28,44,0.15) 40%,
+    rgba(7,28,44,0.55) 80%,
+    rgba(7,28,44,0.9) 100%
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  padding: 88px 40px 0;
+  max-width: 1180px;
+  width: 100%;
+  animation: heroFadeUp 1.2s ease both;
+}
+
+.hero-brand-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 0 24px 0;
+}
+
+.hero-brand-logo {
+  width: min(560px, 62vw);
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+}
+
+.hero-brand-name {
+  display: none;
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-eyebrow {
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--foam);
+  margin-bottom: 18px;
+  animation: heroFadeUp 1.2s 0.2s ease both;
+}
+
+.hero-title {
+  font-family: 'Porcelain', 'Pacifico', cursive;
+  font-size: clamp(3.2rem, 8vw, 6rem);
+  line-height: 1.02;
+  color: #fff;
+  text-shadow: 0 4px 40px rgba(0,0,0,0.6);
+  margin: 0 0 24px 0;
+  max-width: 720px;
+  animation: heroFadeUp 1.2s 0.35s ease both;
+}
+
+.hero-title span { color: var(--coral); }
+
+.hero-sub {
+  font-size: clamp(1rem, 2.2vw, 1.24rem);
+  font-weight: 300;
+  color: rgba(232,244,248,0.9);
+  margin-bottom: 44px;
+  letter-spacing: 0.3px;
+  max-width: 660px;
+  animation: heroFadeUp 1.2s 0.5s ease both;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  animation: heroFadeUp 1.2s 0.65s ease both;
+}
+
+.btn-primary {
+  background: var(--coral);
+  color: #fff;
+  padding: 16px 38px;
+  border-radius: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.25s, transform 0.25s, box-shadow 0.25s;
+  box-shadow: 0 6px 30px rgba(232,64,64,0.45);
+}
+.btn-primary:hover {
+  background: #c83030;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(232,64,64,0.55);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 50px;
+  border: 2px solid rgba(255,255,255,0.5);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+.btn-secondary:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+
+
+/* ─── SECTION BASE ─── */
+section { position: relative; }
+
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.section-body {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(232,244,248,0.8);
+  max-width: 520px;
+}
+
+/* ─── TICKER STRIP ─── */
+.ticker-strip {
+  background: var(--gold);
+  padding: 13px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ticker-track {
+  display: inline-flex;
+  gap: 0;
+  animation: ticker 30s linear infinite;
+}
+.ticker-track span {
+  color: var(--ocean-deep);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 28px;
+}
+.ticker-dot {
+  color: var(--coral) !important;
+  padding: 0 !important;
+}
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ─── HOW IT WORKS ─── */
+.how-section {
+  padding: 110px 40px;
+  background: var(--ocean-deep);
+}
+.how-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.how-section .section-body {
+  margin: 0 auto 70px;
+  text-align: center;
+  max-width: 560px;
+}
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+@media (max-width: 768px) {
+  .steps-grid { grid-template-columns: 1fr; max-width: 380px; margin: 0 auto; }
+}
+.step-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 44px 30px 38px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+.step-number {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: rgba(247,201,72,0.15);
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  line-height: 1;
+  pointer-events: none;
+}
+.step-icon {
+  font-size: 2.6rem;
+  margin-bottom: 18px;
+}
+.step-card h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.step-card p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: rgba(232,244,248,0.7);
+}
+
+/* ─── INTERACTIVE DEMO ─── */
+.demo-section {
+  padding: 110px 40px;
+  background: linear-gradient(180deg, var(--ocean-mid) 0%, var(--ocean-deep) 100%);
+  position: relative;
+  overflow: hidden;
+}
+.demo-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 50%, rgba(26,95,138,0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 80% 50%, rgba(247,201,72,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+.demo-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .demo-inner { grid-template-columns: 1fr; gap: 40px; }
+}
+.demo-text .section-body { margin-bottom: 30px; }
+
+.demo-visual {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  padding: 36px 28px;
+  text-align: center;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+}
+
+
+.choose-town-layout {
+  gap: 72px;
+  align-items: start;
+}
+
+.choose-title {
+  font-size: clamp(3rem, 6vw, 4.8rem);
+  line-height: 1.02;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.town-selection-copy {
+  display: none;
+}
+
+.town-selection-pill { display:none; }
+
+.town-selection-note { display:none; }
+
+.town-picker-card {
+  background: rgba(255,255,255,0.05);
+  padding: 38px 32px;
+}
+
+.town-picker-orb {
+  position: relative;
+  min-height: 140px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(247,201,72,0.16), rgba(26,95,138,0.18) 52%, rgba(7,28,44,0.62) 100%);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 25px 60px rgba(0,0,0,0.4);
+  margin-bottom: 22px;
+  overflow: hidden;
+  padding: 26px 24px;
+}
+
+.town-picker-glow {
+  position: absolute;
+  right: -24px;
+  top: -18px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,64,64,0.18), rgba(232,64,64,0));
+  filter: blur(6px);
+}
+
+.demo-town-name {
+  position: relative;
+  z-index: 2;
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
+  margin-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #fff;
+  text-align: left;
+}
+
+.demo-state-name {
+  position: relative;
+  z-index: 2;
+  font-size: 0.82rem;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  color: rgba(232,244,248,0.76);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.town-picker-helper {
+  margin-top: 14px;
+  color: rgba(232,244,248,0.7);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.designs-section {
+  padding: 110px 0;
+  background: linear-gradient(180deg, #0b3049 0%, #09253a 100%);
+  overflow: hidden;
+}
+
+.designs-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.designs-inner .section-body {
+  margin: 0 auto 40px;
+  max-width: 760px;
+}
+
+.design-marquee {
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.design-marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  width: max-content;
+  animation: designScroll 40s linear infinite;
+}
+
+.design-marquee-track img {
+  width: 196px;
+  height: 196px;
+  object-fit: contain;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  flex: 0 0 auto;
+  filter: invert(1) drop-shadow(0 14px 28px rgba(0,0,0,0.38));
+}
+
+@keyframes designScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.demo-town-label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(232,244,248,0.75);
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+
+.demo-select {
+  width: 100%;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  color: var(--foam);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 16px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23f7c948' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+.demo-select:hover { border-color: var(--gold); }
+.demo-select option { background: var(--ocean-mid); }
+.demo-select optgroup { background: var(--ocean-deep); color: var(--gold); font-weight: 700; font-size: 0.8rem; }
+
+
+
+/* ─── PHOTO SPLIT SECTION ─── */
+.photo-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 560px;
+}
+@media (max-width: 768px) {
+  .photo-split { grid-template-columns: 1fr; }
+  .photo-split-img { min-height: 300px; }
+}
+.photo-split-img {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.photo-split-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(7,28,44,0.45);
+}
+.photo-split-content {
+  background: var(--ocean-mid);
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .photo-split-content { padding: 60px 40px; }
+}
+.photo-split-content .section-body { margin-bottom: 28px; }
+
+/* ─── PHOTO BANNER ─── */
+.photo-banner {
+  position: relative;
+  min-height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.photo-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(7,28,44,0.6);
+}
+.photo-banner-content {
+  position: relative;
+  z-index: 1;
+  padding: 60px 30px;
+  max-width: 680px;
+}
+.photo-banner-content .section-title { font-size: clamp(1.8rem, 5vw, 3.2rem); margin-bottom: 20px; }
+.photo-banner-content .section-body { margin: 0 auto 32px; text-align: center; max-width: 480px; }
+
+/* ─── TOWNS GRID ─── */
+.towns-section {
+  padding: 90px 40px;
+  background: var(--ocean-deep);
+  text-align: center;
+}
+.towns-inner { max-width: 1000px; margin: 0 auto; }
+.towns-section .section-body { margin: 0 auto 48px; }
+.towns-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.town-chip {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(232,244,248,0.75);
+  transition: all 0.2s;
+  cursor: default;
+}
+.town-chip:hover {
+  background: rgba(247,201,72,0.12);
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+
+/* ─── ABOUT SECTION ─── */
+.about-section {
+  padding: 110px 40px;
+  background: var(--ocean-deep);
+}
+.about-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .about-inner { grid-template-columns: 1fr; gap: 40px; }
+}
+.about-photo {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 4/5;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+}
+.about-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(7,28,44,0.5) 0%, transparent 60%);
+}
+.about-badge {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1;
+  background: var(--gold);
+  color: var(--ocean-deep);
+  font-family: 'Pacifico', cursive;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(247,201,72,0.4);
+}
+.about-text .section-body { margin-bottom: 24px; }
+.about-sig {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3rem;
+  color: var(--gold);
+  margin-top: 10px;
+}
+
+/* ─── CTA SECTION ─── */
+.cta-section {
+  padding: 110px 40px;
+  background: linear-gradient(135deg, var(--ocean-mid) 0%, var(--ocean-deep) 100%);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(247,201,72,0.07) 0%, transparent 65%);
+}
+.cta-inner { position: relative; z-index: 1; max-width: 600px; margin: 0 auto; }
+.cta-section .section-title { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 16px; }
+.cta-section .section-body { margin: 0 auto 40px; text-align: center; }
+
+/* ─── FOOTER ─── */
+footer {
+  background: rgba(0,0,0,0.4);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 60px 40px 30px;
+}
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+@media (max-width: 768px) {
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+.footer-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6rem;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+.footer-tagline {
+  font-size: 0.88rem;
+  color: rgba(232,244,248,0.55);
+  line-height: 1.65;
+  max-width: 300px;
+}
+.no-scratch-badge {
+  display: block;
+  width: min(190px, 72vw);
+  height: auto;
+  margin-top: 20px;
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,0.25));
+}
+.about-text .no-scratch-badge {
+  width: min(220px, 78vw);
+  margin-top: 18px;
+}
+@media (max-width: 768px) {
+  .no-scratch-badge { margin-left: auto; margin-right: auto; }
+}
+.footer-col h4 {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 18px;
+}
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 10px; }
+.footer-col ul li a {
+  color: rgba(232,244,248,0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+.footer-col ul li a:hover { color: var(--foam); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.footer-bottom p {
+  font-size: 0.78rem;
+  color: rgba(232,244,248,0.35);
+}
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+.social-links a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(232,244,248,0.5);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.social-links a:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(247,201,72,0.08);
+}
+
+/* ─── FADE IN ON SCROLL ─── */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: none;
+}
+.fade-up-delay-1 { transition-delay: 0.1s; }
+.fade-up-delay-2 { transition-delay: 0.2s; }
+.fade-up-delay-3 { transition-delay: 0.3s; }
+
+
+/* --- Homepage refinement v3 --- */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero-brand-wrap {
+  width: 100%;
+  align-items: flex-start;
+}
+.hero-brand-logo {
+  width: min(520px, 54vw);
+}
+.hero-eyebrow,
+.hero-title,
+.hero-sub {
+  text-align: center;
+}
+.hero-title,
+.hero-sub {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-buttons {
+  justify-content: center;
+}
+.choose-town-layout {
+  gap: 46px;
+  align-items: start;
+}
+.town-picker-card {
+  background: rgba(255,255,255,0.05);
+  padding: 34px 30px;
+}
+.town-picker-simple {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.demo-town-label {
+  font-size: 1.08rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--foam);
+  margin: 0;
+}
+.state-browser {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.state-browser-label {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.state-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.state-pill {
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.06);
+  color: var(--foam);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font: 800 0.94rem 'Nunito', sans-serif;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, background .2s ease, color .2s ease;
+}
+.state-pill:hover,
+.state-pill.active {
+  background: var(--gold);
+  color: var(--navy);
+  border-color: var(--gold);
+  transform: translateY(-1px);
+}
+.town-results {
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  padding: 22px 20px;
+}
+.town-results-head h3 {
+  margin: 0 0 6px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: var(--gold);
+}
+.town-results-head p {
+  margin: 0 0 18px;
+  color: rgba(232,244,248,0.78);
+}
+.town-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 320px;
+  overflow: auto;
+  padding-right: 4px;
+}
+.town-chip {
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(7,28,44,0.45);
+  color: #fff;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font: 800 0.92rem 'Nunito', sans-serif;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.town-chip:hover {
+  border-color: var(--gold);
+  background: rgba(247,201,72,0.14);
+  transform: translateY(-1px);
+}
+.design-marquee-track {
+  gap: 18px;
+}
+.design-marquee-track img {
+  width: 312px;
+  height: 312px;
+}
+@media (max-width: 900px) {
+  .hero-brand-logo {
+    width: min(420px, 74vw);
+  }
+}
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 116px 24px 0;
+  }
+  .hero-brand-wrap {
+    align-items: center;
+  }
+  .hero-brand-logo {
+    width: min(360px, 82vw);
+  }
+  .town-picker-card {
+    padding: 26px 20px;
+  }
+  .town-chip-grid {
+    max-height: none;
+  }
+  .design-marquee-track img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
+/* Index requested updates: yellow heading/nav text + happy place button */
+.nav-links a:not(.nav-cta),
+.hero-eyebrow,
+.demo-town-label,
+.section-label,
+.town-results-head h3 {
+  color: var(--gold) !important;
+}
+.happy-place-bottom-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 14px 18px;
+  background: linear-gradient(90deg, rgba(5, 25, 38, 0.94), rgba(8, 44, 62, 0.86));
+  box-shadow: 0 -10px 30px rgba(0,0,0,0.28);
+  backdrop-filter: blur(8px);
+}
+.happy-place-bottom-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+.happy-place-bottom-label {
+  color: rgba(255,255,255,0.82);
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+}
+.happy-place-continue-btn {
+  border: 0;
+  cursor: pointer;
+  background: var(--gold);
+  color: var(--ocean-deep);
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 18px 46px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.24);
+  font-size: 15px;
+  white-space: nowrap;
+}
+.happy-place-continue-btn:hover {
+  transform: translateY(-1px);
+}
+.town-chip.selected-town {
+  background: var(--gold) !important;
+  color: var(--ocean-deep) !important;
+  border-color: var(--gold) !important;
+}
+@media (max-width: 760px) {
+  .happy-place-bottom-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .happy-place-bottom-label {
+    font-size: 16px;
+    text-align: center;
+  }
+  .happy-place-continue-btn {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 13px;
+  }
+}
+
+/* Precision yellow text patch - requested items only */
+.nav-links a[href*="#choose-town"],
+.nav-links a[href*="#designs"],
+.nav-links a[href*="#story"],
+#choose-town h2,
+.custom-apparel-banner,
+.custom-apparel-banner *,
+.custom-apparel-title {
+  color: var(--gold) !important;
+}
+
+
+/* Step 1 label for index flow */
+.step-one-label {
+  color: var(--gold) !important;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Match Step 2 / Step 3 style for Step 1 */
+.flow-step-badge{
+  display:block;
+  text-align:center;
+  color:var(--gold);
+  font-weight:900;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-size:14px;
+  margin:0 0 12px 0;
+  opacity:.98;
+}
+
+
+/* Index video added to blank Choose Your Happy Place area */
+.index-happy-place-video {
+  width: 100%;
+  max-width: 680px;
+  margin: 22px 0 0;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 18px 42px rgba(0,0,0,0.28);
+  background: rgba(255,255,255,0.04);
+}
+.index-happy-place-video video {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .index-happy-place-video {
+    max-width: 100%;
+    margin: 24px auto 0;
+  }
+}
+
+
+/* Index final Step 1 placement + gold town heading */
+.index-step-one-card {
+  color: var(--gold) !important;
+  font-weight: 900;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 14px 0;
+}
+#choose-town .demo-town-label {
+  color: var(--gold) !important;
+}
+
+
+
+/* Mobile optimization pass v29 */
+@media (max-width: 760px) {
+  html, body { overflow-x:hidden; }
+  .nav, nav, header { padding-left:14px !important; padding-right:14px !important; }
+  .hero-title, h1 { line-height:1.08; }
+  .section-title, h2 { line-height:1.1; }
+  .btn-primary, .btn-secondary, button { min-height:44px; }
+  .happy-place-bottom-bar { left:10px !important; right:10px !important; bottom:10px !important; border-radius:18px !important; }
+  [style*="display:flex; gap:40px"] { flex-direction:column !important; gap:18px !important; }
+  [style*="display:flex;gap:16px"] { gap:10px !important; }
+}
+
+/* v34 mobile-only stability: prevent blank delayed sections and remove mobile tap/focus outlines */
+@media (max-width: 760px) {
+  .fade-up, .fade-up-delay-1, .fade-up-delay-2, .fade-up-delay-3 {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+
+
+/* v35 mobile-only hero button separation from ticker */
+@media (max-width: 760px) {
+  .hero {
+    height: auto !important;
+    min-height: 720px !important;
+    align-items: flex-start !important;
+    overflow: hidden !important;
+  }
+  .hero-content {
+    padding: 92px 24px 72px !important;
+    transform: translateY(-18px);
+  }
+  .hero-sub {
+    margin-bottom: 24px !important;
+  }
+  .hero-buttons {
+    margin-top: 0 !important;
+    margin-bottom: 42px !important;
+    gap: 12px !important;
+  }
+  .hero-buttons .btn-primary, .hero-buttons .btn-secondary {
+    width: min(280px, 88vw);
+    text-align: center;
+  }
+  .ticker-strip {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+/* v50 desktop hero headline fit */
+.hero-title {
+  font-size: clamp(3.6rem, 6.2vw, 6.4rem);
+  max-width: 980px;
+}
+.hero-sub {
+  max-width: 780px;
+}
+@media (max-width: 760px) {
+  .hero-title {
+    font-size: clamp(2.8rem, 15vw, 4.6rem) !important;
+    max-width: 92vw !important;
+  }
+}
+
+
+/* v150: desktop hero logo position fix - keep logo clear of Step 1 nav text */
+@media (min-width: 901px) {
+  .hero-brand-wrap {
+    align-items: flex-start !important;
+    margin-left: -72px !important;
+  }
+  .hero-brand-logo {
+    width: min(470px, 46vw) !important;
+  }
+}
+
+/* v163: desktop-only hero text lift -- keeps logo and ticker untouched */
+@media (min-width: 901px) {
+  .hero-content {
+    transform: none !important;
+  }
+  .hero-eyebrow {
+    margin-top: -28px !important;
+    transform: none !important;
+  }
+  .hero-title {
+    transform: none !important;
+  }
+}
+
+.hero-sub{display:none!important;}
+
+
+/* v164: live verification stamp + desktop short-height hero button safety fix */
+:root { --slopeshirts-site-version: "SL-20261017-v1"; }
+@media (min-width: 901px) and (max-height: 850px) {
+  .hero-content {
+    transform: translateY(-64px) !important;
+    padding-top: 58px !important;
+  }
+  .hero-title {
+    margin-bottom: 12px !important;
+  }
+  .hero-buttons {
+    margin-top: 0 !important;
+    margin-bottom: 28px !important;
+  }
+}
+
+</style>
+<!-- Slope Shirts Site Version: SL-20261017-v1 (built from Sand Shirts v166) -->
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav id="mainNav">
+  <a href="#" class="nav-logo" aria-label="Slope Shirts home"><img src="slopeshirts_logo.png" alt="Slope Shirts" class="nav-logo-img"></a>
+  <ul class="nav-links">
+    <li><a href="#choose-town">STEP 1 - Choose Your Happy Place</a></li>
+    <li><a href="#designs">See Our Designs</a></li>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#order" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <div class="nav-hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero" id="home">
+  <img class="hero-video" src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=2000&q=80&auto=format&fit=crop" alt="Skier in deep powder on a snowy mountain" fetchpriority="high">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-brand-wrap">
+      <img src="slopeshirts_logo.png" alt="Slope Shirts" class="hero-brand-logo">
+    </div>
+    <p class="hero-eyebrow">Custom Ski Town Apparel</p>
+    <h1 class="hero-title">Custom Ski Town Apparel.<br><span>Made For Your Happy Place.</span></h1>
+    <p class="hero-sub">Pick your favorite ski town, choose your style, and create soft custom apparel made in-house with care.</p>
+    <div class="hero-buttons">
+      <a href="#choose-town" class="btn-primary">Choose Your Happy Place</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TICKER ─── -->
+<div class="ticker-strip">
+  <div class="ticker-track" id="ticker">
+    <span>Vail</span><span class="ticker-dot">✦</span>
+    <span>Aspen</span><span class="ticker-dot">✦</span>
+    <span>Breckenridge</span><span class="ticker-dot">✦</span>
+    <span>Park City</span><span class="ticker-dot">✦</span>
+    <span>Jackson Hole</span><span class="ticker-dot">✦</span>
+    <span>Telluride</span><span class="ticker-dot">✦</span>
+    <span>Steamboat Springs</span><span class="ticker-dot">✦</span>
+    <span>Lake Tahoe</span><span class="ticker-dot">✦</span>
+    <span>Mammoth Lakes</span><span class="ticker-dot">✦</span>
+    <span>Big Sky</span><span class="ticker-dot">✦</span>
+    <span>Sun Valley</span><span class="ticker-dot">✦</span>
+    <span>Taos</span><span class="ticker-dot">✦</span>
+    <span>Stowe</span><span class="ticker-dot">✦</span>
+    <span>Killington</span><span class="ticker-dot">✦</span>
+    <span>Lake Placid</span><span class="ticker-dot">✦</span>
+    <span>North Conway</span><span class="ticker-dot">✦</span>
+    <span>Jim Thorpe</span><span class="ticker-dot">✦</span>
+    <span>Poconos</span><span class="ticker-dot">✦</span>
+    <span>Whitefish</span><span class="ticker-dot">✦</span>
+    <span>Crested Butte</span><span class="ticker-dot">✦</span>
+    <span>Winter Park</span><span class="ticker-dot">✦</span>
+    <span>Big Bear Lake</span><span class="ticker-dot">✦</span>
+    <span>Leavenworth</span><span class="ticker-dot">✦</span>
+    <span>Keystone</span><span class="ticker-dot">✦</span>
+    <span>Vail</span><span class="ticker-dot">✦</span>
+    <span>Aspen</span><span class="ticker-dot">✦</span>
+    <span>Breckenridge</span><span class="ticker-dot">✦</span>
+    <span>Park City</span><span class="ticker-dot">✦</span>
+    <span>Jackson Hole</span><span class="ticker-dot">✦</span>
+    <span>Telluride</span><span class="ticker-dot">✦</span>
+    <span>Steamboat Springs</span><span class="ticker-dot">✦</span>
+    <span>Lake Tahoe</span><span class="ticker-dot">✦</span>
+    <span>Mammoth Lakes</span><span class="ticker-dot">✦</span>
+    <span>Big Sky</span><span class="ticker-dot">✦</span>
+    <span>Sun Valley</span><span class="ticker-dot">✦</span>
+    <span>Taos</span><span class="ticker-dot">✦</span>
+    <span>Stowe</span><span class="ticker-dot">✦</span>
+    <span>Killington</span><span class="ticker-dot">✦</span>
+    <span>Lake Placid</span><span class="ticker-dot">✦</span>
+    <span>North Conway</span><span class="ticker-dot">✦</span>
+    <span>Jim Thorpe</span><span class="ticker-dot">✦</span>
+    <span>Poconos</span><span class="ticker-dot">✦</span>
+    <span>Whitefish</span><span class="ticker-dot">✦</span>
+    <span>Crested Butte</span><span class="ticker-dot">✦</span>
+    <span>Winter Park</span><span class="ticker-dot">✦</span>
+    <span>Big Bear Lake</span><span class="ticker-dot">✦</span>
+    <span>Leavenworth</span><span class="ticker-dot">✦</span>
+    <span>Keystone</span><span class="ticker-dot">✦</span>
+  </div>
+</div>
+
+<!-- ─── SEE OUR DESIGNS ─── -->
+<section class="designs-section" id="designs">
+  <div class="designs-inner">
+    <p class="section-label fade-up" style="font-size:12px;">See Our Designs</p>
+    <h2 class="section-title fade-up fade-up-delay-1">Minimalist, Unique, Fun — A Circle of Mountain Life</h2>
+    <p class="section-body fade-up fade-up-delay-2">Our signature circular artwork is clean, wintry, and full of personality. Each design is built to feel minimalist but memorable: a fun little circle of mountain life for your favorite ski town. Every design is printed so the shirt color shows through, so it feels soft and part of the fabric.</p>
+    <div class="design-marquee fade-up fade-up-delay-3">
+      <div class="design-marquee-track">
+        <img src="Designs/1.png" alt="Racing Skier ski town shirt design" loading="lazy">
+        <img src="Designs/2.png" alt="Downhill Skier ski town shirt design" loading="lazy">
+        <img src="Designs/3.png" alt="Snowboarder ski town shirt design" loading="lazy">
+        <img src="Designs/4.png" alt="Snowboard Flip ski town shirt design" loading="lazy">
+        <img src="Designs/5.png" alt="Snowmobile Ride ski town shirt design" loading="lazy">
+        <img src="Designs/6.png" alt="Ski Tour ski town shirt design" loading="lazy">
+        <img src="Designs/7.png" alt="Snowshoe Trek ski town shirt design" loading="lazy">
+        <img src="Designs/8.png" alt="Chairlift Chairs ski town shirt design" loading="lazy">
+        <img src="Designs/9.png" alt="Groomed Trail ski town shirt design" loading="lazy">
+        <img src="Designs/10.png" alt="Smoky Cabin ski town shirt design" loading="lazy">
+        <img src="Designs/11.png" alt="Cabin Smoke ski town shirt design" loading="lazy">
+        <img src="Designs/12.png" alt="Two-Horse Sleigh ski town shirt design" loading="lazy">
+        <img src="Designs/13.png" alt="Dog Sled ski town shirt design" loading="lazy">
+        <img src="Designs/14.png" alt="Alpine Village ski town shirt design" loading="lazy">
+        <img src="Designs/15.png" alt="Marshmallow Roast ski town shirt design" loading="lazy">
+        <img src="Designs/16.png" alt="Camp Cooking ski town shirt design" loading="lazy">
+        <img src="Designs/17.png" alt="Sled Ride ski town shirt design" loading="lazy">
+        <img src="Designs/18.png" alt="Frozen Waterfall ski town shirt design" loading="lazy">
+        <img src="Designs/19.png" alt="Lake Sunset ski town shirt design" loading="lazy">
+        <img src="Designs/20.png" alt="Alpine Lake ski town shirt design" loading="lazy">
+        <img src="Designs/21.png" alt="Winter River ski town shirt design" loading="lazy">
+        <img src="Designs/22.png" alt="Hot Spring ski town shirt design" loading="lazy">
+        <img src="Designs/23.png" alt="Mountain Peaks ski town shirt design" loading="lazy">
+        <img src="Designs/24.png" alt="Above the Clouds ski town shirt design" loading="lazy">
+        <img src="Designs/25.png" alt="Mountain Elk ski town shirt design" loading="lazy">
+        <img src="Designs/26.png" alt="Snowy Heron ski town shirt design" loading="lazy">
+        <img src="Designs/27.png" alt="Arctic Fox ski town shirt design" loading="lazy">
+        <img src="Designs/28.png" alt="Snow Bunny ski town shirt design" loading="lazy">
+        <img src="Designs/29.png" alt="Ski Jumper ski town shirt design" loading="lazy">
+        <img src="Designs/30.png" alt="Snowcat ski town shirt design" loading="lazy">
+        <img src="Designs/31.png" alt="Skis in the Snow ski town shirt design" loading="lazy">
+        <img src="Designs/32.png" alt="Cross-Country Skiers ski town shirt design" loading="lazy">
+        <img src="Designs/33.png" alt="Snow Leopard ski town shirt design" loading="lazy">
+        <img src="Designs/34.png" alt="Ice Climber ski town shirt design" loading="lazy">
+        <img src="Designs/35.png" alt="Racing Skier (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/36.png" alt="Downhill Skier (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/37.png" alt="Snowboarder (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/38.png" alt="Snowmobile Ride (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/39.png" alt="Ski Tour (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/40.png" alt="Snowshoe Trek (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/41.png" alt="Ski Jumper (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/42.png" alt="Ice Climber (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/1.png" alt="Racing Skier ski town shirt design" loading="lazy">
+        <img src="Designs/2.png" alt="Downhill Skier ski town shirt design" loading="lazy">
+        <img src="Designs/3.png" alt="Snowboarder ski town shirt design" loading="lazy">
+        <img src="Designs/4.png" alt="Snowboard Flip ski town shirt design" loading="lazy">
+        <img src="Designs/5.png" alt="Snowmobile Ride ski town shirt design" loading="lazy">
+        <img src="Designs/6.png" alt="Ski Tour ski town shirt design" loading="lazy">
+        <img src="Designs/7.png" alt="Snowshoe Trek ski town shirt design" loading="lazy">
+        <img src="Designs/8.png" alt="Chairlift Chairs ski town shirt design" loading="lazy">
+        <img src="Designs/9.png" alt="Groomed Trail ski town shirt design" loading="lazy">
+        <img src="Designs/10.png" alt="Smoky Cabin ski town shirt design" loading="lazy">
+        <img src="Designs/11.png" alt="Cabin Smoke ski town shirt design" loading="lazy">
+        <img src="Designs/12.png" alt="Two-Horse Sleigh ski town shirt design" loading="lazy">
+        <img src="Designs/13.png" alt="Dog Sled ski town shirt design" loading="lazy">
+        <img src="Designs/14.png" alt="Alpine Village ski town shirt design" loading="lazy">
+        <img src="Designs/15.png" alt="Marshmallow Roast ski town shirt design" loading="lazy">
+        <img src="Designs/16.png" alt="Camp Cooking ski town shirt design" loading="lazy">
+        <img src="Designs/17.png" alt="Sled Ride ski town shirt design" loading="lazy">
+        <img src="Designs/18.png" alt="Frozen Waterfall ski town shirt design" loading="lazy">
+        <img src="Designs/19.png" alt="Lake Sunset ski town shirt design" loading="lazy">
+        <img src="Designs/20.png" alt="Alpine Lake ski town shirt design" loading="lazy">
+        <img src="Designs/21.png" alt="Winter River ski town shirt design" loading="lazy">
+        <img src="Designs/22.png" alt="Hot Spring ski town shirt design" loading="lazy">
+        <img src="Designs/23.png" alt="Mountain Peaks ski town shirt design" loading="lazy">
+        <img src="Designs/24.png" alt="Above the Clouds ski town shirt design" loading="lazy">
+        <img src="Designs/25.png" alt="Mountain Elk ski town shirt design" loading="lazy">
+        <img src="Designs/26.png" alt="Snowy Heron ski town shirt design" loading="lazy">
+        <img src="Designs/27.png" alt="Arctic Fox ski town shirt design" loading="lazy">
+        <img src="Designs/28.png" alt="Snow Bunny ski town shirt design" loading="lazy">
+        <img src="Designs/29.png" alt="Ski Jumper ski town shirt design" loading="lazy">
+        <img src="Designs/30.png" alt="Snowcat ski town shirt design" loading="lazy">
+        <img src="Designs/31.png" alt="Skis in the Snow ski town shirt design" loading="lazy">
+        <img src="Designs/32.png" alt="Cross-Country Skiers ski town shirt design" loading="lazy">
+        <img src="Designs/33.png" alt="Snow Leopard ski town shirt design" loading="lazy">
+        <img src="Designs/34.png" alt="Ice Climber ski town shirt design" loading="lazy">
+        <img src="Designs/35.png" alt="Racing Skier (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/36.png" alt="Downhill Skier (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/37.png" alt="Snowboarder (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/38.png" alt="Snowmobile Ride (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/39.png" alt="Ski Tour (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/40.png" alt="Snowshoe Trek (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/41.png" alt="Ski Jumper (Women&#x27;s) ski town shirt design" loading="lazy">
+        <img src="Designs/42.png" alt="Ice Climber (Women&#x27;s) ski town shirt design" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ─── CHOOSE YOUR TOWN ─── -->
+<section class="demo-section" id="choose-town">
+<div class="demo-inner choose-town-layout">
+    <div class="demo-text">
+      <h2 class="section-title choose-title fade-up fade-up-delay-1">
+<div style="display:flex; gap:40px; align-items:center; margin-top:40px;">
+  <div style="flex:1;">
+    <img src="https://images.unsplash.com/photo-1459196305771-53130577277a?w=1200&q=80&auto=format&fit=crop" alt="Snowy mountain town houses" style="width:100%; height:auto; border-radius:16px;">
+  </div>
+  <div style="flex:1;">
+Choose Your Happy Place</h2>
+      <p class="section-body fade-up fade-up-delay-2">From Vermont to California, find your ski town and wear it proud. Use the dropdown or click a state below to open its ski towns, then choose your town and continue when you are ready.</p>
+
+    </div>
+    <div class="demo-visual town-picker-card fade-up fade-up-delay-2">
+      <div class="town-picker-simple">
+        <div class="index-step-one-card">STEP 1</div>
+        <p class="demo-town-label">Choose your ski town</p>
+        <select class="demo-select" id="townSelect">
+<option value="" disabled>Choose your ski town</option>
+<optgroup label="🏔️ Alaska">
+  <option>Anchorage</option>
+  <option>Fairbanks</option>
+  <option>Girdwood</option>
+  <option>Valdez</option>
+</optgroup>
+<optgroup label="🏔️ Arizona">
+  <option>Flagstaff</option>
+</optgroup>
+<optgroup label="🏔️ California">
+  <option>Big Bear Lake</option>
+  <option>June Lake</option>
+  <option>Kirkwood</option>
+  <option>Lake Tahoe</option>
+  <option>Mammoth Lakes</option>
+  <option>Olympic Valley</option>
+  <option>South Lake Tahoe</option>
+  <option>Tahoe City</option>
+  <option>Truckee</option>
+</optgroup>
+<optgroup label="🏔️ Colorado">
+  <option>Aspen</option>
+  <option>Avon</option>
+  <option>Beaver Creek</option>
+  <option>Breckenridge</option>
+  <option>Buena Vista</option>
+  <option>Copper Mountain</option>
+  <option>Crested Butte</option>
+  <option>Dillon</option>
+  <option>Durango</option>
+  <option>Estes Park</option>
+  <option>Frisco</option>
+  <option>Georgetown</option>
+  <option>Glenwood Springs</option>
+  <option>Granby</option>
+  <option>Idaho Springs</option>
+  <option>Keystone</option>
+  <option>Leadville</option>
+  <option>Ouray</option>
+  <option>Pagosa Springs</option>
+  <option>Salida</option>
+  <option>Silverthorne</option>
+  <option>Snowmass Village</option>
+  <option>Steamboat Springs</option>
+  <option>Telluride</option>
+  <option selected>Vail</option>
+  <option>Winter Park</option>
+</optgroup>
+<optgroup label="🏔️ Idaho">
+  <option>Coeur d&#x27;Alene</option>
+  <option>Ketchum</option>
+  <option>McCall</option>
+  <option>Sandpoint</option>
+  <option>Sun Valley</option>
+</optgroup>
+<optgroup label="🏔️ Maine">
+  <option>Bethel</option>
+  <option>Carrabassett Valley</option>
+  <option>Kingfield</option>
+  <option>Rangeley</option>
+</optgroup>
+<optgroup label="🏔️ Massachusetts">
+  <option>Great Barrington</option>
+  <option>Lenox</option>
+  <option>North Adams</option>
+  <option>Stockbridge</option>
+</optgroup>
+<optgroup label="🏔️ Michigan">
+  <option>Boyne City</option>
+  <option>Harbor Springs</option>
+  <option>Ironwood</option>
+  <option>Petoskey</option>
+  <option>Traverse City</option>
+</optgroup>
+<optgroup label="🏔️ Minnesota">
+  <option>Duluth</option>
+  <option>Lutsen</option>
+</optgroup>
+<optgroup label="🏔️ Montana">
+  <option>Big Sky</option>
+  <option>Bozeman</option>
+  <option>Missoula</option>
+  <option>Red Lodge</option>
+  <option>Whitefish</option>
+</optgroup>
+<optgroup label="🏔️ Nevada">
+  <option>Incline Village</option>
+  <option>Stateline</option>
+</optgroup>
+<optgroup label="🏔️ New Hampshire">
+  <option>Bartlett</option>
+  <option>Bretton Woods</option>
+  <option>Franconia</option>
+  <option>Jackson</option>
+  <option>Lincoln</option>
+  <option>North Conway</option>
+  <option>Waterville Valley</option>
+</optgroup>
+<optgroup label="🏔️ New Jersey">
+  <option>Vernon</option>
+</optgroup>
+<optgroup label="🏔️ New Mexico">
+  <option>Angel Fire</option>
+  <option>Red River</option>
+  <option>Ruidoso</option>
+  <option>Santa Fe</option>
+  <option>Taos</option>
+  <option>Taos Ski Valley</option>
+</optgroup>
+<optgroup label="🏔️ New York">
+  <option>Ellicottville</option>
+  <option>Hunter</option>
+  <option>Lake George</option>
+  <option>Lake Placid</option>
+  <option>North Creek</option>
+  <option>Saranac Lake</option>
+  <option>Windham</option>
+</optgroup>
+<optgroup label="🏔️ North Carolina">
+  <option>Banner Elk</option>
+  <option>Beech Mountain</option>
+  <option>Blowing Rock</option>
+  <option>Boone</option>
+</optgroup>
+<optgroup label="🏔️ Oregon">
+  <option>Bend</option>
+  <option>Government Camp</option>
+  <option>Mount Hood</option>
+  <option>Sisters</option>
+</optgroup>
+<optgroup label="🏔️ Pennsylvania">
+  <option>Champion</option>
+  <option>Jim Thorpe</option>
+  <option>Lake Harmony</option>
+  <option>Palmerton</option>
+  <option>Poconos</option>
+  <option>Shawnee on Delaware</option>
+  <option>Tannersville</option>
+</optgroup>
+<optgroup label="🏔️ Utah">
+  <option>Alta</option>
+  <option>Brighton</option>
+  <option>Deer Valley</option>
+  <option>Eden</option>
+  <option>Heber City</option>
+  <option>Midway</option>
+  <option>Ogden</option>
+  <option>Park City</option>
+  <option>Snowbird</option>
+  <option>Solitude</option>
+  <option>Sundance</option>
+</optgroup>
+<optgroup label="🏔️ Vermont">
+  <option>Burlington</option>
+  <option>Jay</option>
+  <option>Killington</option>
+  <option>Ludlow</option>
+  <option>Manchester</option>
+  <option>Stowe</option>
+  <option>Stratton</option>
+  <option>Waitsfield</option>
+  <option>Warren</option>
+  <option>West Dover</option>
+  <option>Woodstock</option>
+</optgroup>
+<optgroup label="🏔️ Virginia">
+  <option>Wintergreen</option>
+</optgroup>
+<optgroup label="🏔️ Washington">
+  <option>Crystal Mountain</option>
+  <option>Leavenworth</option>
+  <option>Mount Baker</option>
+  <option>Snoqualmie Pass</option>
+  <option>Winthrop</option>
+</optgroup>
+<optgroup label="🏔️ West Virginia">
+  <option>Davis</option>
+  <option>Snowshoe</option>
+</optgroup>
+<optgroup label="🏔️ Wisconsin">
+  <option>Wausau</option>
+</optgroup>
+<optgroup label="🏔️ Wyoming">
+  <option>Cody</option>
+  <option>Jackson Hole</option>
+  <option>Pinedale</option>
+  <option>Teton Village</option>
+</optgroup>
+</select>
+        <div class="state-browser">
+          <p class="state-browser-label">Browse by state</p>
+          <div class="state-pill-row" id="statePills">
+            <button class="state-pill" type="button" data-state="Alaska">Alaska</button>
+<button class="state-pill" type="button" data-state="Arizona">Arizona</button>
+<button class="state-pill" type="button" data-state="California">California</button>
+<button class="state-pill active" type="button" data-state="Colorado">Colorado</button>
+<button class="state-pill" type="button" data-state="Idaho">Idaho</button>
+<button class="state-pill" type="button" data-state="Maine">Maine</button>
+<button class="state-pill" type="button" data-state="Massachusetts">Massachusetts</button>
+<button class="state-pill" type="button" data-state="Michigan">Michigan</button>
+<button class="state-pill" type="button" data-state="Minnesota">Minnesota</button>
+<button class="state-pill" type="button" data-state="Montana">Montana</button>
+<button class="state-pill" type="button" data-state="Nevada">Nevada</button>
+<button class="state-pill" type="button" data-state="New Hampshire">New Hampshire</button>
+<button class="state-pill" type="button" data-state="New Jersey">New Jersey</button>
+<button class="state-pill" type="button" data-state="New Mexico">New Mexico</button>
+<button class="state-pill" type="button" data-state="New York">New York</button>
+<button class="state-pill" type="button" data-state="North Carolina">North Carolina</button>
+<button class="state-pill" type="button" data-state="Oregon">Oregon</button>
+<button class="state-pill" type="button" data-state="Pennsylvania">Pennsylvania</button>
+<button class="state-pill" type="button" data-state="Utah">Utah</button>
+<button class="state-pill" type="button" data-state="Vermont">Vermont</button>
+<button class="state-pill" type="button" data-state="Virginia">Virginia</button>
+<button class="state-pill" type="button" data-state="Washington">Washington</button>
+<button class="state-pill" type="button" data-state="West Virginia">West Virginia</button>
+<button class="state-pill" type="button" data-state="Wisconsin">Wisconsin</button>
+<button class="state-pill" type="button" data-state="Wyoming">Wyoming</button>
+          </div>
+          <div class="town-results" id="townResultsWrap">
+            <div class="town-results-head">
+              <h3 id="activeStateHeading">Colorado</h3>
+              <p>Select a town, then continue to your happy place.</p>
+            </div>
+            <div class="town-chip-grid" id="townChipGrid">
+              <button class="town-chip" type="button" data-town="Aspen">Aspen</button>
+<button class="town-chip" type="button" data-town="Avon">Avon</button>
+<button class="town-chip" type="button" data-town="Beaver Creek">Beaver Creek</button>
+<button class="town-chip" type="button" data-town="Breckenridge">Breckenridge</button>
+<button class="town-chip" type="button" data-town="Buena Vista">Buena Vista</button>
+<button class="town-chip" type="button" data-town="Copper Mountain">Copper Mountain</button>
+<button class="town-chip" type="button" data-town="Crested Butte">Crested Butte</button>
+<button class="town-chip" type="button" data-town="Dillon">Dillon</button>
+<button class="town-chip" type="button" data-town="Durango">Durango</button>
+<button class="town-chip" type="button" data-town="Estes Park">Estes Park</button>
+<button class="town-chip" type="button" data-town="Frisco">Frisco</button>
+<button class="town-chip" type="button" data-town="Georgetown">Georgetown</button>
+<button class="town-chip" type="button" data-town="Glenwood Springs">Glenwood Springs</button>
+<button class="town-chip" type="button" data-town="Granby">Granby</button>
+<button class="town-chip" type="button" data-town="Idaho Springs">Idaho Springs</button>
+<button class="town-chip" type="button" data-town="Keystone">Keystone</button>
+<button class="town-chip" type="button" data-town="Leadville">Leadville</button>
+<button class="town-chip" type="button" data-town="Ouray">Ouray</button>
+<button class="town-chip" type="button" data-town="Pagosa Springs">Pagosa Springs</button>
+<button class="town-chip" type="button" data-town="Salida">Salida</button>
+<button class="town-chip" type="button" data-town="Silverthorne">Silverthorne</button>
+<button class="town-chip" type="button" data-town="Snowmass Village">Snowmass Village</button>
+<button class="town-chip" type="button" data-town="Steamboat Springs">Steamboat Springs</button>
+<button class="town-chip" type="button" data-town="Telluride">Telluride</button>
+<button class="town-chip" type="button" data-town="Vail">Vail</button>
+<button class="town-chip" type="button" data-town="Winter Park">Winter Park</button>
+            </div>
+          </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PHOTO SPLIT — MOUNTAIN PHOTO LEFT / CONTENT RIGHT ─── -->
+<div class="photo-split" id="about">
+  <div class="photo-split-img fade-up"
+       style="background-image: url('https://images.unsplash.com/photo-1646780259832-7b21f1df9573?w=900&q=80&auto=format&fit=crop');">
+  </div>
+  <div class="photo-split-content about-text">
+    <p class="section-label fade-up">Our Story</p>
+    <h2 class="section-title fade-up fade-up-delay-1">Mountain-Born,<br>Lodge-Made</h2>
+    <p class="section-body fade-up fade-up-delay-2">Some of my favorite memories happened in the mountains: cold mornings on the chairlift, fresh snow, and warming up by the fire after a long day. But most ski-town shirts I found looked great on the rack and then felt stiff, heavy, and scratchy the second I put them on.</p>
+    <p class="section-body fade-up fade-up-delay-3" style="margin-top:14px;">Slope Shirts is the winter sister brand of Sand Shirts. It's the same small business and the same soft, comfortable apparel, now made for the ski towns you love. These are shirts and hoodies you'll want to wear on the mountain, in the lodge, on the drive home, and every day after.</p>
+    <p class="section-body fade-up fade-up-delay-3" style="margin-top:14px;">Every product is carefully selected for comfort, quality, and feel before it ever gets printed. We use a high-quality DTF printing process and make everything in-house so we can control the quality every step of the way. Our designs are printed so the shirt color shows through, which keeps them soft and part of the fabric. This isn't fast fashion or generic print-on-demand apparel.</p>
+    <p class="section-body fade-up fade-up-delay-3" style="margin-top:14px;">No cheap gift-shop materials. No stiff, rough, scratchy fabrics. Just soft custom ski town apparel inspired by the mountains you love most.</p>
+    <div class="about-sig fade-up" style="margin-top: 24px;">Stephanie</div>
+    <img src="no-scratch-logo.png" alt="No scratch soft apparel" class="no-scratch-badge fade-up fade-up-delay-3">
+  </div>
+</div>
+
+<!-- ─── CTA ─── -->
+<section class="cta-section" id="order">
+  <div class="cta-inner">
+    <p class="section-label fade-up">Ready to Choose Your Happy Place?</p>
+    <h2 class="section-title fade-up fade-up-delay-1">Start Creating Your Ski Town Look</h2>
+    <p class="section-body fade-up fade-up-delay-2">Pick your favorite ski town, choose your design, and create soft custom ski town apparel made in-house with care.</p>
+    <div class="fade-up fade-up-delay-3" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="#choose-town" class="btn-primary">Choose Your Happy Place</a>
+      <a href="mailto:sandshirts@gmail.com" class="btn-secondary" style="background:#E84040;border-color:#E84040;color:#fff;">✉️ Email Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand" style="font-family:'Porcelain','Pacifico',cursive;font-size:1.8rem;color:var(--gold);letter-spacing:1px;">Slope Shirts</div>
+      <p class="footer-tagline">Soft custom ski town apparel inspired by your favorite mountain towns. Made in-house by a small business that cares about comfort, quality, and feel.</p>
+      <img src="no-scratch-logo.png" alt="No scratch soft apparel" class="no-scratch-badge">
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#choose-town">Choose Your Happy Place</a></li>
+        <li><a href="#designs">See Our Designs</a></li>
+        <li><a href="/ski-towns">Ski Town Pages</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#order">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Customer Care</h4>
+      <ul>
+        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+        <li><a href="refund-policy.html">Refund Policy</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:sandshirts@gmail.com">sandshirts@gmail.com</a></li>
+        <li><a href="tel:+12679644626">267.964.4626</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Slope Shirts, a Sand Shirts LLC brand. All rights reserved.</p>
+    <div class="social-links">
+    </div>
+  </div>
+</footer>
+
+<script>
+// ─── NAV SCROLL ───
+const nav = document.getElementById('mainNav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// ─── MOBILE MENU ───
+function toggleMenu() {
+  const links = document.querySelector('.nav-links');
+  const isOpen = links.style.display === 'flex';
+  links.style.display = isOpen ? 'none' : 'flex';
+  links.style.flexDirection = 'column';
+  links.style.position = 'absolute';
+  links.style.top = '70px';
+  links.style.left = '0';
+  links.style.right = '0';
+  links.style.background = 'rgba(7,28,44,0.97)';
+  links.style.padding = '20px 40px';
+  links.style.gap = '20px';
+  links.style.borderBottom = '1px solid rgba(255,255,255,0.08)';
+}
+
+// ─── VIDEO AUTOPLAY FALLBACK ───
+document.addEventListener('DOMContentLoaded', () => {
+  const vid = document.querySelector('.hero-video');
+  if (vid && typeof vid.play === 'function') {
+    vid.play().catch(() => {
+      document.body.addEventListener('click', () => vid.play(), { once: true });
+    });
+  }
+  const navLogo = document.querySelector('.nav-logo-img');
+  const heroLogo = document.querySelector('.hero-brand-logo');
+  if (navLogo && heroLogo) heroLogo.src = navLogo.src;
+});
+
+// ─── TOWN SELECTOR ───
+// Map towns to their state
+const eastCoastTownsByState = {"Alaska": ["Anchorage", "Fairbanks", "Girdwood", "Valdez"], "Arizona": ["Flagstaff"], "California": ["Big Bear Lake", "June Lake", "Kirkwood", "Lake Tahoe", "Mammoth Lakes", "Olympic Valley", "South Lake Tahoe", "Tahoe City", "Truckee"], "Colorado": ["Aspen", "Avon", "Beaver Creek", "Breckenridge", "Buena Vista", "Copper Mountain", "Crested Butte", "Dillon", "Durango", "Estes Park", "Frisco", "Georgetown", "Glenwood Springs", "Granby", "Idaho Springs", "Keystone", "Leadville", "Ouray", "Pagosa Springs", "Salida", "Silverthorne", "Snowmass Village", "Steamboat Springs", "Telluride", "Vail", "Winter Park"], "Idaho": ["Coeur d'Alene", "Ketchum", "McCall", "Sandpoint", "Sun Valley"], "Maine": ["Bethel", "Carrabassett Valley", "Kingfield", "Rangeley"], "Massachusetts": ["Great Barrington", "Lenox", "North Adams", "Stockbridge"], "Michigan": ["Boyne City", "Harbor Springs", "Ironwood", "Petoskey", "Traverse City"], "Minnesota": ["Duluth", "Lutsen"], "Montana": ["Big Sky", "Bozeman", "Missoula", "Red Lodge", "Whitefish"], "Nevada": ["Incline Village", "Stateline"], "New Hampshire": ["Bartlett", "Bretton Woods", "Franconia", "Jackson", "Lincoln", "North Conway", "Waterville Valley"], "New Jersey": ["Vernon"], "New Mexico": ["Angel Fire", "Red River", "Ruidoso", "Santa Fe", "Taos", "Taos Ski Valley"], "New York": ["Ellicottville", "Hunter", "Lake George", "Lake Placid", "North Creek", "Saranac Lake", "Windham"], "North Carolina": ["Banner Elk", "Beech Mountain", "Blowing Rock", "Boone"], "Oregon": ["Bend", "Government Camp", "Mount Hood", "Sisters"], "Pennsylvania": ["Champion", "Jim Thorpe", "Lake Harmony", "Palmerton", "Poconos", "Shawnee on Delaware", "Tannersville"], "Utah": ["Alta", "Brighton", "Deer Valley", "Eden", "Heber City", "Midway", "Ogden", "Park City", "Snowbird", "Solitude", "Sundance"], "Vermont": ["Burlington", "Jay", "Killington", "Ludlow", "Manchester", "Stowe", "Stratton", "Waitsfield", "Warren", "West Dover", "Woodstock"], "Virginia": ["Wintergreen"], "Washington": ["Crystal Mountain", "Leavenworth", "Mount Baker", "Snoqualmie Pass", "Winthrop"], "West Virginia": ["Davis", "Snowshoe"], "Wisconsin": ["Wausau"], "Wyoming": ["Cody", "Jackson Hole", "Pinedale", "Teton Village"]};
+const townStateMap = Object.fromEntries(
+  Object.entries(eastCoastTownsByState).flatMap(([state, towns]) => towns.map(town => [town, state]))
+);
+
+function setActiveState(stateName) {
+  const heading = document.getElementById('activeStateHeading');
+  const grid = document.getElementById('townChipGrid');
+  const pills = document.querySelectorAll('.state-pill');
+  const towns = eastCoastTownsByState[stateName] || [];
+  if (heading) heading.textContent = stateName;
+  if (grid) {
+    grid.innerHTML = towns.map(town => `<button class="town-chip" type="button" data-town="${town}">${town}</button>`).join('');
+  }
+  pills.forEach(pill => pill.classList.toggle('active', pill.dataset.state === stateName));
+}
+
+let selectedHappyPlaceTown = '';
+
+function showHappyPlaceContinue(town) {
+  selectedHappyPlaceTown = town || '';
+  const wrap = document.getElementById('happyPlaceContinueWrap');
+  const label = document.getElementById('happyPlaceBottomLabel');
+  if (label) label.textContent = selectedHappyPlaceTown ? selectedHappyPlaceTown : '';
+  if (wrap) wrap.style.display = selectedHappyPlaceTown ? 'block' : 'none';
+}
+
+function handleTownChoice(town) {
+  if (!town) return;
+  showHappyPlaceContinue(town);
+}
+
+function goToDesignPage() {
+  if (!selectedHappyPlaceTown) {
+    const select = document.getElementById('townSelect');
+    if (select && select.value) selectedHappyPlaceTown = select.value;
+  }
+  if (!selectedHappyPlaceTown) return;
+  window.location.href = 'gallery.html?town=' + encodeURIComponent(selectedHappyPlaceTown);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const select = document.getElementById('townSelect');
+  const statePills = document.getElementById('statePills');
+  const townGrid = document.getElementById('townChipGrid');
+  const defaultState = 'Colorado';
+  setActiveState(defaultState);
+
+  if (select) {
+    select.addEventListener('change', () => {
+      const town = select.value;
+      if (!town) return;
+      const state = townStateMap[town];
+      if (state) setActiveState(state);
+      handleTownChoice(town);
+    });
+  }
+
+  if (statePills) {
+    statePills.addEventListener('click', (event) => {
+      const pill = event.target.closest('.state-pill');
+      if (!pill) return;
+      setActiveState(pill.dataset.state);
+    });
+  }
+
+  if (townGrid) {
+    townGrid.addEventListener('click', (event) => {
+      const chip = event.target.closest('.town-chip');
+      if (!chip) return;
+      document.querySelectorAll('.town-chip.selected-town').forEach(el => el.classList.remove('selected-town'));
+      chip.classList.add('selected-town');
+      const select = document.getElementById('townSelect');
+      if (select) select.value = chip.dataset.town;
+      handleTownChoice(chip.dataset.town);
+    });
+  }
+
+  const continueBtn = document.getElementById('happyPlaceContinueBtn');
+  if (continueBtn) {
+    continueBtn.addEventListener('click', goToDesignPage);
+  }
+});
+
+
+// ─── SCROLL FADE-IN ───
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// ─── SMOOTH ANCHOR SCROLL (offset for fixed nav) ───
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.scrollY - 108;
+      window.scrollTo({ top, behavior: 'smooth' });
+      // Close mobile menu if open
+      const links = document.querySelector('.nav-links');
+      if (window.innerWidth <= 768) links.style.display = 'none';
+    }
+  });
+});
+</script>
+
+</div></div>
+
+<div class="happy-place-bottom-bar" id="happyPlaceContinueWrap" style="display:none;">
+  <div class="happy-place-bottom-inner">
+    <span class="happy-place-bottom-label" id="happyPlaceBottomLabel"></span>
+    <button class="happy-place-continue-btn" id="happyPlaceContinueBtn" type="button">CONTINUE WITH YOUR HAPPY PLACE →</button>
+  </div>
+</div>
+
+
+<script>
+(function(){
+  function resetHappyPlacePickerForBackNav() {
+    window.selectedHappyPlaceTown = '';
+    const wrap = document.getElementById('happyPlaceContinueWrap');
+    const label = document.getElementById('happyPlaceBottomLabel');
+    if (wrap) wrap.style.display = 'none';
+    if (label) label.textContent = '';
+    document.querySelectorAll('.town-chip.selected-town').forEach(el => el.classList.remove('selected-town'));
+    const select = document.getElementById('townSelect');
+    if (select) select.selectedIndex = 0;
+  }
+
+  window.addEventListener('pageshow', function(event) {
+    if (event.persisted) resetHappyPlacePickerForBackNav();
+  });
+
+  window.addEventListener('pagehide', function() {
+    resetHappyPlacePickerForBackNav();
+  });
+})();
+</script>
+
+</body>
+</html>

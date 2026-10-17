@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Complete | Slope Shirts</title>
+  <style>
+    body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#67c7dd,#f5cd46);font-family:Arial,sans-serif;color:#08263a;padding:24px;}
+    .card{max-width:620px;background:rgba(255,255,255,.88);border-radius:28px;padding:42px;box-shadow:0 20px 50px rgba(0,0,0,.15);text-align:center;}
+    h1{font-size:44px;margin:0 0 12px;font-weight:900;letter-spacing:.04em;}
+    p{font-size:18px;line-height:1.5;margin:12px 0;}
+    a{display:inline-block;margin-top:20px;background:#f7c948;color:#08263a;text-decoration:none;font-weight:900;padding:16px 28px;border-radius:999px;letter-spacing:.08em;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Order received.</h1>
+    <p>Thank you for your Slope Shirts order. A payment confirmation has been sent by Stripe.</p>
+    <p>We’ll review the order details and follow up if anything needs confirmation.</p>
+    <a href="/">Back to Slope Shirts</a>
+  </div>
+  <script>
+    localStorage.removeItem('slopeshirts_cart');
+  </script>
+</body>
+</html>

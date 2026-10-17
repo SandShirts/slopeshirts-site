@@ -1,0 +1,162 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/products",
+      "destination": "/products.html"
+    },
+    {
+      "source": "/order",
+      "destination": "/order.html"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/gallery.html"
+    },
+    {
+      "source": "/success",
+      "destination": "/success.html"
+    },
+    {
+      "source": "/cancel",
+      "destination": "/cancel.html"
+    },
+    {
+      "source": "/vail",
+      "destination": "/vail/index.html"
+    },
+    {
+      "source": "/beaver-creek",
+      "destination": "/beaver-creek/index.html"
+    },
+    {
+      "source": "/aspen",
+      "destination": "/aspen/index.html"
+    },
+    {
+      "source": "/breckenridge",
+      "destination": "/breckenridge/index.html"
+    },
+    {
+      "source": "/keystone",
+      "destination": "/keystone/index.html"
+    },
+    {
+      "source": "/winter-park",
+      "destination": "/winter-park/index.html"
+    },
+    {
+      "source": "/steamboat-springs",
+      "destination": "/steamboat-springs/index.html"
+    },
+    {
+      "source": "/telluride",
+      "destination": "/telluride/index.html"
+    },
+    {
+      "source": "/crested-butte",
+      "destination": "/crested-butte/index.html"
+    },
+    {
+      "source": "/park-city",
+      "destination": "/park-city/index.html"
+    },
+    {
+      "source": "/jackson-hole",
+      "destination": "/jackson-hole/index.html"
+    },
+    {
+      "source": "/big-sky",
+      "destination": "/big-sky/index.html"
+    },
+    {
+      "source": "/whitefish",
+      "destination": "/whitefish/index.html"
+    },
+    {
+      "source": "/sun-valley",
+      "destination": "/sun-valley/index.html"
+    },
+    {
+      "source": "/lake-tahoe",
+      "destination": "/lake-tahoe/index.html"
+    },
+    {
+      "source": "/mammoth-lakes",
+      "destination": "/mammoth-lakes/index.html"
+    },
+    {
+      "source": "/big-bear-lake",
+      "destination": "/big-bear-lake/index.html"
+    },
+    {
+      "source": "/taos",
+      "destination": "/taos/index.html"
+    },
+    {
+      "source": "/leavenworth",
+      "destination": "/leavenworth/index.html"
+    },
+    {
+      "source": "/stowe",
+      "destination": "/stowe/index.html"
+    },
+    {
+      "source": "/killington",
+      "destination": "/killington/index.html"
+    },
+    {
+      "source": "/north-conway",
+      "destination": "/north-conway/index.html"
+    },
+    {
+      "source": "/lake-placid",
+      "destination": "/lake-placid/index.html"
+    },
+    {
+      "source": "/poconos",
+      "destination": "/poconos/index.html"
+    },
+    {
+      "source": "/jim-thorpe",
+      "destination": "/jim-thorpe/index.html"
+    },
+    {
+      "source": "/ski-towns",
+      "destination": "/ski-towns/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    }
+  ]
+}

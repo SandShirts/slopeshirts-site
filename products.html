@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Customize shirts, hoodies, tanks, blankets, pajama pants and ski town apparel with your selected ski town and design.">
+<link rel="canonical" href="https://www.slopeshirts.com/products">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Choose Custom Ski Town Apparel Products | Slope Shirts">
+<meta property="og:description" content="Customize shirts, hoodies, tanks, blankets, pajama pants and ski town apparel with your selected ski town and design.">
+<meta property="og:url" content="https://www.slopeshirts.com/products">
+<meta property="og:site_name" content="Slope Shirts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Choose Custom Ski Town Apparel Products | Slope Shirts">
+<meta name="twitter:description" content="Customize shirts, hoodies, tanks, blankets, pajama pants and ski town apparel with your selected ski town and design.">
+
+<title>Choose Custom Ski Town Apparel Products | Slope Shirts</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Skyo&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+@font-face {
+  font-family: 'Porcelain';
+  src: url('fonts/Porcelain.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Magnolia Script';
+  src: url('fonts/MagnoliaScript.ttf') format('truetype');
+  font-display: swap;
+}
+:root {
+  --gold:#f7c948; --coral:#E84040; --navy:#071c2c; --ocean:#1a7fa0; --sand:#f0dfa8; --foam:#e8f4f8;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  color:var(--navy);
+  background: linear-gradient(180deg,#9fd0f0 0%,#6fb3e0 20%,#4a90c8 38%,#b9d8ee 60%,#e9f3fa 80%,#ffffff 100%);
+  background-attachment: fixed;
+}
+.page { max-width: 1380px; margin: 0 auto; padding: 24px 22px 60px; }
+.hero {
+  display:flex; align-items:end; justify-content:space-between; gap:20px; margin-bottom:18px;
+}
+.hero h1 {
+  margin:0 0 18px 0;
+  font-family:'Skyo','Porcelain',cursive;
+  font-size:clamp(42px,5.2vw,86px);
+  line-height:1.18;
+  color:#fff;
+  text-shadow:0 4px 32px rgba(0,0,0,.35);
+}
+.hero p {
+  margin:8px 0 0; color:#f7c948; font-weight:800;
+}
+.layout {
+  display:grid; grid-template-columns: minmax(420px, 1.05fr) minmax(360px, .95fr); gap:26px; align-items:start;
+}
+.preview-shell {
+  position: sticky; top:18px;
+  background: rgba(255,255,255,.72);
+  backdrop-filter: blur(8px);
+  border:1px solid rgba(255,255,255,.6);
+  border-radius:28px;
+  box-shadow:0 18px 40px rgba(7,28,44,.16);
+  padding:22px;
+}
+.preview-stage {
+  position:relative; width:100%; aspect-ratio: 4/5; overflow:hidden;
+  background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.92), rgba(255,255,255,.55) 65%, rgba(255,255,255,.45));
+  border-radius:22px;
+}
+
+.garment-color-layer{display:none;}
+.preview-stage img.garment {
+  position:relative;
+  z-index:1;
+  width:100%; height:100%; object-fit:contain; display:block;
+}
+.preview-stage .design-group {
+  z-index:3;
+}
+.design-group {
+  position:absolute; left:50%; transform:translateX(-50%); width:40%;
+  display:flex; flex-direction:column; align-items:center; pointer-events:none;
+}
+.design-group img {
+  width:100%; height:auto; display:block; filter:url('#design-tint'); margin-bottom:-6px;
+}
+.design-town {
+  font-family:'Porcelain','Brush Script MT',cursive;
+  margin-top:-28px; line-height:.82; white-space:nowrap; text-align:center; color:#1a1a1a;
+  font-size: clamp(34px, 3.8vw, 54px);
+}
+.preview-meta {
+  display:flex; justify-content:space-between; gap:16px; align-items:center; margin-top:16px;
+  font-size:1.05rem; font-weight:700;
+}
+.preview-name { font-size:1.25rem; font-weight:800; }
+.design-name-badge {
+  display:inline-flex;
+  margin-top:7px;
+  padding:6px 12px;
+  border-radius:999px;
+  background:rgba(247,201,72,.22);
+  border:1px solid rgba(7,28,44,.12);
+  color:var(--navy);
+  font-size:.9rem;
+  font-weight:900;
+  letter-spacing:.01em;
+}
+.controls {
+  background: rgba(255,255,255,.8); border-radius:28px; padding:22px;
+  box-shadow:0 18px 40px rgba(7,28,44,.16);
+}
+.grid { display:grid; grid-template-columns:1fr; gap:18px; }
+.card {
+  background:linear-gradient(180deg, rgba(240,248,255,.96), rgba(204,238,248,.90)); border-radius:20px; padding:18px; box-shadow:0 10px 24px rgba(7,28,44,.08);
+}
+
+.product-description-card { grid-column: 1 / -1; }
+.product-description-card p { margin:0; color:#314657; font-size:.92rem; line-height:1.38; font-weight:700; }
+.product-description-card .product-specs { margin-top:9px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.product-description-card .product-specs span { border:1px solid rgba(7,28,44,.12); background:rgba(247,201,72,.16); color:var(--navy); padding:5px 9px; border-radius:999px; font-size:.76rem; font-weight:900; line-height:1.15; }
+
+.size-chart-link { border:0; background:transparent; color:var(--navy); font-weight:950; text-decoration:underline; cursor:pointer; padding:8px 0; font-size:.95rem; }
+.size-chart-link:hover { color:var(--coral); }
+.size-chart-wrap { margin-top:16px; overflow-x:auto; }
+.size-chart-title { margin:0 0 10px; color:var(--navy); font-size:1rem; font-weight:900; }
+.size-chart { width:100%; border-collapse:collapse; background:rgba(255,255,255,.82); border-radius:14px; overflow:hidden; }
+.size-chart th, .size-chart td { border:1px solid rgba(7,28,44,.16); padding:9px 10px; text-align:center; font-weight:750; color:var(--navy); }
+.size-chart th { background:rgba(247,201,72,.26); font-weight:950; }
+.size-chart-note { margin:8px 0 0; color:#5a6a78; font-size:.82rem; font-weight:700; }
+
+.card h3 { margin:0 0 12px; color:var(--gold); font-size:1.1rem; font-weight:900; }
+.product-description-card { padding-top:14px; padding-bottom:14px; }
+.fixed-placement { display:inline-block; padding:10px 16px; border-radius:999px; background:var(--navy); color:#fff; font-weight:900; margin-bottom:8px; }
+.fixed-placement-note { color:#5a6a78; font-size:.92rem; font-weight:800; }
+.pills, .swatches {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+.pill, .swatch, .size-btn, .placement-btn {
+  border:2px solid rgba(7,28,44,.12); border-radius:999px; cursor:pointer; transition:.18s ease;
+}
+.pill {
+  padding:10px 14px; background:#fff; font-weight:700;
+}
+.pill.active, .size-btn.active, .placement-btn.active {
+  background:var(--navy); color:#fff; border-color:var(--navy);
+}
+.swatch {
+  display:flex; align-items:center; gap:10px; padding:10px 14px; background:#fff; font-weight:800;
+}
+.swatch-color {
+  width:52px; height:52px; border-radius:50%; border:1px solid rgba(0,0,0,.20); background-size:cover; background-position:center;
+}
+.swatch.active { border-color:var(--navy); box-shadow:0 0 0 3px rgba(7,28,44,.08); }
+.swatch.forever-swatch { padding:12px 16px; font-size:.95rem; }
+.swatch.forever-swatch .swatch-color { width:74px; height:74px; }
+.sizes { display:flex; flex-wrap:wrap; gap:10px; }
+.size-btn, .placement-btn { padding:9px 14px; background:#fff; font-weight:700; }
+.help { color:#5a6a78; font-size:.92rem; margin-top:8px; }
+#designColorHelp { color:var(--navy); font-size:1.12rem; font-weight:900; letter-spacing:.02em; }
+.actions { margin-top:18px; display:flex; flex-direction:column; gap:12px; }
+.primary-btn {
+  border:none; border-radius:18px; padding:16px 18px; font-size:1rem; font-weight:800; cursor:pointer;
+  background:var(--coral); color:#fff; box-shadow:0 12px 24px rgba(232,64,64,.28);
+}
+.secondary-line { font-size:1rem; font-weight:800; }
+@media (max-width: 980px) {
+  .layout { grid-template-columns:1fr; }
+  .preview-shell { position:static; }
+}
+
+
+
+/* Lodge Blanket product preview only */
+.preview-stage.product-beach_blanket {
+  aspect-ratio: 1 / 1;
+  background: transparent;
+}
+.preview-stage.product-beach_blanket img.garment {
+  object-fit: contain;
+}
+.preview-stage.product-beach_blanket .design-group {
+  left: 24% !important;
+  top: 58% !important;
+  width: 25% !important;
+  transform: translate(-50%, -50%) rotate(45deg) !important;
+  transform-origin: center center;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.preview-stage.product-beach_blanket .design-group::before,
+.preview-stage.product-beach_blanket .design-group::after {
+  content: none !important;
+  display: none !important;
+}
+.preview-stage.product-beach_blanket .design-group img {
+  margin-bottom: -9px;
+}
+.preview-stage.product-beach_blanket .design-town {
+  margin-top: 4px;
+  transform: translateY(6%);
+  font-size: clamp(12px, 1.55vw, 21px) !important;
+  line-height: .86;
+  letter-spacing: .01em;
+  max-width: 100%;
+  overflow: visible;
+}
+
+/* Pajama Pants product preview only */
+.preview-stage.product-pajama_pants {
+  aspect-ratio: 1 / 1;
+  background: transparent;
+}
+.preview-stage.product-pajama_pants img.garment {
+  object-fit: contain;
+}
+.preview-stage.product-pajama_pants .design-group {
+  left: 62.0% !important;
+  top: 48.8% !important;
+  width: auto !important;
+  height: auto !important;
+  transform: translate(-50%, -50%) rotate(90deg) !important;
+  transform-origin: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.preview-stage.product-pajama_pants .design-group img {
+  display: none !important;
+}
+.preview-stage.product-pajama_pants .design-town {
+  margin: 0 !important;
+  font-family:'Magnolia Script','Skyo','Brush Script MT',cursive;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  text-align: center;
+  letter-spacing: .01em;
+  color: #071c2c;
+  font-weight: 900;
+  -webkit-text-stroke: 0;
+  paint-order: normal;
+  text-shadow: none;
+}
+
+.hero-actions {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:10px;
+}
+.change-design-btn {
+  display: block !important;
+  position: static;
+  z-index: 1;
+  width: auto;
+  border: 2px solid rgba(7,28,44,.28);
+  border-radius: 18px;
+  padding: 13px 18px;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  background: var(--gold);
+  color: var(--navy);
+  box-shadow: 0 10px 20px rgba(7,28,44,.10);
+}
+.change-design-btn:hover {
+  border-color: var(--navy);
+  transform: translateY(-1px);
+}
+#placementHelp.blanket-note {
+  color: var(--navy);
+  font-weight: 900;
+}
+#placementHelp.blanket-note .selected-town {
+  color: #ef3b3b;
+  font-size: 1.28em;
+  font-weight: 950;
+  letter-spacing: .01em;
+}
+
+
+.price-card {
+  display:flex; align-items:center; justify-content:space-between; gap:14px;
+  background: linear-gradient(135deg, rgba(247,201,72,.96), rgba(255,233,132,.92));
+  border: 2px solid rgba(7,28,44,.16);
+}
+.price-label { margin:0; font-size:.88rem; font-weight:900; color:rgba(7,28,44,.72); text-transform:uppercase; letter-spacing:.08em; }
+.price-value { font-size:1.75rem; line-height:1; font-weight:900; color:var(--navy); }
+
+.zip-info-badge {
+  display:inline-flex; align-items:center; justify-content:center;
+  margin-top:8px; padding:8px 14px; border-radius:999px;
+  background:rgba(255,211,75,.24); border:1px solid rgba(7,28,44,.16);
+  color:var(--navy); font-weight:900; font-size:.9rem; letter-spacing:.01em;
+}
+.zip-info-badge[hidden] { display:none !important; }
+
+.mockup-disclaimer {
+  margin-top: 10px;
+  font-size: .78rem;
+  line-height: 1.35;
+  color: rgba(7,28,44,.62);
+  font-weight: 800;
+  text-align: center;
+}
+
+.cart-link-btn {
+  position: static; z-index: 5;
+  display:flex; align-items:center; gap:9px;
+  border:2px solid rgba(7,28,44,.24); border-radius:999px;
+  padding:13px 17px; background:var(--gold); color:var(--navy);
+  font-weight:900; cursor:pointer; box-shadow:0 12px 26px rgba(7,28,44,.22);
+}
+.cart-header-wrap { display:flex; justify-content:flex-end; align-items:center; margin-bottom:12px; }
+.continue-cart-btn {
+  width:100%; margin-top:10px; border:2px solid rgba(7,28,44,.24); border-radius:999px;
+  padding:14px 18px; background:var(--gold); color:var(--navy); font-weight:900;
+  text-transform:uppercase; letter-spacing:.05em; cursor:pointer; box-shadow:0 10px 20px rgba(7,28,44,.14);
+}
+.continue-cart-btn:hover { transform: translateY(-1px); border-color:var(--navy);
+}
+.cart-count {
+  min-width:24px; height:24px; border-radius:999px; background:var(--coral); color:#fff;
+  display:inline-flex; align-items:center; justify-content:center; font-size:.82rem; padding:0 7px;
+}
+.added-note { text-align:center; color:var(--navy); font-weight:900; min-height:20px; }
+
+
+
+/* Mobile optimization pass v29 */
+@media (max-width: 760px) {
+  body { background-attachment: scroll; }
+  .page { padding: 14px 10px 36px; }
+  .cart-header-wrap { justify-content: flex-end; margin: 4px 0 10px; }
+  .cart-link-btn { padding: 10px 14px; font-size: .92rem; }
+  .hero { display:block; margin-bottom:12px; text-align:left; }
+  .hero h1 { font-size: 2rem; line-height:1.12; margin-bottom:8px; }
+  .hero p, .secondary-line { font-size:.9rem; line-height:1.35; }
+  .hero-actions { align-items:stretch; margin-top:10px; gap:8px; }
+  .change-design-btn { width:100%; padding:12px 14px; font-size:.95rem; }
+  .layout { gap:14px; }
+  .preview-shell { padding: 12px; border-radius: 20px; }
+  .preview-stage { border-radius: 16px; max-height: 58vh; aspect-ratio: 4/5; }
+  .preview-stage.product-beach_blanket,
+  .preview-stage.product-pajama_pants { max-height: 56vh; }
+  .preview-meta { margin-top:10px; font-size:.9rem; gap:8px; }
+  .preview-name { font-size:1rem; }
+  .design-name-badge { font-size:.82rem; padding:5px 10px; }
+  .controls { padding: 12px; border-radius: 20px; }
+  .grid { gap:12px; }
+  .card { padding: 13px; border-radius: 16px; }
+  .card h3 { font-size:1rem; margin-bottom:9px; }
+  .pills, .swatches, .sizes { gap:8px; }
+  .pill, .swatch, .size-btn, .placement-btn { min-height: 42px; font-size:.88rem; }
+  .pill { padding: 9px 11px; }
+  .swatch { padding: 8px 10px; }
+  .swatch-color { width:42px; height:42px; }
+  .help { font-size:.82rem; line-height:1.35; }
+  .primary-btn, .continue-cart-btn { min-height: 50px; font-size:.95rem; }
+  .price-value { font-size: 1.55rem !important; }
+  /* Product artwork uses desktop geometry as the source of truth on mobile.
+     Do not override shirt/tank/hoodie placement here; JS scales text to the print area. */
+  /* v42: blanket mobile only uses the same print geometry as the approved desktop blanket.
+     This restores the blanket design to the lower-left print area instead of shifting it high/small. */
+  .preview-stage.product-beach_blanket .design-group { left: 24% !important; top: 58% !important; width: 25% !important; }
+  /* v48 mobile-only blanket tune: keep the approved circle/logo in place and place the words just below the circle without overlap. */
+  .preview-stage.product-beach_blanket .design-town {
+    font-size: clamp(11px, 2.9vw, 17px) !important;
+    margin-top: 0px !important;
+    transform: translateY(0%) !important;
+  }
+  .preview-stage.product-pajama_pants .design-group { left: 58.8% !important; top: 49.5% !important; }
+}
+@media (max-width: 520px) {
+  .swatch.forever-swatch .swatch-color { width:56px; height:56px; }
+}
+
+@media (max-width: 420px) {
+  .page { padding-left:8px; padding-right:8px; }
+  .hero h1 { font-size:1.75rem; }
+  .pill, .swatch, .size-btn, .placement-btn { font-size:.82rem; }
+  .preview-stage { max-height: 52vh; }
+}
+
+
+
+/* v40: final mobile-only product preview tune. Desktop placement remains untouched.
+   - Shirts/tanks/hoodies: keep desktop circle size, place town below circle, shrink text until it fits.
+   - Pajamas: compact rotated town text so it does not run far down the leg. */
+@media (max-width: 760px) {
+  .preview-stage:not(.product-beach_blanket):not(.product-pajama_pants) .design-group img {
+    margin-bottom: 0 !important;
+  }
+  .preview-stage:not(.product-beach_blanket):not(.product-pajama_pants) .design-town {
+    margin-top: -15px !important;
+    line-height: .82 !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+    white-space: nowrap !important;
+  }
+  .preview-stage.product-pajama_pants .design-group {
+    left: 60.5% !important;
+    top: 48.2% !important;
+  }
+}
+
+
+.size-modal { display:none; position:fixed; inset:0; z-index:9999; background:rgba(7,28,44,.62); align-items:center; justify-content:center; padding:20px; }
+.size-modal.open { display:flex; }
+.size-modal-panel { width:min(680px, 96vw); max-height:88vh; overflow:auto; background:#fff; border-radius:22px; padding:22px; box-shadow:0 24px 70px rgba(0,0,0,.30); }
+.size-modal-head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:12px; }
+.size-modal-head h3 { margin:0; color:var(--navy); font-size:1.25rem; }
+.size-modal-close { border:0; background:var(--coral); color:#fff; border-radius:999px; width:38px; height:38px; font-size:1.2rem; font-weight:950; cursor:pointer; }
+.size-modal .size-chart { font-size:.95rem; }
+
+
+/* v114 products-page visual polish: header logo, clear Step 3 cue, balanced design color buttons */
+.products-topbar {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin-bottom:16px;
+}
+.products-brand-logo {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+}
+.products-brand-logo img {
+  display:block;
+  height:82px;
+  width:auto;
+  object-fit:contain;
+}
+.products-step-heading {
+  margin:0 0 12px;
+  text-align:left;
+}
+.products-step-number {
+  color:var(--gold);
+  font-weight:900;
+  font-size:clamp(1rem, 1.6vw, 1.35rem);
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  text-shadow:0 2px 8px rgba(7,28,44,.30);
+  margin-bottom:4px;
+}
+.products-step-title {
+  font-family:'Pacifico','Skyo',cursive;
+  color:var(--gold);
+  font-weight:400;
+  font-size:clamp(3rem, 5.4vw, 5.2rem);
+  line-height:1;
+  text-shadow:0 4px 26px rgba(7,28,44,.42);
+}
+#designColorSwatches {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  align-items:stretch;
+}
+#designColorSwatches .swatch {
+  min-height:76px;
+  width:100%;
+  justify-content:flex-start;
+}
+@media (max-width: 760px){
+  .products-topbar { align-items:flex-start; gap:12px; margin-bottom:12px; }
+  .products-brand-logo img { height:52px; }
+  .products-step-title { font-size:clamp(2.4rem, 12vw, 3.6rem); }
+  .products-step-number { font-size:.95rem; letter-spacing:.22em; }
+  #designColorSwatches { grid-template-columns:1fr; }
+}
+
+
+/* v118: apparel color grid cleanup only; product preview/rendering is intentionally unchanged. */
+#apparelSwatches.swatches {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px 18px;
+  align-items: stretch;
+}
+#apparelSwatches .swatch {
+  width: 100%;
+  min-height: 88px;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 1.08;
+  white-space: normal;
+  font-size: .92rem;
+  padding: 10px 12px;
+  gap: 10px;
+}
+#apparelSwatches .swatch.forever-swatch { padding: 10px 12px; }
+#apparelSwatches .swatch.forever-swatch .swatch-color {
+  width: 62px;
+  height: 62px;
+  flex: 0 0 62px;
+}
+#apparelColorHelp {
+  color: var(--navy);
+  font-size: 1.12rem;
+  font-weight: 900;
+  letter-spacing: .02em;
+}
+@media (max-width: 760px) {
+  #apparelSwatches.swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  #apparelSwatches .swatch { min-height: 76px; font-size: .86rem; }
+  #apparelSwatches .swatch.forever-swatch .swatch-color { width: 54px; height: 54px; flex-basis: 54px; }
+}
+
+
+/* v119: small tee preview lift + tighter apparel labels. Product assets/rendering are not changed. */
+.preview-stage.product-forever_tee img.garment {
+  transform: translateY(-2.5%);
+}
+#apparelSwatches .swatch {
+  gap: 8px;
+  padding: 9px 10px;
+  font-size: .82rem;
+  line-height: 1.02;
+  overflow: hidden;
+}
+#apparelSwatches .swatch .swatch-label {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+#apparelSwatches .swatch.forever-swatch .swatch-color {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+}
+@media (max-width: 760px) {
+  .preview-stage.product-forever_tee img.garment { transform: translateY(-1.5%); }
+  #apparelSwatches .swatch { font-size: .78rem; padding: 8px 9px; }
+  #apparelSwatches .swatch.forever-swatch .swatch-color { width: 50px; height: 50px; flex-basis: 50px; }
+}
+
+
+
+/* v120: apparel color layout polish without touching product assets */
+#apparelSwatches .swatch .swatch-label {
+  overflow-wrap: normal;
+  word-break: keep-all;
+  hyphens: none;
+}
+#apparelSwatches .swatch.forever-swatch {
+  gap: 7px;
+  padding: 8px 9px;
+  font-size: .78rem;
+}
+#apparelSwatches .swatch.forever-swatch .swatch-color {
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+}
+#apparelSwatches.apparel-grid-forever_hoodie {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 18px;
+  max-width: 560px;
+}
+#apparelSwatches.apparel-grid-forever_hoodie .swatch {
+  min-height: 82px;
+  font-size: .83rem;
+}
+@media (max-width: 760px) {
+  #apparelSwatches.apparel-grid-forever_hoodie { grid-template-columns: 1fr; max-width: none; }
+}
+
+
+/* v124: remaining products apparel-color grids only. Keeps approved Forever Tee / Forever Hoodie grids unchanged. */
+#apparelSwatches.apparel-grid-everyday_light_hoodie,
+#apparelSwatches.apparel-grid-womens_crop_hoodie,
+#apparelSwatches.apparel-grid-zip_up,
+#apparelSwatches.apparel-grid-mens_tank,
+#apparelSwatches.apparel-grid-womens_full_tank,
+#apparelSwatches.apparel-grid-womens_half_tank,
+#apparelSwatches.apparel-grid-beach_blanket,
+#apparelSwatches.apparel-grid-pajama_pants {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px 18px;
+  align-items: stretch;
+}
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch,
+#apparelSwatches.apparel-grid-womens_crop_hoodie .swatch,
+#apparelSwatches.apparel-grid-zip_up .swatch,
+#apparelSwatches.apparel-grid-mens_tank .swatch,
+#apparelSwatches.apparel-grid-womens_full_tank .swatch,
+#apparelSwatches.apparel-grid-womens_half_tank .swatch,
+#apparelSwatches.apparel-grid-beach_blanket .swatch,
+#apparelSwatches.apparel-grid-pajama_pants .swatch {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 86px;
+  padding: 10px 12px;
+  gap: 10px;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 1.05;
+  font-size: .86rem;
+  overflow: hidden;
+}
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-color,
+#apparelSwatches.apparel-grid-womens_crop_hoodie .swatch-color,
+#apparelSwatches.apparel-grid-zip_up .swatch-color,
+#apparelSwatches.apparel-grid-mens_tank .swatch-color,
+#apparelSwatches.apparel-grid-womens_full_tank .swatch-color,
+#apparelSwatches.apparel-grid-womens_half_tank .swatch-color,
+#apparelSwatches.apparel-grid-beach_blanket .swatch-color,
+#apparelSwatches.apparel-grid-pajama_pants .swatch-color {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+}
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-label,
+#apparelSwatches.apparel-grid-womens_crop_hoodie .swatch-label,
+#apparelSwatches.apparel-grid-zip_up .swatch-label,
+#apparelSwatches.apparel-grid-mens_tank .swatch-label,
+#apparelSwatches.apparel-grid-womens_full_tank .swatch-label,
+#apparelSwatches.apparel-grid-womens_half_tank .swatch-label,
+#apparelSwatches.apparel-grid-beach_blanket .swatch-label,
+#apparelSwatches.apparel-grid-pajama_pants .swatch-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: calc(100% - 68px);
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+  text-wrap: balance;
+}
+@media (max-width: 760px) {
+  #apparelSwatches.apparel-grid-everyday_light_hoodie,
+  #apparelSwatches.apparel-grid-womens_crop_hoodie,
+  #apparelSwatches.apparel-grid-zip_up,
+  #apparelSwatches.apparel-grid-mens_tank,
+  #apparelSwatches.apparel-grid-womens_full_tank,
+  #apparelSwatches.apparel-grid-womens_half_tank,
+  #apparelSwatches.apparel-grid-beach_blanket,
+  #apparelSwatches.apparel-grid-pajama_pants {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+
+/* v127: Everyday Light Hoodie label fit only; keep approved button styling/colors */
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch {
+  min-width: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 8px;
+}
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-color {
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+}
+#apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-label {
+  max-width: none;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: keep-all;
+  font-size: .80rem;
+  line-height: 1.02;
+}
+
+
+/* v129: pajama pants plaid swatches use actual plaid fabric previews. */
+#apparelSwatches.apparel-grid-pajama_pants .swatch-color {
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* v152: mobile-only product controls order + compact design color. Desktop remains frozen.
+   Mobile sequence after the preview: Product selector, Placement, Apparel Color,
+   Design Color, Description, Size, then Price/Actions. */
+@media (max-width: 760px) {
+  .controls .grid > .product-card { order: 1; }
+  .controls .grid > .placement-card { order: 2; }
+  .controls .grid > .apparel-card { order: 3; }
+  .controls .grid > .design-color-card { order: 4; }
+  .controls .grid > .product-description-card { order: 5; }
+  .controls .grid > .size-card { order: 6; }
+  .controls .grid > .price-card { order: 7; }
+  .controls .grid > .actions { order: 8; }
+  .product-description-card p { font-size:.88rem; line-height:1.32; }
+  .product-description-card .product-specs span { font-size:.72rem; padding:4px 8px; }
+
+  /* Mobile only: shrink design-color list so it takes about half the vertical space. */
+  #designColorSwatches {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  #designColorSwatches .swatch {
+    min-height: 56px;
+    padding: 7px 9px;
+    gap: 8px;
+    font-size: .82rem;
+    line-height: 1.05;
+  }
+  #designColorSwatches .swatch-color {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+  }
+  #designColorHelp {
+    margin-top: 7px;
+    font-size: .98rem;
+  }
+}
+
+</style>
+<!-- Slope Shirts Site Version: SL-20261017-v1 -->
+</head>
+<body>
+<div class="page">
+  <div class="products-topbar">
+    <a href="index.html" class="products-brand-logo"><img src="slopeshirts_logo.png" alt="Slope Shirts"></a>
+    <button class="cart-link-btn" id="cartLinkBtn" type="button">🛒 Cart <span class="cart-count" id="cartCount">0</span></button>
+  </div>
+  <div class="hero">
+    <div>
+      <div class="products-step-heading" aria-label="Step 3 Choose Your Product">
+        <div class="products-step-number">STEP 3</div>
+        <div class="products-step-title">Choose Your Product</div>
+      </div>
+      
+    </div>
+    <div class="hero-actions">
+      <button class="change-design-btn" id="changeDesignBtn" type="button">← Change Your Design</button>
+      <div class="secondary-line" id="selectionSummary" hidden></div>
+    </div>
+  </div>
+
+  <div class="layout">
+    <section class="preview-shell">
+      <div class="preview-stage" id="previewStage">
+        <div class="garment-color-layer" id="garmentColorLayer"></div><img class="garment" id="garmentImage" src="" alt="">
+        <div class="design-group" id="designGroup">
+          <img id="designOverlay" src="" alt="">
+          <div class="design-town" id="designTown"></div>
+        </div>
+      </div>
+      <div class="preview-meta">
+        <div>
+          <div class="preview-name" id="productName"></div>
+          <div class="design-name-badge" id="designNameBadge">Design: Loading…</div>
+          <div class="zip-info-badge" id="zipInfoBadge" hidden>Zippers + Drawstrings: White</div>
+        </div>
+        <div id="placementReadout"></div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="grid">
+        <div class="card product-card">
+          <h3>Product</h3>
+          <div class="pills" id="productPills"></div>
+        </div>
+
+        <div class="card placement-card">
+          <h3>Placement</h3>
+          <div class="sizes" id="placementButtons"></div>
+          <div class="help" id="placementHelp"></div>
+        </div>
+
+        <div class="card product-description-card" id="productDescriptionCard">
+          <h3>Description</h3>
+          <p id="productDescriptionText"></p>
+          <div class="product-specs" id="productSpecs"></div>
+        </div>
+
+        <div class="card apparel-card">
+          <h3>Apparel Color</h3>
+          <div class="swatches" id="apparelSwatches"></div>
+          <div class="help" id="apparelColorHelp"></div>
+        </div>
+
+        <div class="card design-color-card">
+          <h3>Design Color</h3>
+          <div class="swatches" id="designColorSwatches"></div>
+          <div class="help" id="designColorHelp"></div>
+        </div>
+
+        <div class="card size-card">
+          <h3>Size</h3>
+          <div class="sizes" id="sizeButtons"></div>
+          <button class="size-chart-link" id="sizeChartLink" type="button" style="display:none;">View Size Chart</button>
+        </div>
+
+        <div class="card price-card">
+          <div>
+            <div class="price-label">Price</div>
+            
+          </div>
+          <div class="price-value" id="productPrice">$0.00</div>
+        </div>
+
+        <div class="actions">
+          <button class="primary-btn" id="continueBtn">Add to Cart</button>
+          <button class="continue-cart-btn" id="goCartBtn" type="button">Continue to Cart</button>
+          <div class="added-note" id="addedNote"></div>
+        </div>
+
+        <div class="mockup-disclaimer">Product mockups are previews only. Final print size, placement, and apparel color may vary slightly.</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="size-modal" id="sizeChartModal" aria-hidden="true">
+    <div class="size-modal-panel" role="dialog" aria-modal="true" aria-labelledby="sizeChartModalTitle">
+      <div class="size-modal-head">
+        <h3 id="sizeChartModalTitle">Size Chart</h3>
+        <button class="size-modal-close" id="sizeChartClose" type="button" aria-label="Close size chart">×</button>
+      </div>
+      <div id="sizeChartModalBody"></div>
+    </div>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <filter id="design-tint" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+        <feColorMatrix id="design-tint-matrix" type="matrix"
+          values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+      </filter>
+    </defs>
+  </svg>
+</div>
+
+<script>
+const PRODUCTS = {"forever_tee":{"label":"The Forever Tee","sizes":["XS","S","M","L","XL","2XL","3XL"],"placement":"both","defaultColor":"Fresh Powder","defaultSize":"L","colors":{"Fresh Powder":["6010_White_Front.jpg","6010_White_Back.jpg"],"Snowfield":["6010_Heather_White_Front.jpg","6010_Heather_White_Back.jpg"],"Storm Front":["6010_Vintage_Black_Front.jpg","6010_Vintage_Black_Back.jpg"],"Evergreen":["6010_Military_Green_Front.jpg","6010_Military_Green_Back.jpg"],"Après Pink":["6010_Desert_Pink_Front.jpg","6010_Desert_Pink_Back.jpg"],"Birch":["6010_Macchiato_Front.jpg","6010_Macchiato_Back.jpg"],"Storm Cloud":["6010_Premium_Heather_Front.jpg","6010_Premium_Heather_Back.jpg"],"Sky":["6010_Tahiti_Blue_Front.jpg","6010_Tahiti_Blue_Back.jpg"],"Cranberry":["6010_Vintage_Red_Front.jpg","6010_Vintage_Red_Back.jpg"],"Glacier Blue":["6010_Vintage_Royal_Front.jpg","6010_Vintage_Royal_Back.jpg"],"Dusty Trail":["6010_Vintage_Stonewash_Denim_Front.jpg","6010_Vintage_Stonewash_Denim_Back.jpg"],"Sea Glass":["6010_Vintage_Turquoise_Front.jpg","6010_Vintage_Turquoise_Back.jpg"]},"manufacturerColors":{"Fresh Powder":"White","Snowfield":"Heather White","Storm Front":"Vintage Black","Evergreen":"Military Green","Après Pink":"Desert Pink","Birch":"Macchiato","Storm Cloud":"Premium Heather","Sky":"Tahiti Blue","Cranberry":"Vintage Red","Glacier Blue":"Vintage Royal","Dusty Trail":"Vintage Stonewash Denim","Sea Glass":"Vintage Turquoise"},"defaultView":"front"},"forever_hoodie":{"label":"The Forever Hoodie","sizes":["XS","S","M","L","XL","2XL","3XL"],"placement":"both","defaultColor":"Birch","defaultSize":"L","colors":{"Storm Front":["Next_Level_9302_Heather_Black_Front_High.jpg","Next_Level_9302_Heather_Black_Back_High.jpg"],"Cranberry":["Next_Level_9302_Heather_Cardinal_Front_High.jpg","Next_Level_9302_Heather_Cardinal_Back_High.jpg"],"Evergreen":["Next_Level_9302_Heather_Forest_Green_Front_High.jpg","Next_Level_9302_Heather_Forest_Green_Back_High.jpg"],"Storm Cloud":["Next_Level_9302_Heather_Grey_Front_High.jpg","Next_Level_9302_Heather_Grey_Back_High.jpg"],"Birch":["Next_Level_9302_Oatmeal_Front_High.jpg","Next_Level_9302_Oatmeal_Back_High.jpg"]},"manufacturerColors":{"Storm Front":"Heather Black","Cranberry":"Heather Cardinal","Evergreen":"Heather Forest Green","Storm Cloud":"Heather Grey","Birch":"Oatmeal"},"defaultView":"front"},"everyday_light_hoodie":{"label":"The Everyday Light Hoodie","sizes":["XS","S","M","L","XL","2XL"],"placement":"both","defaultColor":"Fresh Powder","defaultSize":"L","colors":{"Fresh Powder":["BELLA_+_CANVAS_3512_White_Front_High.jpg","BELLA_+_CANVAS_3512_White_Back_High.jpg"],"Midnight Peak":["BELLA_+_CANVAS_3512_Charcoal_Black_Triblend_Front_High.jpg","BELLA_+_CANVAS_3512_Charcoal_Black_Triblend_Back_High.jpg"],"Storm Front":["BELLA_+_CANVAS_3512_Grey_Triblend_Front_High.jpg","BELLA_+_CANVAS_3512_Grey_Triblend_Back_High.jpg"],"Alpenglow":["BELLA_+_CANVAS_3512_Heather_Red_Front_High.jpg","BELLA_+_CANVAS_3512_Heather_Red_Back_High.jpg"],"Glacier Blue":["BELLA_+_CANVAS_3512_Heather_True_Royal_Front_High.jpg","BELLA_+_CANVAS_3512_Heather_True_Royal_Back_High.jpg"]},"manufacturerColors":{"Fresh Powder":"White","Midnight Peak":"Charcoal Black Triblend","Storm Front":"Grey Triblend","Alpenglow":"Heather Red","Glacier Blue":"Heather True Royal"},"defaultView":"front"},"womens_crop_hoodie":{"label":"Women's Crop Hoodie","sizes":["XS","S","M","L","XL","2XL"],"placement":"both","defaultColor":"Fresh Powder","colors":{"Fresh Powder":["Next_Level_9384_White_Front_High.jpg","Next_Level_9384_White_Back_High.jpg"],"Midnight Peak":["Next_Level_9384_Black_Front_High.jpg","Next_Level_9384_Black_Back_High.jpg"],"Rose Frost":["Next_Level_9384_Desert_Pink_Front_High.jpg","Next_Level_9384_Desert_Pink_Back_High.jpg"],"Storm Front":["Next_Level_9384_Heather_Grey_Front_High.jpg","Next_Level_9384_Heather_Grey_Back_High.jpg"],"Glacier Blue":["Next_Level_9384_Stonewash_Denim_Front_High.jpg","Next_Level_9384_Stonewash_Denim_Back_High.jpg"]},"manufacturerColors":{"Fresh Powder":"White","Midnight Peak":"Black","Rose Frost":"Desert Pink","Storm Front":"Heather Grey","Glacier Blue":"Stonewash Denim"},"defaultSize":"S","defaultView":"front"},"zip_up":{"label":"The Zip Up","sizes":["XS","S","M","L","XL","2XL","3XL"],"placement":"back","defaultColor":"Fresh Powder","colors":{"Midnight Peak":["BELLA_+_CANVAS_3739_midnight_tide_Front_High.jpg","BELLA_+_CANVAS_3739_midnight_tide_Back_High.jpg"],"Storm Front":["BELLA_+_CANVAS_3739_sea_mist_Front_High.jpg","BELLA_+_CANVAS_3739_sea_mist_Back_High.jpg"],"Alpenglow":["BELLA_+_CANVAS_3739_coral_reef_Front_High.jpg","BELLA_+_CANVAS_3739_coral_reef_Back_High.jpg"],"Birch":["BELLA_+_CANVAS_3739_driftwood_Front_High.jpg","BELLA_+_CANVAS_3739_driftwood_Back_High.jpg"],"Evergreen":["BELLA_+_CANVAS_3739_seagrass_Front_High.jpg","BELLA_+_CANVAS_3739_seagrass_Back_High.jpg"],"Sky":["BELLA_+_CANVAS_3739_sky_Front_High.jpg","BELLA_+_CANVAS_3739_sky_Back_High.jpg"],"Pink Alpenglow":["BELLA_+_CANVAS_3739_pink_sunset_Front_High.jpg","BELLA_+_CANVAS_3739_pink_sunset_Back_High.jpg"],"Fresh Powder":["BELLA_+_CANVAS_3739_vintage_white_Front_High.jpg","BELLA_+_CANVAS_3739_vintage_white_Back_High.jpg"]},"defaultSize":"L","defaultView":"back","manufacturerColors":{"Midnight Peak":"Black","Storm Front":"Athletic Heather","Alpenglow":"Heather Red","Birch":"Sandstone","Evergreen":"Heather Forest","Sky":"Heather True Royal","Pink Alpenglow":"Heather Sunset","Fresh Powder":"Vintage White"}},"mens_tank":{"label":"Men's Tank","sizes":["XS","S","M","L","XL","2XL"],"placement":"front","defaultColor":"Fresh Powder","colors":{"Fresh Powder":["Next_Level_3633_White_Front_High.jpg","Next_Level_3633_White_Back_High.jpg"],"Midnight Peak":["Next_Level_3633_Black_Front_High.jpg","Next_Level_3633_Black_Back_High.jpg"],"Storm Front":["Next_Level_3633_Heather_Grey_Front_High.jpg","Next_Level_3633_Heather_Grey_Back_High.jpg"],"Ski Patrol Red":["Next_Level_3633_Red_Front_High.jpg","Next_Level_3633_Red_Back_High.jpg"],"Glacier Blue":["Next_Level_3633_Royal_Front_High.jpg","Next_Level_3633_Royal_Back_High.jpg"],"Deep Lake":["Next_Level_3633_Turquoise_Front_High.jpg","Next_Level_3633_Turquoise_Back_High.jpg"]},"manufacturerColors":{"Fresh Powder":"White","Midnight Peak":"Black","Storm Front":"Heather Grey","Ski Patrol Red":"Red","Glacier Blue":"Royal","Deep Lake":"Turquoise"},"defaultSize":"L","defaultView":"front"},"womens_full_tank":{"label":"Women's Full Tank","sizes":["XS","S","M","L","XL","2XL"],"placement":"front","defaultColor":"Aqua Ice","colors":{"Aqua Ice":["Mint Front","Mint Back"],"Storm Front":["Black Heather Front","Black Heather Back"],"Bluebird":["Blue Front","Blue Back"],"Mauve Ridge":["Mauve Front","Mauve Back"],"Sunset Orange":["Orange Front","Orange Back"],"Rose Frost":["Peach Front","Peach Back"],"Lavender Dusk":["Purple Front","Purple Back"],"Ski Patrol Red":["Red Front","Red Back"],"Alpine Pool":["Teal Front","Teal Back"],"Glacier Blue":["True Royal Front","True Royal Back"]},"manufacturerColors":{"Aqua Ice":"Mint","Storm Front":"Black Heather","Bluebird":"Blue","Mauve Ridge":"Mauve","Sunset Orange":"Orange","Rose Frost":"Peach","Lavender Dusk":"Purple","Ski Patrol Red":"Red","Alpine Pool":"Teal","Glacier Blue":"True Royal"},"defaultView":"front"},"womens_half_tank":{"label":"Women's Half Tank","sizes":["S","M","L","XL","2XL"],"placement":"front","defaultColor":"Fresh Powder","colors":{"Fresh Powder":["BELLA_+_CANVAS_6682_Solid_White_Blend_Front_High.jpg","BELLA_+_CANVAS_6682_Solid_White_Blend_Back_High.jpg"],"Midnight Peak":["BELLA_+_CANVAS_6682_Solid_Black_Blend_Front_High.jpg","BELLA_+_CANVAS_6682_Solid_Black_Blend_Back_High.jpg"],"Storm Cloud":["BELLA_+_CANVAS_6682_Athletic_Heather_Front_High.jpg","BELLA_+_CANVAS_6682_Athletic_Heather_Back_High.jpg"],"Dusty Trail":["BELLA_+_CANVAS_6682_Heather_Dusty_Blue_Front_High.jpg","BELLA_+_CANVAS_6682_Heather_Dusty_Blue_Back_High.jpg"],"Glacier Blue":["BELLA_+_CANVAS_6682_Heather_True_Royal_Front_High.jpg","BELLA_+_CANVAS_6682_Heather_True_Royal_Back_High.jpg"],"Deep Lake":["BELLA_+_CANVAS_6682_Heather_Navy_Front_High.jpg","BELLA_+_CANVAS_6682_Heather_Navy_Back_High.jpg"],"Alpenglow":["BELLA_+_CANVAS_6682_Heather_Red_Front_High.jpg","BELLA_+_CANVAS_6682_Heather_Red_Back_High.jpg"],"Alpine Pool":["BELLA_+_CANVAS_6682_Heather_Deep_Teal_Front_High.jpg","BELLA_+_CANVAS_6682_Heather_Deep_Teal_Back_High.jpg"]},"defaultSize":"S","defaultView":"front","manufacturerColors":{"Fresh Powder":"Solid White Blend","Midnight Peak":"Solid Black Blend","Storm Cloud":"Athletic Heather","Dusty Trail":"Heather Dusty Blue","Glacier Blue":"Heather True Royal","Deep Lake":"Heather Deep Teal","Alpenglow":"Heather Red","Alpine Pool":"Heather Forest"}},"beach_blanket":{"label":"Lodge Blanket","sizes":["One Size"],"placement":"front","defaultColor":"Alpenglow","colors":{"Alpenglow":["beach_blanket_heather_red.png","beach_blanket_heather_red.png"],"Evergreen":["beach_blanket_heather_green.png","beach_blanket_heather_green.png"],"Sky":["beach_blanket_pacific.png","beach_blanket_pacific.png"]},"defaultView":"front"},"pajama_pants":{"label":"Pajama Pants","sizes":["S","M","L","XL","2XL","3XL"],"placement":"front","defaultColor":"Beach Basket Blue","colors":{"Beach Basket Blue":["pajama_pants_blue_plaid.png","pajama_pants_blue_plaid.png"],"Beach Basket Gray":["pajama_pants_gray_plaid.png","pajama_pants_gray_plaid.png"]},"defaultSize":"L","defaultView":"front"}};
+const PRODUCT_PRICES = {
+  forever_tee: 29.99,
+  mens_tank: 24.99,
+  womens_full_tank: 24.99,
+  womens_half_tank: 24.99,
+  everyday_light_hoodie: 34.99,
+  forever_hoodie: 59.99,
+  womens_crop_hoodie: 59.99,
+  zip_up: 59.99,
+  beach_blanket: 49.99,
+  pajama_pants: 39.99
+};
+function formatMoney(n){ return '$' + Number(n || 0).toFixed(2); }
+
+const IMAGES = {"forever_tee":{"Fresh Powder":{"front":"product_assets/generated_apparel_colors/forever_tee_sea_mist_front.png","back":"product_assets/generated_apparel_colors/forever_tee_sea_mist_back.png"},"Snowfield":{"front":"product_assets/generated_apparel_colors/forever_tee_salt_flat_front.png","back":"product_assets/generated_apparel_colors/forever_tee_salt_flat_back.png"},"Storm Front":{"front":"product_assets/generated_apparel_colors/forever_tee_storm_surge_front.png","back":"product_assets/generated_apparel_colors/forever_tee_storm_surge_back.png"},"Evergreen":{"front":"product_assets/generated_apparel_colors/forever_tee_seagrass_front.png","back":"product_assets/generated_apparel_colors/forever_tee_seagrass_back.png"},"Après Pink":{"front":"product_assets/generated_apparel_colors/forever_tee_shell_pink_front.png","back":"product_assets/generated_apparel_colors/forever_tee_shell_pink_back.png"},"Birch":{"front":"product_assets/generated_apparel_colors/forever_tee_driftwood_front.png","back":"product_assets/generated_apparel_colors/forever_tee_driftwood_back.png"},"Storm Cloud":{"front":"product_assets/generated_apparel_colors/forever_tee_storm_cloud_front.png","back":"product_assets/generated_apparel_colors/forever_tee_storm_cloud_back.png"},"Sky":{"front":"product_assets/generated_apparel_colors/forever_tee_shore_break_front.png","back":"product_assets/generated_apparel_colors/forever_tee_shore_break_back.png"},"Cranberry":{"front":"product_assets/generated_apparel_colors/forever_tee_coral_tide_front.png","back":"product_assets/generated_apparel_colors/forever_tee_coral_tide_back.png"},"Glacier Blue":{"front":"product_assets/generated_apparel_colors/forever_tee_boardwalk_blue_front.png","back":"product_assets/generated_apparel_colors/forever_tee_boardwalk_blue_back.png"},"Dusty Trail":{"front":"product_assets/generated_apparel_colors/forever_tee_dusty_shore_front.png","back":"product_assets/generated_apparel_colors/forever_tee_dusty_shore_back.png"},"Sea Glass":{"front":"product_assets/generated_apparel_colors/forever_tee_sea_glass_front.png","back":"product_assets/generated_apparel_colors/forever_tee_sea_glass_back.png"}},"womens_crop_hoodie":{"Fresh Powder":{"front":"product_assets/crop_hoodie_9384/Next_Level_9384_White_Front_High.jpg","back":"product_assets/crop_hoodie_9384/Next_Level_9384_White_Back_High.jpg"},"Midnight Peak":{"front":"product_assets/crop_hoodie_9384/Next_Level_9384_Black_Front_High.jpg","back":"product_assets/crop_hoodie_9384/Next_Level_9384_Black_Back_High.jpg"},"Rose Frost":{"front":"product_assets/crop_hoodie_9384/Next_Level_9384_Desert_Pink_Front_High.jpg","back":"product_assets/crop_hoodie_9384/Next_Level_9384_Desert_Pink_Back_High.jpg"},"Storm Front":{"front":"product_assets/crop_hoodie_9384/Next_Level_9384_Heather_Grey_Front_High.jpg","back":"product_assets/crop_hoodie_9384/Next_Level_9384_Heather_Grey_Back_High.jpg"},"Glacier Blue":{"front":"product_assets/crop_hoodie_9384/Next_Level_9384_Stonewash_Denim_Front_High.jpg","back":"product_assets/crop_hoodie_9384/Next_Level_9384_Stonewash_Denim_Back_High.jpg"}},"zip_up":{"Midnight Peak":{"front":"product_assets/generated_apparel_colors/zip_up_midnight_tide_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_midnight_tide_back_mfgmatch.png"},"Storm Front":{"front":"product_assets/generated_apparel_colors/zip_up_sea_mist_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_sea_mist_back_mfgmatch.png"},"Alpenglow":{"front":"product_assets/generated_apparel_colors/zip_up_coral_reef_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_coral_reef_back_mfgmatch.png"},"Birch":{"front":"product_assets/generated_apparel_colors/zip_up_driftwood_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_driftwood_back_mfgmatch.png"},"Evergreen":{"front":"product_assets/generated_apparel_colors/zip_up_seagrass_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_seagrass_back_mfgmatch.png"},"Sky":{"front":"product_assets/generated_apparel_colors/zip_up_sky_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_sky_back_mfgmatch.png"},"Pink Alpenglow":{"front":"product_assets/generated_apparel_colors/zip_up_pink_sunset_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_pink_sunset_back_mfgmatch.png"},"Fresh Powder":{"front":"product_assets/generated_apparel_colors/zip_up_vintage_white_front_mfgmatch.png","back":"product_assets/generated_apparel_colors/zip_up_vintage_white_back_mfgmatch.png"}},"mens_tank":{"Fresh Powder":{"front":"product_assets/generated_apparel_colors/mens_tank_sea_mist_front.png","back":"product_assets/generated_apparel_colors/mens_tank_sea_mist_back.png"},"Midnight Peak":{"front":"product_assets/generated_apparel_colors/mens_tank_black_sand_front.png","back":"product_assets/generated_apparel_colors/mens_tank_black_sand_back.png"},"Storm Front":{"front":"product_assets/generated_apparel_colors/mens_tank_storm_surge_front.png","back":"product_assets/generated_apparel_colors/mens_tank_storm_surge_back.png"},"Ski Patrol Red":{"front":"product_assets/generated_apparel_colors/mens_tank_lifeguard_red_front.png","back":"product_assets/generated_apparel_colors/mens_tank_lifeguard_red_back.png"},"Glacier Blue":{"front":"product_assets/generated_apparel_colors/mens_tank_boardwalk_blue_front.png","back":"product_assets/generated_apparel_colors/mens_tank_boardwalk_blue_back.png"},"Deep Lake":{"front":"product_assets/generated_apparel_colors/mens_tank_sea_glass_front.png","back":"product_assets/generated_apparel_colors/mens_tank_sea_glass_back.png"}},"everyday_light_hoodie":{"Fresh Powder":{"front":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_White_Front_High.jpg","back":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_White_Back_High.jpg"},"Midnight Peak":{"front":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Charcoal_Black_Triblend_Front_High.jpg","back":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Charcoal_Black_Triblend_Back_High.jpg"},"Storm Front":{"front":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Grey_Triblend_Front_High.jpg","back":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Grey_Triblend_Back_High.jpg"},"Alpenglow":{"front":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Heather_Red_Front_High.jpg","back":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Heather_Red_Back_High.jpg"},"Glacier Blue":{"front":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Heather_True_Royal_Front_High.jpg","back":"product_assets/everyday_light_hoodie_3512/BELLA_+_CANVAS_3512_Heather_True_Royal_Back_High.jpg"}},"forever_hoodie":{"Storm Front":{"front":"product_assets/hoodie_9302/Next_Level_9302_Heather_Black_Front_High.jpg","back":"product_assets/hoodie_9302/Next_Level_9302_Heather_Black_Back_High.jpg"},"Cranberry":{"front":"product_assets/hoodie_9302/Next_Level_9302_Heather_Cardinal_Front_High.jpg","back":"product_assets/hoodie_9302/Next_Level_9302_Heather_Cardinal_Back_High.jpg"},"Evergreen":{"front":"product_assets/hoodie_9302/Next_Level_9302_Heather_Forest_Green_Front_High.jpg","back":"product_assets/hoodie_9302/Next_Level_9302_Heather_Forest_Green_Back_High.jpg"},"Storm Cloud":{"front":"product_assets/hoodie_9302/Next_Level_9302_Heather_Grey_Front_High.jpg","back":"product_assets/hoodie_9302/Next_Level_9302_Heather_Grey_Back_High.jpg"},"Birch":{"front":"product_assets/hoodie_9302/Next_Level_9302_Oatmeal_Front_High.jpg","back":"product_assets/hoodie_9302/Next_Level_9302_Oatmeal_Back_High.jpg"}},"womens_full_tank":{"Aqua Ice":{"front":"product_assets/generated_apparel_colors/womens_full_tank_caribbean_front.png","back":"product_assets/generated_apparel_colors/womens_full_tank_caribbean_back.png"},"Storm Front":{"front":"product_assets/8430_ghost/womens_full_tank_storm_surge_front.png","back":"product_assets/8430_ghost/womens_full_tank_storm_surge_back.png"},"Bluebird":{"front":"product_assets/8430_ghost/womens_full_tank_coastal_blue_front.png","back":"product_assets/8430_ghost/womens_full_tank_coastal_blue_back.png"},"Mauve Ridge":{"front":"product_assets/8430_ghost/womens_full_tank_driftwood_mauve_front.png","back":"product_assets/8430_ghost/womens_full_tank_driftwood_mauve_back.png"},"Sunset Orange":{"front":"product_assets/8430_ghost/womens_full_tank_sunset_orange_front.png","back":"product_assets/8430_ghost/womens_full_tank_sunset_orange_back.png"},"Rose Frost":{"front":"product_assets/8430_ghost/womens_full_tank_coral_blush_front.png","back":"product_assets/8430_ghost/womens_full_tank_coral_blush_back.png"},"Lavender Dusk":{"front":"product_assets/8430_ghost/womens_full_tank_lavender_wave_front.png","back":"product_assets/8430_ghost/womens_full_tank_lavender_wave_back.png"},"Ski Patrol Red":{"front":"product_assets/8430_ghost/womens_full_tank_lifeguard_red_front.png","back":"product_assets/8430_ghost/womens_full_tank_lifeguard_red_back.png"},"Alpine Pool":{"front":"product_assets/8430_ghost/womens_full_tank_tide_pool_front.png","back":"product_assets/8430_ghost/womens_full_tank_tide_pool_back.png"},"Glacier Blue":{"front":"product_assets/8430_ghost/womens_full_tank_boardwalk_blue_front.png","back":"product_assets/8430_ghost/womens_full_tank_boardwalk_blue_back.png"}},"womens_half_tank":{"Fresh Powder":{"front":"product_assets/generated_apparel_colors/womens_half_tank_sea_mist_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_sea_mist_back.png"},"Midnight Peak":{"front":"product_assets/generated_apparel_colors/womens_half_tank_midnight_tide_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_midnight_tide_back.png"},"Storm Cloud":{"front":"product_assets/generated_apparel_colors/womens_half_tank_storm_cloud_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_storm_cloud_back.png"},"Dusty Trail":{"front":"product_assets/generated_apparel_colors/womens_half_tank_dusty_shore_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_dusty_shore_back.png"},"Glacier Blue":{"front":"product_assets/generated_apparel_colors/womens_half_tank_boardwalk_blue_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_boardwalk_blue_back.png"},"Deep Lake":{"front":"product_assets/generated_apparel_colors/womens_half_tank_deep_ocean_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_deep_ocean_back.png"},"Alpenglow":{"front":"product_assets/generated_apparel_colors/womens_half_tank_coral_reef_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_coral_reef_back.png"},"Alpine Pool":{"front":"product_assets/generated_apparel_colors/womens_half_tank_tide_pool_front.png","back":"product_assets/generated_apparel_colors/womens_half_tank_tide_pool_back.png"}},"beach_blanket":{"Alpenglow":{"front":"product_assets/blanket/beach_blanket_heather_red.png","back":"product_assets/blanket/beach_blanket_heather_red.png"},"Evergreen":{"front":"product_assets/blanket/beach_blanket_heather_green.png","back":"product_assets/blanket/beach_blanket_heather_green.png"},"Sky":{"front":"product_assets/blanket/beach_blanket_pacific.png","back":"product_assets/blanket/beach_blanket_pacific.png"}},"pajama_pants":{"Beach Basket Blue":{"front":"product_assets/pajama_pants_blue_plaid.png","back":"product_assets/pajama_pants_blue_plaid.png"},"Beach Basket Gray":{"front":"product_assets/pajama_pants_gray_plaid.png","back":"product_assets/pajama_pants_gray_plaid.png"}}};
+const DESIGN_COLORS = [{"name":"Midnight Peak","hex":"#1a1a1a"},{"name":"Fresh Powder","hex":"#FFFFFF"},{"name":"Deep Lake","hex":"#1a7fa0"},{"name":"Glacier Ice","hex":"#f7c948"},{"name":"Alpenglow","hex":"#E84040"},{"name":"Ski Patrol Red","hex":"#C41230"},{"name":"Glacier Blue","hex":"#1C47A0"},{"name":"Evergreen","hex":"#4A7B5C"},{"name":"Mountain Plum","hex":"#9B2335"},{"name":"Après Pink","hex":"#a64179"}];
+const APPAREL_TINT_HEX = {"Fresh Powder":"#d6d3d7","Fresh Powder":"#9ed6be","Midnight Peak":"#141414","Basalt":"#1b1b1b","Midnight Peak":"#222a3e","Alpenglow":"#132744","Birch":"#615350","Timber":"#b89472","Snowfield":"#dcdcdc","Haze":"#b9b9b9","Athletic Grey":"#b9b9b9","Sky":"#8de2e8","Fresh Powder":"#2453ad","Frozen Lake":"#5b82a3","Icicle":"#01a4ca","Evergreen":"#3d4e42","Evergreen":"#4A7B5C","Alpenglow":"#c81d38","Cranberry":"#d44458","Storm Front":"#aaa5a5","Midnight Peak":"#444444","Storm Front":"#342f34","Dusty Trail":"#a0b8c3","Deep Teal":"#12636a","Sage Pine":"#6f8368","Après Pink":"#e9bebc","Ski Patrol Red":"#c84c53","Glacier Blue":"#305a9f","Bluebird":"#7285b0","Mauve Ridge":"#c98184","Sunset Orange":"#f68c6a","Rose Frost":"#eec5b7","Lavender Dusk":"#6d5685","Alpine Pool":"#19858b","Alpenglow":"#E85F6A","Sky":"#91B7D8"};
+const APPAREL_SWATCH_HEX = {"Fresh Powder":"#f2f1ee","Midnight Peak":"#171719","Basalt":"#111111","Alpenglow":"#d64d55","Birch":"#615350","Timber":"#b89472","Snowfield":"#dcdcdc","Haze":"#b9b9b9","Athletic Grey":"#b9b9b9","Sky":"#91B7D8","Frozen Lake":"#5b82a3","Icicle":"#01a4ca","Evergreen":"#52a878","Cranberry":"#d44458","Storm Front":"#342f34","Dusty Trail":"#98b4c2","Deep Teal":"#166b72","Sage Pine":"#6b8066","Heather Red":"#c9415d","Blue Plaid":"#08a9cf","Gray Plaid":"#8d8d8d","Premium Heather":"#b9b9b9","Deep Lake":"#2f7f98","Venetian Grey":"#6d7478","Après Pink":"#e9bebc","Ski Patrol Red":"#c84c53","Glacier Blue":"#3d55ad","Bluebird":"#7285b0","Mauve Ridge":"#c98184","Sunset Orange":"#f68c6a","Rose Frost":"#eec5b7","Lavender Dusk":"#6d5685","Alpine Pool":"#344f46","Heather Black":"#322e34","Heather Cardinal":"#833643","Heather Forest Green":"#31443f","Heather Grey":"#a09fa4","Oatmeal":"#d6d4cf","Aqua Ice":"#a8dfc6","Storm Cloud":"#b7b7ba"};
+
+Object.assign(APPAREL_SWATCH_HEX, {"Midnight Peak":"#141414","Storm Front":"#ADADAD","Alpenglow":"#826687","Birch":"#DEB691","Alpenglow":"#C83137","Evergreen":"#404B43","Sky":"#628ACC","Pink Alpenglow":"#EE7E9D","Fresh Powder":"#E3E0DB"});
+Object.assign(APPAREL_SWATCH_HEX, {"Storm Front":"#322e34","Cranberry":"#833643","Evergreen":"#31443f","Storm Cloud":"#a09fa4","Birch":"#d6d4cf"});
+
+Object.assign(APPAREL_SWATCH_HEX, {"Fresh Powder":"#f4f4f3","Midnight Peak":"#27272d","Storm Front":"#9b9b9d","Alpenglow":"#d4484f","Glacier Blue":"#354a9a"});
+Object.assign(APPAREL_TINT_HEX, {"Fresh Powder":"#f4f4f3","Midnight Peak":"#27272d","Storm Front":"#9b9b9d","Alpenglow":"#d4484f","Glacier Blue":"#354a9a"});
+const APPAREL_SWATCH_IMAGES = {"forever_tee":{"Fresh Powder":"product_assets/generated_apparel_colors/swatches/forever_tee_sea_mist.png","Snowfield":"product_assets/generated_apparel_colors/swatches/forever_tee_salt_flat.png","Storm Front":"product_assets/generated_apparel_colors/swatches/forever_tee_storm_surge.png","Evergreen":"product_assets/generated_apparel_colors/swatches/forever_tee_seagrass.png","Après Pink":"product_assets/generated_apparel_colors/swatches/forever_tee_shell_pink.png","Birch":"product_assets/generated_apparel_colors/swatches/forever_tee_driftwood.png","Storm Cloud":"product_assets/generated_apparel_colors/swatches/forever_tee_storm_cloud.png","Sky":"product_assets/generated_apparel_colors/swatches/forever_tee_shore_break.png","Cranberry":"product_assets/generated_apparel_colors/swatches/forever_tee_coral_tide.png","Glacier Blue":"product_assets/generated_apparel_colors/swatches/forever_tee_boardwalk_blue.png","Dusty Trail":"product_assets/generated_apparel_colors/swatches/forever_tee_dusty_shore.png","Sea Glass":"product_assets/generated_apparel_colors/swatches/forever_tee_sea_glass.png"},"mens_tank":{"Fresh Powder":"product_assets/3633_swatches/mens_tank_sea_mist.jpg","Midnight Peak":"product_assets/3633_swatches/mens_tank_black_sand.jpg","Storm Front":"product_assets/3633_swatches/mens_tank_storm_cloud.jpg","Ski Patrol Red":"product_assets/3633_swatches/mens_tank_lifeguard_red.jpg","Glacier Blue":"product_assets/3633_swatches/mens_tank_boardwalk_blue.jpg","Deep Lake":"product_assets/3633_swatches/mens_tank_sea_glass.jpg"},"womens_full_tank":{"Aqua Ice":"product_assets/generated_apparel_colors/swatches/womens_full_tank_caribbean.png","Storm Front":"product_assets/8430_swatches/womens_full_tank_storm_surge.jpg","Bluebird":"product_assets/8430_swatches/womens_full_tank_coastal_blue.jpg","Mauve Ridge":"product_assets/8430_swatches/womens_full_tank_driftwood_mauve.jpg","Sunset Orange":"product_assets/8430_swatches/womens_full_tank_sunset_orange.jpg","Rose Frost":"product_assets/8430_swatches/womens_full_tank_coral_blush.jpg","Lavender Dusk":"product_assets/8430_swatches/womens_full_tank_lavender_wave.jpg","Ski Patrol Red":"product_assets/8430_swatches/womens_full_tank_lifeguard_red.jpg","Alpine Pool":"product_assets/8430_swatches/womens_full_tank_tide_pool.jpg","Glacier Blue":"product_assets/8430_swatches/womens_full_tank_boardwalk_blue.jpg"},"womens_crop_hoodie":{"Fresh Powder":"product_assets/crop_hoodie_9384/swatches/womens_crop_hoodie_sea_mist.jpg","Midnight Peak":"product_assets/crop_hoodie_9384/swatches/womens_crop_hoodie_midnight_tide.jpg","Rose Frost":"product_assets/crop_hoodie_9384/swatches/womens_crop_hoodie_coral_blush.jpg","Storm Front":"product_assets/crop_hoodie_9384/swatches/womens_crop_hoodie_storm_surge.jpg","Glacier Blue":"product_assets/crop_hoodie_9384/swatches/womens_crop_hoodie_boardwalk_blue.jpg"},"everyday_light_hoodie":{"Fresh Powder":"product_assets/everyday_light_hoodie_3512/swatches/everyday_3512_white.jpg","Midnight Peak":"product_assets/everyday_light_hoodie_3512/swatches/everyday_3512_charcoal_black_triblend.jpg","Storm Front":"product_assets/everyday_light_hoodie_3512/swatches/everyday_3512_grey_triblend.jpg","Alpenglow":"product_assets/everyday_light_hoodie_3512/swatches/everyday_3512_heather_red.jpg","Glacier Blue":"product_assets/everyday_light_hoodie_3512/swatches/everyday_3512_heather_true_royal.jpg"},"zip_up":{"Storm Front":"product_assets/zip_up_swatches/zip_up_storm_surge.jpg","Birch":"product_assets/zip_up_swatches/zip_up_driftwood.jpg"},"pajama_pants":{"Beach Basket Blue":"product_assets/pajama_pants_blue_plaid.png","Beach Basket Gray":"product_assets/pajama_pants_gray_plaid.png"},"womens_half_tank":{"Fresh Powder":"product_assets/generated_apparel_colors/swatches/womens_half_tank_sea_mist.png","Midnight Peak":"product_assets/generated_apparel_colors/swatches/womens_half_tank_midnight_tide.png","Storm Cloud":"product_assets/generated_apparel_colors/swatches/womens_half_tank_storm_cloud.png","Dusty Trail":"product_assets/generated_apparel_colors/swatches/womens_half_tank_dusty_shore.png","Glacier Blue":"product_assets/generated_apparel_colors/swatches/womens_half_tank_boardwalk_blue.png","Deep Lake":"product_assets/generated_apparel_colors/swatches/womens_half_tank_deep_ocean.png","Alpenglow":"product_assets/generated_apparel_colors/swatches/womens_half_tank_coral_reef.png","Alpine Pool":"product_assets/generated_apparel_colors/swatches/womens_half_tank_tide_pool.png"}};
+const PRODUCT_DESCRIPTIONS = {"everyday_light_hoodie":{"description":"The Everyday Light Hoodie is a soft, lightweight jersey hooded long sleeve tee made for mountain evenings, village strolls, layering, and everyday comfort. Fabric varies by color: Fresh Powder is 100% Airlume combed and ring-spun cotton; Alpenglow and Glacier Blue are 52% Airlume combed and ring-spun cotton / 48% polyester; Midnight Peak and Storm Front are triblend: 50% polyester / 25% Airlume combed and ring-spun cotton / 25% rayon. *Runs small — consider sizing up for a more relaxed fit.","specs":["4.2 oz lightweight jersey","Fresh Powder: 100% Airlume cotton","Alpenglow / Glacier Blue: 52% Airlume cotton / 48% polyester","Midnight Peak / Storm Front: 50% polyester / 25% Airlume cotton / 25% rayon","Unisex sizing","Crossover V at neckline","*Runs small — consider sizing up"],"sizeChart":{"title":"Everyday Light Hoodie Size Chart","columns":["Finished Measurements","XS","S","M","L","XL","2XL"],"rows":[["Body Length","28 1/2","29 1/2","30 1/2","31 1/2","32 1/2","33 1/2"],["Body Length Tolerance","3/4","3/4","3/4","3/4","3/4","3/4"],["Chest Tolerance","3/4","3/4","3/4","3/4","3/4","3/4"],["Chest Width (Laid Flat)","17 1/2","19","20 1/2","22","23 1/2","25"]]}},"womens_crop_hoodie":{"description":"The Women's Crop Hoodie is a soft, cropped fleece layer made for ski days, après nights, cold mornings, and everyday comfort. It has a relaxed cropped fit with dyed-to-match flat drawcords and your favorite ski-town inspired design printed in house.","specs":["8.3 oz fabric weight","60/40 combed ringspun cotton/poly fleece","Dyed-to-match flat drawcords","1x1 baby ribbed cuffs"],"sizeChart":{"title":"Women's Crop Hoodie Size Chart","columns":["Finished Measurements","XS","S","M","L","XL","2XL"],"rows":[["Body Length","18 3/4","19 3/4","20","20 5/8","21 1/4","21 7/8"],["Chest Width (Laid Flat)","18 1/2","19 1/2","20 1/2","21 1/2","23","24 1/2"],["Sleeve Length","21 1/2","22","22 1/2","23","23 1/2","24"]]}},"forever_tee":{"description":"The Forever Tee is made for soft everyday comfort with a lightweight broken-in feel that’s perfect for ski days, vacations, road trips, and everyday wear. Made using a premium 4.2 oz tri-blend fabric with your favorite ski-town inspired design.","specs":["4.2 oz tri-blend","50% polyester / 25% combed ring-spun cotton / 25% rayon","Unisex fit"],"sizeChart":{"title":"Forever Tee Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["XS","16.5&quot;","27&quot;"],["S","18&quot;","28&quot;"],["M","19.5&quot;","29&quot;"],["L","21&quot;","30&quot;"],["XL","22.5&quot;","31&quot;"],["2XL","24&quot;","32&quot;"],["3XL","25.5&quot;","33&quot;"]]}},"mens_tank":{"description":"Built for spring ski days, gym sessions, mountain hikes, and warm weather, the Men’s Tank has a lightweight soft feel with a relaxed athletic fit. Perfect for warm spring days while still repping your favorite ski town design.","specs":["4.3 oz jersey","60% combed ring-spun cotton / 40% polyester"],"sizeChart":{"title":"Men’s Tank Top Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["XS","16.25&quot;","26.5&quot;"],["S","18.25&quot;","27.5&quot;"],["M","20.25&quot;","28.5&quot;"],["L","22.25&quot;","29.5&quot;"],["XL","24.25&quot;","30.5&quot;"],["2XL","26.25&quot;","31.5&quot;"]]}},"womens_full_tank":{"description":"Lightweight, relaxed, and easy to wear, the Women’s Full Tank is made for sunny bluebird days, village strolls, hikes, and everyday comfort. Made with a soft 4.2 oz Airlume blend and your favorite ski-town inspired design.","specs":["4.2 oz Airlume blend","52% Airlume combed and ring-spun cotton / 48% polyester","Relaxed women’s racerback fit"],"sizeChart":{"title":"Women’s Full Tank Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["XS","14&quot;","26&quot;"],["S","15&quot;","27&quot;"],["M","16&quot;","28&quot;"],["L","17&quot;","29&quot;"],["XL","18&quot;","30&quot;"],["2XL","19&quot;","31&quot;"]]}},"forever_hoodie":{"description":"The Forever Hoodie is made for soft everyday comfort with a warm midweight feel that’s perfect for cold mountain nights, chairlift rides, fire pits, and everyday wear. Made using a 7.4 oz cotton/polyester fleece with your favorite ski-town inspired design.","specs":["7.4 oz fleece","60% cotton / 40% polyester","Unisex fit"],"sizeChart":{"title":"Forever Hoodie Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["XS","19.5&quot;","27&quot;"],["S","20.5&quot;","28&quot;"],["M","21.5&quot;","29&quot;"],["L","22.5&quot;","30&quot;"],["XL","23.5&quot;","31&quot;"],["2XL","24.5&quot;","32&quot;"],["3XL","25.5&quot;","33&quot;"]]}},"womens_half_tank":{"description":"Lightweight and relaxed for spring ski days, village strolls, gym sessions, and everyday comfort, the Women's Half Tank has a soft Airlume feel with a cropped modern fit and your favorite ski-town inspired design.","specs":["4.2 oz Airlume blend","52% Airlume combed and ring-spun cotton / 48% polyester","Relaxed cropped fit","Raw edge armholes"],"sizeChart":{"title":"Women's Half Tank Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["S","18 3/8&quot;","20 3/8&quot;"],["M","19 7/8&quot;","21&quot;"],["L","21 7/8&quot;","21 5/8&quot;"],["XL","23 7/8&quot;","22 1/4&quot;"],["2XL","25 7/8&quot;","22 7/8&quot;"]]}},"beach_blanket":{"description":"The Lodge Blanket is made for soft comfort in the lodge, by the fire, on the couch, or anywhere you want to bring your happy place with you. This 50&quot; x 60&quot; blanket has a soft heather finish and your favorite ski-town inspired design.","specs":["8 oz fabric weight","52/48 ring-spun cotton/poly blend","Soft heather finish","One size","50&quot; x 60&quot;"],"sizeChart":{"title":"Lodge Blanket Size","columns":["Size","Measurements"],"rows":[["One Size","50&quot; x 60&quot;"]]}},"pajama_pants":{"description":"The Pajama Pants are made for cozy ski-lodge comfort with a soft double-brushed flannel feel that’s perfect for lazy mornings, cool nights, vacations, and everyday lounging. Made using a 4.3 oz 100% cotton flannel with your favorite ski-town inspired design.","specs":["4.3 oz flannel","100% double-brushed cotton flannel","Regular fit","Elastic waistband with inner drawcord","Side seam pockets"],"sizeChart":{"title":"Pajama Pants Size Chart","columns":["Size","Waist Relaxed","Front Rise","Back Rise","Inseam"],"rows":[["S","30&quot;","13.75&quot;","16.5&quot;","29.25&quot;"],["M","31&quot;","14.25&quot;","17&quot;","29.75&quot;"],["L","33&quot;","14.75&quot;","17.5&quot;","30.25&quot;"],["XL","36&quot;","15.25&quot;","18&quot;","30.75&quot;"],["2XL","38&quot;","15.75&quot;","18.5&quot;","31.25&quot;"],["3XL","40&quot;","16.25&quot;","19&quot;","31.75&quot;"]]}},"zip_up":{"description":"The Zip Up is made for soft mountain-town comfort with a full-zip layer that works for cold mornings, chilly nights, chairlift rides, village strolls, and everyday wear. It has a soft Airlume cotton/poly feel, white drawcord and zipper tape, and your favorite ski-town inspired design printed in house.","specs":["8 oz fabric weight","52/48 Airlume combed and ring-spun cotton/poly","Unisex sizing","ZIPPERS AND DRAWSTRINGS ARE WHITE","White drawcord and zipper tape","Metal zipper","Split pouch pocket","Ribbed cuffs and waistband"],"sizeChart":{"title":"Zip Up Hoodie Size Chart","columns":["Size","Body Width","Body Length"],"rows":[["XS","18.5&quot;","25.75&quot;"],["S","19.5&quot;","26.375&quot;"],["M","20.5&quot;","27&quot;"],["L","21.5&quot;","27.625&quot;"],["XL","22.5&quot;","28.25&quot;"],["2XL","23.5&quot;","28.875&quot;"],["3XL","24.5&quot;","29.5&quot;"]]}}};
+const PLACEMENT_CFG = {"forever_tee":{"front":{"top":"28.5%","circle":"33.15%"},"back":{"top":"24.5%","circle":"33.15%"}},"womens_crop_hoodie":{"front":{"top":"28.00%","circle":"32.00%"},"back":{"top":"35.20%","circle":"32.00%"}},"zip_up":{"back":{"top":"32.65%","circle":"37.36%"}},"mens_tank":{"front":{"top":"33%","circle":"35.43%"},"back":{"top":"33%","circle":"35.43%"}},"everyday_light_hoodie":{"front":{"top":"28.55%","circle":"32.49%"},"back":{"top":"32.65%","circle":"32.49%"}},"forever_hoodie":{"front":{"top":"30.00%","circle":"35.42%"},"back":{"top":"33%","circle":"35.42%"}},"womens_full_tank":{"front":{"top":"38%","circle":"30.14%"},"back":{"top":"36.05%","circle":"30.14%"}},"womens_half_tank":{"front":{"top":"32.00%","circle":"38.53%"},"back":{"top":"32.00%","circle":"38.53%"}},"beach_blanket":{"front":{"top":"57%","circle":"24%"},"back":{"top":"57%","circle":"24%"}},"pajama_pants":{"front":{"top":"50%","circle":"20%"},"back":{"top":"50%","circle":"20%"}}};
+
+const DESIGN_NAMES = {
+  '1':"Racing Skier",
+  '2':"Downhill Skier",
+  '3':"Snowboarder",
+  '4':"Snowboard Flip",
+  '5':"Snowmobile Ride",
+  '6':"Ski Tour",
+  '7':"Snowshoe Trek",
+  '8':"Chairlift Chairs",
+  '9':"Groomed Trail",
+  '10':"Smoky Cabin",
+  '11':"Cabin Smoke",
+  '12':"Two-Horse Sleigh",
+  '13':"Dog Sled",
+  '14':"Alpine Village",
+  '15':"Marshmallow Roast",
+  '16':"Camp Cooking",
+  '17':"Sled Ride",
+  '18':"Frozen Waterfall",
+  '19':"Lake Sunset",
+  '20':"Alpine Lake",
+  '21':"Winter River",
+  '22':"Hot Spring",
+  '23':"Mountain Peaks",
+  '24':"Above the Clouds",
+  '25':"Mountain Elk",
+  '26':"Snowy Heron",
+  '27':"Arctic Fox",
+  '28':"Snow Bunny",
+  '29':"Ski Jumper",
+  '30':"Snowcat",
+  '31':"Skis in the Snow",
+  '32':"Cross-Country Skiers",
+  '33':"Snow Leopard",
+  '34':"Ice Climber",
+  '35':"Racing Skier (Women's)",
+  '36':"Downhill Skier (Women's)",
+  '37':"Snowboarder (Women's)",
+  '38':"Snowmobile Ride (Women's)",
+  '39':"Ski Tour (Women's)",
+  '40':"Snowshoe Trek (Women's)",
+  '41':"Ski Jumper (Women's)",
+  '42':"Ice Climber (Women's)"
+};
+function getDesignName(num) {
+  return DESIGN_NAMES[String(num)] || `Design ${num}`;
+}
+
+const SELECTION_KEY = 'slopeshirts_selection';
+function loadSavedSelection() {
+  try { return JSON.parse(localStorage.getItem(SELECTION_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveSelectionState() {
+  try {
+    localStorage.setItem(SELECTION_KEY, JSON.stringify({
+      town: currentTown,
+      design: currentDesign,
+      designName: getDesignName(currentDesign),
+      color: currentDesignColor,
+      product: currentProduct,
+      apparelColor: currentApparelColor,
+      size: currentSize,
+      placement: currentPlacement,
+      viewSide: currentViewSide
+    }));
+  } catch(e) {}
+}
+const params = new URLSearchParams(window.location.search);
+const savedSelection = loadSavedSelection();
+let currentTown = params.get('town') || savedSelection.town || 'Vail';
+let currentDesign = params.get('design') || savedSelection.design || '1';
+let currentDesignColor = params.get('color') || params.get('designColor') || savedSelection.color || '#1a1a1a';
+let requestedProduct = params.get('product') || savedSelection.product || 'forever_tee';
+let currentProduct = PRODUCTS[requestedProduct] ? requestedProduct : 'forever_tee';
+let requestedApparelColor = params.get('apparelColor') || params.get('productColor') || (currentProduct === 'forever_tee' ? null : (savedSelection.apparelColor || savedSelection.productColor));
+let currentApparelColor = (requestedApparelColor && PRODUCTS[currentProduct].colors[requestedApparelColor]) ? requestedApparelColor : PRODUCTS[currentProduct].defaultColor;
+let currentPlacement = params.get('placement') || savedSelection.placement || (PRODUCTS[currentProduct].placement === 'back' ? 'back' : 'front');
+if (PRODUCTS[currentProduct].placement !== 'both' && currentPlacement !== PRODUCTS[currentProduct].placement) currentPlacement = PRODUCTS[currentProduct].placement === 'back' ? 'back' : 'front';
+let currentViewSide = params.get('viewSide') || PRODUCTS[currentProduct].defaultView || 'front';
+if (!PLACEMENT_CFG[currentProduct] || !PLACEMENT_CFG[currentProduct][currentViewSide]) currentViewSide = 'front';
+let requestedSize = params.get('size') || (currentProduct === 'forever_tee' ? null : savedSelection.size);
+let currentSize = (requestedSize && PRODUCTS[currentProduct].sizes.includes(requestedSize)) ? requestedSize : (PRODUCTS[currentProduct].defaultSize || PRODUCTS[currentProduct].sizes[2] || PRODUCTS[currentProduct].sizes[0]);
+
+const el = {
+  heroTitle: document.getElementById('heroTitle'),
+  summary: document.getElementById('selectionSummary'),
+  previewStage: document.getElementById('previewStage'),
+  garment: document.getElementById('garmentImage'),
+  garmentColorLayer: document.getElementById('garmentColorLayer'),
+  designOverlay: document.getElementById('designOverlay'),
+  designTown: document.getElementById('designTown'),
+  designGroup: document.getElementById('designGroup'),
+  productName: document.getElementById('productName'),
+  placementReadout: document.getElementById('placementReadout'),
+  designNameBadge: document.getElementById('designNameBadge'),
+  zipInfoBadge: document.getElementById('zipInfoBadge'),
+  productPills: document.getElementById('productPills'),
+  productDescriptionText: document.getElementById('productDescriptionText'),
+  productSpecs: document.getElementById('productSpecs'),
+  sizeChartLink: document.getElementById('sizeChartLink'),
+  sizeChartModal: document.getElementById('sizeChartModal'),
+  sizeChartModalBody: document.getElementById('sizeChartModalBody'),
+  sizeChartModalTitle: document.getElementById('sizeChartModalTitle'),
+  sizeChartClose: document.getElementById('sizeChartClose'),
+  apparelSwatches: document.getElementById('apparelSwatches'),
+  apparelColorHelp: document.getElementById('apparelColorHelp'),
+  designColorSwatches: document.getElementById('designColorSwatches'),
+  designColorHelp: document.getElementById('designColorHelp'),
+  sizeButtons: document.getElementById('sizeButtons'),
+  placementButtons: document.getElementById('placementButtons'),
+  placementHelp: document.getElementById('placementHelp'),
+  continueBtn: document.getElementById('continueBtn'),
+  changeDesignBtn: document.getElementById('changeDesignBtn'),
+  productPrice: document.getElementById('productPrice'),
+  cartLinkBtn: document.getElementById('cartLinkBtn'),
+  cartCount: document.getElementById('cartCount'),
+  goCartBtn: document.getElementById('goCartBtn'),
+  priceHelp: document.getElementById('priceHelp'),
+  addedNote: document.getElementById('addedNote')
+};
+
+if (el.garment) {
+  el.garment.addEventListener('load', () => queuePreviewFit());
+}
+window.addEventListener('pageshow', () => {
+  const latest = loadSavedSelection();
+  if (latest.town) currentTown = titleCase(String(latest.town).replace(/\+/g, ' '));
+  if (latest.design) currentDesign = String(latest.design);
+  if (latest.color) currentDesignColor = latest.color;
+  renderAll();
+});
+window.addEventListener('resize', () => queuePreviewFit());
+
+function hexToRgb(hex) {
+  const clean = hex.replace('#','');
+  const num = parseInt(clean, 16);
+  return { r:(num>>16)&255, g:(num>>8)&255, b:num&255 };
+}
+function setDesignTint(hex) {
+  const c = hexToRgb(hex);
+  document.getElementById('design-tint-matrix').setAttribute('values',
+   `0 0 0 0 ${c.r/255}  0 0 0 0 ${c.g/255}  0 0 0 0 ${c.b/255}  0 0 0 1 0`);
+}
+function townFontSize(text) {
+  const len = (text || '').length;
+  const mobile = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
+  if (mobile) {
+    // Start conservative on mobile; final fitting happens in fitTownTextToPreview().
+    if (len <= 8) return '34px';
+    if (len <= 12) return '28px';
+    if (len <= 16) return '22px';
+    if (len <= 20) return '18px';
+    return '15px';
+  }
+  if (len <= 8) return '56px';
+  if (len <= 12) return '48px';
+  if (len <= 16) return '40px';
+  if (len <= 20) return '34px';
+  return '30px';
+}
+function fitTownTextToPreview() {
+  if (!el || !el.designTown || !el.designGroup || !el.previewStage) return;
+  if (currentProduct === 'beach_blanket' || currentProduct === 'pajama_pants') return;
+  const groupRect = el.designGroup.getBoundingClientRect();
+  const stageRect = el.previewStage.getBoundingClientRect();
+  if (!groupRect.width || !stageRect.width) return;
+  const mobile = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
+
+  // The town must sit below the circle and fit inside the safe print area.
+  // On mobile we use the circle width as the boundary and shrink aggressively until full text shows.
+  const maxWidth = groupRect.width * (mobile ? 0.97 : 1.16);
+  let size = parseFloat(el.designTown.style.fontSize) || (mobile ? 24 : 34);
+  const minSize = mobile ? 10 : 18;
+
+  el.designTown.style.maxWidth = maxWidth + 'px';
+  el.designTown.style.overflow = 'visible';
+  el.designTown.style.whiteSpace = 'nowrap';
+  el.designTown.style.display = 'block';
+
+  let guard = 0;
+  while (el.designTown.scrollWidth > maxWidth && size > minSize && guard < 40) {
+    size -= mobile ? 1 : 1.5;
+    el.designTown.style.fontSize = size + 'px';
+    guard++;
+  }
+
+  // Last safety pass: if a very long town still risks exceeding the print zone, compress a little.
+  if (mobile && el.designTown.scrollWidth > maxWidth) {
+    const scale = Math.max(0.64, maxWidth / Math.max(el.designTown.scrollWidth, 1));
+    el.designTown.style.transform = `scaleX(${scale})`;
+    el.designTown.style.transformOrigin = 'center center';
+  } else {
+    el.designTown.style.transform = '';
+    el.designTown.style.transformOrigin = '';
+  el.designTown.style.fontWeight = '';
+  }
+}
+function queuePreviewFit() {
+  requestAnimationFrame(() => {
+    fitTownTextToPreview();
+    requestAnimationFrame(fitTownTextToPreview);
+  });
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => requestAnimationFrame(fitTownTextToPreview));
+  }
+}
+function titleCase(s) {
+  return s.replace(/\s+/g,' ').trim().split(' ').map(w => w ? w[0].toUpperCase()+w.slice(1).toLowerCase() : '').join(' ');
+}
+currentTown = titleCase(currentTown.replace(/\+/g, ' '));
+
+function sizeChartHtml(info) {
+  if (!info || !info.sizeChart) return '';
+  return `<div class="size-chart-wrap"><table class="size-chart"><thead><tr>${info.sizeChart.columns.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${info.sizeChart.rows.map(r => `<tr>${r.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table><p class="size-chart-note">Measurements are approximate. Body width is measured flat across the chest.</p></div>`;
+}
+function renderProductDescription() {
+  const info = PRODUCT_DESCRIPTIONS[currentProduct];
+  if (!el.productDescriptionText || !el.productSpecs) return;
+  if (!info) {
+    el.productDescriptionText.textContent = 'Product details coming soon.';
+    el.productSpecs.innerHTML = '';
+    if (el.sizeChartLink) el.sizeChartLink.style.display = 'none';
+    return;
+  }
+  el.productDescriptionText.textContent = info.description;
+  let html = (info.specs || []).map(s => `<span>${s}</span>`).join('');
+  el.productSpecs.innerHTML = html;
+  if (el.sizeChartLink) {
+    el.sizeChartLink.style.display = info.sizeChart ? 'inline-block' : 'none';
+    el.sizeChartLink.textContent = 'View Size Chart';
+  }
+}
+function openSizeChart() {
+  const info = PRODUCT_DESCRIPTIONS[currentProduct];
+  if (!info || !info.sizeChart || !el.sizeChartModal) return;
+  el.sizeChartModalTitle.textContent = info.sizeChart.title;
+  el.sizeChartModalBody.innerHTML = sizeChartHtml(info);
+  el.sizeChartModal.classList.add('open');
+  el.sizeChartModal.setAttribute('aria-hidden','false');
+}
+function closeSizeChart() {
+  if (!el.sizeChartModal) return;
+  el.sizeChartModal.classList.remove('open');
+  el.sizeChartModal.setAttribute('aria-hidden','true');
+}
+if (el.sizeChartLink) el.sizeChartLink.addEventListener('click', openSizeChart);
+if (el.sizeChartClose) el.sizeChartClose.addEventListener('click', closeSizeChart);
+if (el.sizeChartModal) el.sizeChartModal.addEventListener('click', (e) => { if (e.target === el.sizeChartModal) closeSizeChart(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSizeChart(); });
+
+function renderProducts() {
+  el.productPills.innerHTML = '';
+  Object.entries(PRODUCTS).forEach(([id, p]) => {
+    const b = document.createElement('button');
+    b.className = 'pill' + (id===currentProduct ? ' active' : '');
+    b.textContent = p.label;
+    b.onclick = () => {
+      currentProduct = id;
+      currentApparelColor = PRODUCTS[id].defaultColor;
+      currentPlacement = PRODUCTS[id].placement === 'back' ? 'back' : 'front';
+      currentViewSide = PRODUCTS[id].defaultView || 'front';
+      currentSize = PRODUCTS[id].defaultSize || PRODUCTS[id].sizes[0];
+      renderAll();
+    };
+    el.productPills.appendChild(b);
+  });
+}
+
+function renderApparelColors() {
+  el.apparelSwatches.innerHTML = '';
+  el.apparelSwatches.className = 'swatches apparel-grid-' + currentProduct;
+  const conf = PRODUCTS[currentProduct];
+  Object.keys(conf.colors).forEach(colorName => {
+    const btn = document.createElement('button');
+    btn.className = 'swatch' + (colorName===currentApparelColor ? ' active' : '');
+    if (currentProduct === 'forever_tee' || currentProduct === 'mens_tank' || currentProduct === 'forever_hoodie') btn.classList.add('forever-swatch');
+    const swatchImg = (APPAREL_SWATCH_IMAGES[currentProduct] && APPAREL_SWATCH_IMAGES[currentProduct][colorName]) ? APPAREL_SWATCH_IMAGES[currentProduct][colorName] : null;
+    const swatch = APPAREL_SWATCH_HEX[colorName] || '#ddd';
+    const swatchStyle = swatchImg ? `background-image:url('${swatchImg}');` : `background:${swatch};`;
+    btn.innerHTML = `<span class="swatch-color" style="${swatchStyle}"></span><span class="swatch-label">${colorName}</span>`;
+    btn.onclick = () => { currentApparelColor = colorName; renderAll(); };
+    el.apparelSwatches.appendChild(btn);
+  });
+  el.apparelColorHelp.textContent = currentApparelColor;
+}
+
+function renderDesignColors() {
+  el.designColorSwatches.innerHTML = '';
+  const selected = DESIGN_COLORS.find(c => c.hex.toLowerCase()===currentDesignColor.toLowerCase());
+  DESIGN_COLORS.forEach(dc => {
+    const btn = document.createElement('button');
+    btn.className = 'swatch' + (dc.hex.toLowerCase()===currentDesignColor.toLowerCase() ? ' active' : '');
+    btn.innerHTML = `<span class="swatch-color" style="background:${dc.hex};"></span>${dc.name}`;
+    btn.onclick = () => { currentDesignColor = dc.hex; renderAll(); };
+    el.designColorSwatches.appendChild(btn);
+  });
+  el.designColorHelp.textContent = selected ? selected.name : currentDesignColor;
+}
+
+function renderSizes() {
+  el.sizeButtons.innerHTML = '';
+  PRODUCTS[currentProduct].sizes.forEach(size => {
+    const btn = document.createElement('button');
+    btn.className = 'size-btn' + (size===currentSize ? ' active' : '');
+    btn.textContent = size;
+    btn.onclick = () => { currentSize = size; renderAll(); };
+    el.sizeButtons.appendChild(btn);
+  });
+}
+
+function renderPlacement() {
+  el.placementButtons.innerHTML = '';
+  const rule = PRODUCTS[currentProduct].placement;
+
+  if (currentProduct === 'beach_blanket') {
+    el.placementButtons.innerHTML = '<div class="fixed-placement">Front Corner</div><div class="fixed-placement-note">(Fixed placement for blankets)</div>';
+  } else {
+    ((currentProduct === 'pajama_pants') ? ['front'] : ['front','back']).forEach(side => {
+      const btn = document.createElement('button');
+      btn.className = 'placement-btn' + (side===currentViewSide ? ' active' : '');
+      btn.textContent = side[0].toUpperCase()+side.slice(1);
+      btn.onclick = () => { currentViewSide = side; renderAll(); };
+      el.placementButtons.appendChild(btn);
+    });
+  }
+
+  if (rule === 'front') {
+    currentPlacement = 'front';
+    if (currentProduct === 'beach_blanket') {
+      currentViewSide = 'front';
+      el.placementHelp.classList.add('blanket-note');
+      el.placementHelp.innerHTML = `Preview text says “Your Happy Place.” Your finished blanket will be printed with your selected town: <span class="selected-town">${currentTown}</span>.`;
+    } else {
+      el.placementHelp.classList.remove('blanket-note');
+      el.placementHelp.textContent = currentProduct === 'pajama_pants'
+        ? 'Town name prints on the front pant leg.'
+        : 'Design is front only. Use the buttons to view the front or back of the garment.';
+    }
+  } else if (rule === 'back') {
+    currentPlacement = 'back';
+    el.placementHelp.classList.remove('blanket-note');
+    el.placementHelp.textContent = currentProduct === 'zip_up'
+      ? 'Design is back only. All zippers and drawstrings are white. Use the buttons to view the front or back.'
+      : 'Design is back only. Use the buttons to view the front or back of the garment.';
+  } else {
+    currentPlacement = currentViewSide;
+    if (currentProduct === 'beach_blanket') {
+      el.placementHelp.classList.add('blanket-note');
+      el.placementHelp.innerHTML = `Preview text says “Your Happy Place.” Your finished blanket will be printed with your selected town: <span class="selected-town">${currentTown}</span>.`;
+    } else {
+      el.placementHelp.classList.remove('blanket-note');
+      el.placementHelp.textContent = 'Choose one side only.';
+    }
+  }
+}
+
+function renderPreview() {
+  const product = PRODUCTS[currentProduct];
+  const sideToShow = currentViewSide || currentPlacement;
+  el.previewStage.className = 'preview-stage product-' + currentProduct;
+  const imgSrc = IMAGES[currentProduct][currentApparelColor][sideToShow];
+  el.garment.src = imgSrc;
+  el.garment.alt = product.label + ' ' + sideToShow + ' in ' + currentApparelColor;
+  el.productName.textContent = product.label;
+  if (el.productPrice) el.productPrice.textContent = formatMoney(PRODUCT_PRICES[currentProduct]);
+  el.placementReadout.textContent = sideToShow[0].toUpperCase()+sideToShow.slice(1) + ' · ' + currentSize;
+
+  el.designOverlay.src = `Designs/${currentDesign}.png`;
+  const blanketSampleTown = 'Your Happy Place';
+  const displayTown = currentProduct === 'beach_blanket' ? blanketSampleTown : currentTown;
+  el.designTown.textContent = displayTown;
+
+  // Reset any inline style overrides from product-specific previews.
+  // Pajama pants uses a different font/outline; without this reset it leaks into shirts/hoodies/tanks.
+  el.designTown.style.fontFamily = '';
+  el.designTown.style.fontSize = '';
+  el.designTown.style.color = '';
+  el.designTown.style.margin = '';
+  el.designTown.style.lineHeight = '';
+  el.designTown.style.whiteSpace = '';
+  el.designTown.style.textAlign = '';
+  el.designTown.style.letterSpacing = '';
+  el.designTown.style.webkitTextStroke = '';
+  el.designTown.style.textShadow = '';
+  el.designTown.style.paintOrder = '';
+  el.designTown.style.maxWidth = '';
+  el.designTown.style.overflow = '';
+  el.designTown.style.transform = '';
+  el.designTown.style.transformOrigin = '';
+  el.designTown.style.fontWeight = '';
+
+  if (currentProduct === 'beach_blanket') {
+    el.designTown.style.fontSize = 'clamp(12px, 1.55vw, 21px)';
+    el.designTown.style.marginTop = '4px';
+    el.designTown.style.transform = 'translateY(6%)';
+    el.designTown.style.color = currentDesignColor;
+  } else if (currentProduct === 'pajama_pants') {
+    const townLen = currentTown.length;
+    const mobilePajama = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
+    if (mobilePajama) {
+      // Keep pajama lettering compact so long towns do not run down the pant leg.
+      el.designTown.style.fontSize = townLen <= 8 ? '18px' : townLen <= 14 ? '15.5px' : townLen <= 20 ? '13px' : '11.5px';
+    } else {
+      el.designTown.style.fontSize = townLen <= 8 ? '34px' : townLen <= 14 ? '28px' : townLen <= 20 ? '23px' : '20px';
+    }
+    el.designTown.style.fontFamily = "'Magnolia Script','Skyo','Brush Script MT',cursive";
+    el.designTown.style.fontWeight = '900';
+    el.designTown.style.color = currentDesignColor;
+    el.designTown.style.webkitTextStroke = '0';
+    el.designTown.style.textShadow = 'none';
+    el.designTown.style.paintOrder = 'normal';
+  } else {
+    el.designTown.style.fontSize = townFontSize(currentTown);
+    el.designTown.style.color = currentDesignColor;
+    if (currentProduct === 'womens_crop_hoodie') {
+      el.designTown.style.marginTop = '-22px';
+    }
+  }
+  setDesignTint(currentDesignColor);
+  el.garmentColorLayer.style.display='none';
+
+  const cfg = PLACEMENT_CFG[currentProduct][sideToShow] || PLACEMENT_CFG[currentProduct].front || PLACEMENT_CFG[currentProduct].back;
+  let designTop = cfg.top;
+  if (currentProduct === 'forever_hoodie' && sideToShow === 'front') {
+    if (['Cranberry','Evergreen'].includes(currentApparelColor)) {
+      designTop = '24.75%';
+    } else if (currentApparelColor === 'Storm Front') {
+      designTop = '27.25%';
+    }
+  }
+  if (currentProduct === 'everyday_light_hoodie' && sideToShow === 'back' && currentApparelColor === 'Glacier Blue') {
+    designTop = '34.25%';
+  }
+  el.designGroup.style.top = designTop;
+  el.designGroup.style.width = cfg.circle;
+
+  const rule = product.placement;
+  const shouldShowDesign = (rule === 'both' || rule === sideToShow);
+  el.designGroup.style.display = shouldShowDesign ? 'flex' : 'none';
+  queuePreviewFit();
+  saveSelectionState();
+
+  if (currentProduct === 'beach_blanket') {
+    el.placementHelp.classList.add('blanket-note');
+      el.placementHelp.innerHTML = `Preview text says “Your Happy Place.” Your finished blanket will be printed with your selected town: <span class="selected-town">${currentTown}</span>.`;
+  }
+  const summaryDesignColor = (DESIGN_COLORS.find(c => c.hex.toLowerCase()===currentDesignColor.toLowerCase())||{name:currentDesignColor}).name;
+  el.designNameBadge.textContent = `Design: ${getDesignName(currentDesign)}`;
+  if (el.zipInfoBadge) { el.zipInfoBadge.hidden = currentProduct !== 'zip_up'; }
+  el.summary.textContent = '';
+}
+
+function renderAll() {
+  renderProducts();
+  renderProductDescription();
+  renderApparelColors();
+  renderDesignColors();
+  renderSizes();
+  renderPlacement();
+  renderPreview();
+}
+
+
+
+function getCart(){
+  try { return JSON.parse(localStorage.getItem('slopeshirts_cart') || '[]'); }
+  catch(e){ return []; }
+}
+function saveCart(cart){
+  localStorage.setItem('slopeshirts_cart', JSON.stringify(cart));
+  updateCartCount();
+}
+function updateCartCount(){
+  const total = getCart().reduce((sum, item) => sum + (Number(item.qty) || 1), 0);
+  if (el.cartCount) el.cartCount.textContent = total;
+}
+function addCurrentItemToCart(){
+  const product = PRODUCTS[currentProduct];
+  const designColorName = (DESIGN_COLORS.find(c => c.hex.toLowerCase()===currentDesignColor.toLowerCase())||{name:currentDesignColor}).name;
+  const item = {
+    productId: currentProduct,
+    product: product.label,
+    town: currentTown,
+    design: currentDesign,
+    designFile: currentDesign + '.png',
+    designColor: currentDesignColor,
+    designColorName,
+    designName: getDesignName(currentDesign),
+    apparelColor: currentApparelColor,
+    productColor: currentApparelColor,
+    manufacturerColor: product.manufacturerColors ? product.manufacturerColors[currentApparelColor] : currentApparelColor,
+    size: currentSize,
+    placement: currentProduct === 'beach_blanket' ? 'Front Corner' : currentPlacement,
+    qty: 1,
+    unitPrice: PRODUCT_PRICES[currentProduct]
+  };
+  const cart = getCart();
+  const existing = cart.find(i => i.productId===item.productId && i.town===item.town && i.design===item.design && i.designColor===item.designColor && i.apparelColor===item.apparelColor && i.size===item.size && i.placement===item.placement);
+  if (existing) existing.qty = (Number(existing.qty)||1) + 1;
+  else cart.push(item);
+  saveCart(cart);
+  if (el.addedNote) {
+    el.addedNote.textContent = 'Added to cart.';
+    setTimeout(() => { el.addedNote.textContent = ''; }, 1800);
+  }
+}
+
+if (el.changeDesignBtn) {
+  el.changeDesignBtn.onclick = () => {
+    const q = new URLSearchParams({
+      town: currentTown,
+      design: currentDesign,
+      color: currentDesignColor
+    });
+    window.location.href = 'gallery.html?' + q.toString();
+  };
+}
+
+el.continueBtn.onclick = () => {
+  addCurrentItemToCart();
+};
+if (el.cartLinkBtn) {
+  el.cartLinkBtn.onclick = () => { window.location.href = 'order.html'; };
+}
+if (el.goCartBtn) {
+  el.goCartBtn.onclick = () => { window.location.href = 'order.html'; };
+}
+updateCartCount();
+renderAll();
+</script>
+</body>
+</html>
+<!-- v156 mobile-only apparel swatch formatting fixes: desktop unchanged. -->
+<style>
+@media (max-width: 760px) {
+  /* Keep mobile apparel buttons compact and prevent label clipping/overlap. */
+  #apparelSwatches.swatches,
+  #apparelSwatches.apparel-grid-forever_hoodie,
+  #apparelSwatches.apparel-grid-everyday_light_hoodie,
+  #apparelSwatches.apparel-grid-womens_crop_hoodie,
+  #apparelSwatches.apparel-grid-zip_up,
+  #apparelSwatches.apparel-grid-mens_tank,
+  #apparelSwatches.apparel-grid-womens_full_tank,
+  #apparelSwatches.apparel-grid-womens_half_tank,
+  #apparelSwatches.apparel-grid-beach_blanket,
+  #apparelSwatches.apparel-grid-pajama_pants {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 9px !important;
+  }
+
+  #apparelSwatches .swatch,
+  #apparelSwatches.apparel-grid-forever_hoodie .swatch,
+  #apparelSwatches.apparel-grid-everyday_light_hoodie .swatch,
+  #apparelSwatches.apparel-grid-womens_crop_hoodie .swatch,
+  #apparelSwatches.apparel-grid-zip_up .swatch,
+  #apparelSwatches.apparel-grid-mens_tank .swatch,
+  #apparelSwatches.apparel-grid-womens_full_tank .swatch,
+  #apparelSwatches.apparel-grid-womens_half_tank .swatch {
+    min-height: 62px !important;
+    padding: 6px 8px !important;
+    gap: 7px !important;
+    font-size: .76rem !important;
+    line-height: .98 !important;
+    overflow: visible !important;
+    align-items: center !important;
+  }
+
+  #apparelSwatches .swatch-color,
+  #apparelSwatches .swatch.forever-swatch .swatch-color,
+  #apparelSwatches.apparel-grid-forever_hoodie .swatch-color,
+  #apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-color,
+  #apparelSwatches.apparel-grid-womens_crop_hoodie .swatch-color,
+  #apparelSwatches.apparel-grid-zip_up .swatch-color,
+  #apparelSwatches.apparel-grid-mens_tank .swatch-color,
+  #apparelSwatches.apparel-grid-womens_full_tank .swatch-color,
+  #apparelSwatches.apparel-grid-womens_half_tank .swatch-color {
+    width: 42px !important;
+    height: 42px !important;
+    flex: 0 0 42px !important;
+  }
+
+  #apparelSwatches .swatch-label,
+  #apparelSwatches.apparel-grid-forever_hoodie .swatch-label,
+  #apparelSwatches.apparel-grid-everyday_light_hoodie .swatch-label,
+  #apparelSwatches.apparel-grid-womens_crop_hoodie .swatch-label,
+  #apparelSwatches.apparel-grid-zip_up .swatch-label,
+  #apparelSwatches.apparel-grid-mens_tank .swatch-label,
+  #apparelSwatches.apparel-grid-womens_full_tank .swatch-label,
+  #apparelSwatches.apparel-grid-womens_half_tank .swatch-label {
+    max-width: none !important;
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    text-wrap: auto !important;
+  }
+}
+</style>

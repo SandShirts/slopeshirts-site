@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pick your ski town, choose a mountain design, and personalize your Slope Shirts apparel with custom design colors.">
+<link rel="canonical" href="https://www.slopeshirts.com/gallery">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Choose Your Ski Town Design &amp; Color | Slope Shirts">
+<meta property="og:description" content="Pick your ski town, choose a mountain design, and personalize your Slope Shirts apparel with custom design colors.">
+<meta property="og:url" content="https://www.slopeshirts.com/gallery">
+<meta property="og:site_name" content="Slope Shirts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Choose Your Ski Town Design &amp; Color | Slope Shirts">
+<meta name="twitter:description" content="Pick your ski town, choose a mountain design, and personalize your Slope Shirts apparel with custom design colors.">
+
+<title>Choose Your Ski Town Design &amp; Color | Slope Shirts</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: 'Porcelain';
+    src: url('fonts/Porcelain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root {
+    --gold:   #f7c948;
+    --coral:  #E84040;
+    --navy:   #071c2c;
+    --ocean:  #1a7fa0;
+    --sand:   #e9f3fa;
+    --foam:   #e8f4f8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    /* Winter gradient: sky → snow */
+    background:
+      linear-gradient(180deg,
+        #9fd0f0 0%,
+        #6fb3e0 20%,
+        #4a90c8 38%,
+        #b9d8ee 58%,
+        #e9f3fa 78%,
+        #ffffff 100%
+      );
+  }
+
+  /* Decorative sun */
+  body::before {
+    content: '';
+    position: fixed;
+    top: -60px;
+    right: 80px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255,255,255,0.75) 0%, rgba(220,240,255,0.35) 40%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Divider */
+  .wave-divider {
+    position: relative;
+    z-index: 1;
+    height: 0;
+    overflow: visible;
+  }
+
+  /* ── HEADER ──────────────────────────────────────────────────────── */
+  header {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 32px;
+    background: rgba(7,28,44,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid rgba(247,201,72,0.25);
+  }
+  .brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+    color: var(--gold);
+    text-decoration: none;
+    text-shadow: 0 0 20px rgba(247,201,72,0.4);
+  }
+  .back-btn {
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    border: 2px solid rgba(7,28,44,.28);
+    border-radius: 18px;
+    padding: 13px 18px;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-transform: none;
+    cursor: pointer;
+    background: var(--gold);
+    color: var(--navy);
+    box-shadow: 0 10px 20px rgba(7,28,44,.10);
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .back-btn:hover {
+    color: var(--navy);
+    border-color: var(--navy);
+    transform: translateY(-1px);
+  }
+
+  /* ── HERO ────────────────────────────────────────────────────────── */
+  .hero-strip {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 32px 20px 22px;
+  }
+  .step-label {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--navy);
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(7,28,44,0.2);
+    border-radius: 20px;
+    padding: 5px 16px;
+    margin-bottom: 12px;
+  }
+  .hero-strip h1 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+    color: rgba(7,28,44,0.75);
+    margin-bottom: 4px;
+  }
+  .town-name-display {
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(2.6rem, 8vw, 4.5rem);
+    color: var(--navy);
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 0px rgba(255,255,255,0.4), 0 4px 12px rgba(7,28,44,0.25);
+    line-height: 1;
+  }
+  .hero-strip p {
+    margin-top: 8px;
+    font-size: 0.88rem;
+    color: rgba(7,28,44,0.6);
+  }
+
+  /* ── CONTROLS ────────────────────────────────────────────────────── */
+  .controls-bar {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 0 24px 26px;
+  }
+  .controls-panel {
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(7,28,44,0.12);
+  }
+  .controls-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(7,28,44,0.55);
+    white-space: nowrap;
+  }
+  .color-swatches { display: flex; gap: 8px; align-items: center; }
+  .swatch {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: transform 0.15s, border-color 0.15s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  .swatch:hover { transform: scale(1.2); }
+  .swatch.active { border-color: var(--navy); transform: scale(1.2); box-shadow: 0 2px 10px rgba(0,0,0,0.35); }
+
+  .divider { width: 1px; height: 24px; background: rgba(7,28,44,0.15); }
+
+  .change-town-wrap { display: flex; align-items: center; gap: 8px; }
+  .change-town-wrap input {
+    padding: 7px 12px;
+    background: rgba(255,255,255,0.8);
+    border: 1px solid rgba(7,28,44,0.2);
+    border-radius: 8px;
+    color: var(--navy);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    width: 160px;
+    text-transform: uppercase;
+    transition: border-color 0.2s;
+  }
+  .change-town-wrap input:focus { outline: none; border-color: var(--ocean); }
+  .change-town-wrap input::placeholder { color: rgba(7,28,44,0.35); }
+  .change-town-wrap button {
+    padding: 8px 14px;
+    background: var(--navy);
+    color: var(--gold);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .change-town-wrap button:hover { opacity: 0.8; }
+
+  .controls-panel.controls-stack {
+    border-radius: 24px;
+    padding: 16px 18px;
+    align-items: stretch;
+    gap: 14px;
+  }
+  .controls-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 260px;
+  }
+  .controls-subhead {
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(7,28,44,0.55);
+  }
+  .controls-helper {
+    font-size: 0.92rem;
+    color: rgba(7,28,44,0.55);
+    margin-top: -2px;
+  }
+  .controls-inline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .town-select {
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.86);
+    border: 1px solid rgba(7,28,44,0.18);
+    border-radius: 10px;
+    color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 700;
+    min-width: 250px;
+    max-width: 100%;
+  }
+  .custom-town-input {
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.86);
+    border: 1px solid rgba(7,28,44,0.18);
+    border-radius: 10px;
+    color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    min-width: 250px;
+  }
+  .controls-action-btn {
+    padding: 8px 14px;
+    background: var(--navy);
+    color: var(--gold);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .controls-action-btn:hover { opacity: 0.82; }
+  .design-color-panel {
+    border-radius: 24px;
+    padding: 14px 18px;
+    gap: 12px;
+  }
+  .design-color-panel .swatch-label {
+    font-size: 1.22rem;
+    font-weight: 950;
+    color: var(--navy);
+    min-width: 130px;
+    letter-spacing: 0.01em;
+  }
+  .gallery-color-swatches {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .gallery-color-swatches .swatch.selected {
+    border-color: var(--ocean);
+    transform: scale(1.18);
+    box-shadow: 0 0 0 3px rgba(26,127,160,.26), 0 2px 10px rgba(0,0,0,.22);
+  }
+  @media (max-width: 900px) {
+    .controls-group {
+      min-width: 100%;
+    }
+    .controls-inline {
+      width: 100%;
+    }
+    .town-select,
+    .custom-town-input {
+      min-width: 0;
+      width: 100%;
+    }
+  }
+
+  /* ── GALLERY GRID ─────────────────────────────────────────────────── */
+  .gallery-grid {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 0 24px 110px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .design-card {
+    background: rgba(255,255,255,0.82);
+    border: 2px solid rgba(255,255,255,0.9);
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(7,28,44,0.12);
+    backdrop-filter: blur(4px);
+  }
+  .design-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--gold);
+    box-shadow: 0 14px 40px rgba(7,28,44,0.2), 0 0 0 1px rgba(247,201,72,0.5);
+  }
+  .design-card.selected {
+    border-color: var(--coral);
+    box-shadow: 0 0 0 3px var(--coral), 0 14px 40px rgba(232,64,64,0.2);
+  }
+
+  .card-canvas-wrap {
+    width: 100%;
+    padding: 12px 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: transparent;
+  }
+  .card-canvas-wrap canvas {
+    width: 100%;
+    max-width: 236px;
+    height: auto;
+    display: block;
+    margin-bottom: -6px;
+  }
+
+  /* Town label — Porcelain font, tucked tightly under the circle */
+  .card-town-label {
+    font-family: 'Porcelain', 'Pacifico', cursive;
+    font-size: 48px;
+    text-align: center;
+    margin-top: -28px;
+    padding: 0 10px 0;
+    line-height: 0.82;
+    color: #071c2c;
+    letter-spacing: 0;
+    transition: color 0.2s;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .card-design-name {
+    width: calc(100% - 28px);
+    margin: 8px 14px 8px;
+    padding: 7px 10px;
+    border-radius: 999px;
+    background: rgba(7,28,44,0.08);
+    border: 1px solid rgba(7,28,44,0.14);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.82rem;
+    line-height: 1.15;
+    color: var(--navy);
+    font-weight: 900;
+    user-select: none;
+  }
+  .card-design-name .design-label {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: .11em;
+    font-size: .68rem;
+    margin-right: 4px;
+  }
+
+  .design-card, .design-card * {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .design-card canvas { pointer-events: none; }
+
+  .card-footer {
+    width: 100%;
+    padding: 2px 14px 14px;
+  }
+  .select-btn {
+    width: 100%;
+    padding: 10px;
+    background: rgba(7,28,44,0.07);
+    border: 1.5px solid rgba(7,28,44,0.2);
+    border-radius: 8px;
+    color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 0.92rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+  }
+  .select-btn:hover { background: var(--navy); color: var(--gold); border-color: var(--navy); }
+  .design-card.selected .select-btn { background: var(--coral); color: #fff; border-color: var(--coral); }
+
+  /* ── STICKY NEXT ──────────────────────────────────────────────────── */
+  .next-bar {
+    display: none;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 14px 24px 18px;
+    background: linear-gradient(to top, rgba(7,28,44,0.97) 65%, transparent);
+    text-align: center;
+  }
+  .next-bar.visible { display: block; }
+  .next-bar-inner { display: inline-flex; align-items: center; gap: 16px; }
+  .selected-preview {
+    color: rgba(232,244,248,0.7);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .next-bar-btn {
+    display: inline-block;
+    padding: 14px 44px;
+    background: linear-gradient(135deg, var(--gold) 0%, #e6a800 100%);
+    color: var(--navy);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 24px rgba(247,201,72,0.5);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .next-bar-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(247,201,72,0.65); }
+
+  /* ── MODAL ────────────────────────────────────────────────────────── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0; z-index: 200;
+    background: rgba(7,28,44,0.82);
+    backdrop-filter: blur(8px);
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal-box {
+    background: #0d3352;
+    border: 1px solid rgba(247,201,72,0.35);
+    border-radius: 22px;
+    padding: 42px 36px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+    color: var(--foam);
+  }
+  .modal-box .icon { font-size: 2.8rem; margin-bottom: 14px; }
+  .modal-box h2 { font-family: 'Pacifico', cursive; color: var(--gold); font-size: 1.6rem; margin-bottom: 10px; }
+  .modal-box p { color: rgba(232,244,248,0.72); font-size: 0.9rem; line-height: 1.65; margin-bottom: 6px; }
+  .selection-summary {
+    background: rgba(247,201,72,0.08);
+    border: 1px solid rgba(247,201,72,0.2);
+    border-radius: 10px;
+    padding: 14px;
+    margin: 14px 0;
+    font-size: 0.88rem;
+    color: var(--foam);
+    line-height: 1.9;
+    text-align: left;
+  }
+  .modal-close {
+    margin-top: 8px;
+    padding: 11px 28px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    color: var(--foam);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .modal-close:hover { background: rgba(255,255,255,0.16); }
+
+  @media (max-width: 600px) {
+    header { padding: 14px 16px; }
+    .brand { font-size: 1.3rem; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 12px 110px; }
+    .card-canvas-wrap { padding: 8px 8px 0; }
+    .card-town-label { font-size: 34px; margin-top: -10px; padding-bottom: 0; }
+    .card-design-name { font-size:.76rem; margin:6px 12px 8px; padding:6px 8px; }
+    .controls-panel { border-radius: 16px; }
+  }
+
+/* Gallery visual polish requested */
+.brand-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.brand-logo-link img {
+  height: 58px;
+  width: auto;
+  display: block;
+}
+.step-label {
+  color: var(--gold) !important;
+}
+.town-name-display {
+  font-family: 'Porcelain', 'Bebas Neue', cursive !important;
+}
+.hero-strip p {
+  color: #ffffff !important;
+}
+@media (max-width: 700px) {
+  .brand-logo-link img {
+    height: 46px;
+  }
+}
+
+
+/* Gallery heading readability refinement */
+.controls-subhead{
+  font-weight:900 !important;
+  color: var(--gold) !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(247,201,72,.18);
+  letter-spacing:.16em;
+}
+.town-name-display{
+  font-family:'Porcelain','Bebas Neue',cursive !important;
+  font-size: clamp(2.8rem, 8vw, 5rem) !important;
+  font-weight:700 !important;
+  color:#072033 !important;
+  text-shadow: 0 2px 0 rgba(255,255,255,.60), 0 6px 18px rgba(7,28,44,.18);
+  letter-spacing:2px !important;
+}
+.hero-strip p{
+  color: #ffffff !important;
+  font-weight:800 !important;
+  font-size:1rem !important;
+  text-shadow: 0 1px 0 rgba(7,28,44,.22);
+}
+
+
+/* Uploaded header logo + bright instruction line */
+.brand-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.brand-logo-link img {
+  height: 74px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+.hero-strip p {
+  color: #ffffff !important;
+  font-weight: 900 !important;
+  text-shadow: 0 2px 8px rgba(7,28,44,.35);
+}
+@media (max-width: 700px) {
+  .brand-logo-link img { height: 56px; }
+}
+
+
+/* Final logo correction: upright, larger, no header changes */
+.brand-logo-link img{
+  width: 250px !important;
+  height: auto !important;
+  max-width: 250px !important;
+  object-fit: contain !important;
+  display:block;
+}
+@media (max-width:700px){
+  .brand-logo-link img{
+    width:170px !important;
+    max-width:170px !important;
+  }
+}
+
+
+/* Compact header fix only */
+header{
+  min-height: 92px !important;
+  padding: 14px 38px !important;
+  align-items: center !important;
+}
+.brand-logo-link img{
+  width: 210px !important;
+  max-width: 210px !important;
+  height: auto !important;
+}
+@media (max-width:700px){
+  header{
+    min-height: 76px !important;
+    padding: 12px 18px !important;
+  }
+  .brand-logo-link img{
+    width:150px !important;
+    max-width:150px !important;
+  }
+}
+
+
+/* Extra thin header fix only */
+header{
+  min-height: 58px !important;
+  height: 58px !important;
+  padding: 6px 38px !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+.brand-logo-link img{
+  width: 138px !important;
+  max-width: 138px !important;
+  height: auto !important;
+}
+.back-btn{
+  padding: 7px 18px !important;
+  font-size: 0.78rem !important;
+}
+@media (max-width:700px){
+  header{
+    min-height: 54px !important;
+    height: 54px !important;
+    padding: 6px 18px !important;
+  }
+  .brand-logo-link img{
+    width:112px !important;
+    max-width:112px !important;
+  }
+}
+
+
+
+/* Mobile optimization pass v29 */
+@media (max-width: 760px) {
+  body { overflow-x:hidden; }
+  header, .header { padding-left:12px !important; padding-right:12px !important; }
+  .controls-panel, .design-controls, .controls, .gallery-controls { border-radius:18px !important; }
+  .design-grid, .gallery-grid, .cards-grid { grid-template-columns: 1fr !important; gap:14px !important; }
+  .design-card, .card { max-width:100% !important; }
+  .selected-preview { font-size:1.15rem !important; line-height:1.25 !important; }
+  .card-town-label { margin-top:-42px !important; line-height:.82 !important; }
+  button, .btn, .continue-btn, .change-town-btn { min-height:44px; }
+  .bottom-bar, .design-bottom-bar { left:10px !important; right:10px !important; bottom:10px !important; border-radius:18px !important; }
+}
+
+
+
+/* v38 mobile-only: match desktop design-card spacing, scaled for phone. */
+@media (max-width: 760px) {
+  .card-town-label {
+    margin-top: -32px !important;
+    line-height: .84 !important;
+    padding-bottom: 0 !important;
+  }
+  .selected-preview {
+    font-size: 1.05rem !important;
+  }
+}
+
+
+
+/* v112 design-page header polish only: match index-page Choose Your Happy Place style (not Porcelain) */
+.gallery-step-heading{
+  text-align:center;
+  margin: 2px auto 18px;
+}
+.gallery-step-number{
+  color: var(--gold);
+  font-weight: 900;
+  font-size: clamp(1rem, 2.2vw, 1.45rem);
+  letter-spacing: .34em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(7,28,44,.28);
+  margin-bottom: 6px;
+}
+.gallery-step-title{
+  font-family: 'Pacifico', cursive;
+  color: var(--gold);
+  font-weight: 400;
+  font-size: clamp(3.15rem, 7.2vw, 5.75rem);
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: .98;
+  text-shadow: 0 4px 28px rgba(7,28,44,.45);
+}
+.gallery-step-title .gallery-title-accent{
+  color: inherit;
+}
+.design-color-heading{
+  display:block;
+  color: var(--gold) !important;
+  font-size: 1.05rem !important;
+  font-weight: 900 !important;
+  letter-spacing: .16em !important;
+  text-transform: uppercase !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(247,201,72,.18);
+  margin-bottom: 10px;
+}
+@media (max-width: 700px){
+  .gallery-step-number{ font-size: 1rem; letter-spacing: .24em; }
+  .gallery-step-title{ font-size: clamp(2.1rem, 11vw, 3.4rem); letter-spacing: .01em; }
+  .design-color-heading{ font-size: .95rem !important; letter-spacing: .10em !important; }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="brand brand-logo-link"><img src="slopeshirts_logo.png" alt="Slope Shirts"></a>
+  <a href="index.html" class="back-btn">← Change Town</a>
+</header>
+
+<div class="hero-strip">
+  <div class="gallery-step-heading">
+    <div class="gallery-step-number">STEP 2</div>
+    <div class="gallery-step-title">Choose Your <span class="gallery-title-accent">Design &amp; Color</span></div>
+  </div>
+  <h1>Showing all designs for</h1>
+  <div class="town-name-display" id="townDisplay">VAIL</div>
+  <p style="color:#ffffff;">Choose a design · choose your design color · then continue</p>
+</div>
+
+
+<div class="controls-bar">
+  <div class="controls-panel controls-stack">
+    <div class="controls-group">
+      <span class="controls-subhead" style="color:#f7c948;">Your Ski Town</span>
+      <div class="controls-inline">
+        <select id="officialTownSelect" class="town-select">
+<option value="" disabled>Choose your ski town</option>
+<optgroup label="🏔️ Alaska">
+  <option>Anchorage</option>
+  <option>Fairbanks</option>
+  <option>Girdwood</option>
+  <option>Valdez</option>
+</optgroup>
+<optgroup label="🏔️ Arizona">
+  <option>Flagstaff</option>
+</optgroup>
+<optgroup label="🏔️ California">
+  <option>Big Bear Lake</option>
+  <option>June Lake</option>
+  <option>Kirkwood</option>
+  <option>Lake Tahoe</option>
+  <option>Mammoth Lakes</option>
+  <option>Olympic Valley</option>
+  <option>South Lake Tahoe</option>
+  <option>Tahoe City</option>
+  <option>Truckee</option>
+</optgroup>
+<optgroup label="🏔️ Colorado">
+  <option>Aspen</option>
+  <option>Avon</option>
+  <option>Beaver Creek</option>
+  <option>Breckenridge</option>
+  <option>Buena Vista</option>
+  <option>Copper Mountain</option>
+  <option>Crested Butte</option>
+  <option>Dillon</option>
+  <option>Durango</option>
+  <option>Estes Park</option>
+  <option>Frisco</option>
+  <option>Georgetown</option>
+  <option>Glenwood Springs</option>
+  <option>Granby</option>
+  <option>Idaho Springs</option>
+  <option>Keystone</option>
+  <option>Leadville</option>
+  <option>Ouray</option>
+  <option>Pagosa Springs</option>
+  <option>Salida</option>
+  <option>Silverthorne</option>
+  <option>Snowmass Village</option>
+  <option>Steamboat Springs</option>
+  <option>Telluride</option>
+  <option selected>Vail</option>
+  <option>Winter Park</option>
+</optgroup>
+<optgroup label="🏔️ Idaho">
+  <option>Coeur d&#x27;Alene</option>
+  <option>Ketchum</option>
+  <option>McCall</option>
+  <option>Sandpoint</option>
+  <option>Sun Valley</option>
+</optgroup>
+<optgroup label="🏔️ Maine">
+  <option>Bethel</option>
+  <option>Carrabassett Valley</option>
+  <option>Kingfield</option>
+  <option>Rangeley</option>
+</optgroup>
+<optgroup label="🏔️ Massachusetts">
+  <option>Great Barrington</option>
+  <option>Lenox</option>
+  <option>North Adams</option>
+  <option>Stockbridge</option>
+</optgroup>
+<optgroup label="🏔️ Michigan">
+  <option>Boyne City</option>
+  <option>Harbor Springs</option>
+  <option>Ironwood</option>
+  <option>Petoskey</option>
+  <option>Traverse City</option>
+</optgroup>
+<optgroup label="🏔️ Minnesota">
+  <option>Duluth</option>
+  <option>Lutsen</option>
+</optgroup>
+<optgroup label="🏔️ Montana">
+  <option>Big Sky</option>
+  <option>Bozeman</option>
+  <option>Missoula</option>
+  <option>Red Lodge</option>
+  <option>Whitefish</option>
+</optgroup>
+<optgroup label="🏔️ Nevada">
+  <option>Incline Village</option>
+  <option>Stateline</option>
+</optgroup>
+<optgroup label="🏔️ New Hampshire">
+  <option>Bartlett</option>
+  <option>Bretton Woods</option>
+  <option>Franconia</option>
+  <option>Jackson</option>
+  <option>Lincoln</option>
+  <option>North Conway</option>
+  <option>Waterville Valley</option>
+</optgroup>
+<optgroup label="🏔️ New Jersey">
+  <option>Vernon</option>
+</optgroup>
+<optgroup label="🏔️ New Mexico">
+  <option>Angel Fire</option>
+  <option>Red River</option>
+  <option>Ruidoso</option>
+  <option>Santa Fe</option>
+  <option>Taos</option>
+  <option>Taos Ski Valley</option>
+</optgroup>
+<optgroup label="🏔️ New York">
+  <option>Ellicottville</option>
+  <option>Hunter</option>
+  <option>Lake George</option>
+  <option>Lake Placid</option>
+  <option>North Creek</option>
+  <option>Saranac Lake</option>
+  <option>Windham</option>
+</optgroup>
+<optgroup label="🏔️ North Carolina">
+  <option>Banner Elk</option>
+  <option>Beech Mountain</option>
+  <option>Blowing Rock</option>
+  <option>Boone</option>
+</optgroup>
+<optgroup label="🏔️ Oregon">
+  <option>Bend</option>
+  <option>Government Camp</option>
+  <option>Mount Hood</option>
+  <option>Sisters</option>
+</optgroup>
+<optgroup label="🏔️ Pennsylvania">
+  <option>Champion</option>
+  <option>Jim Thorpe</option>
+  <option>Lake Harmony</option>
+  <option>Palmerton</option>
+  <option>Poconos</option>
+  <option>Shawnee on Delaware</option>
+  <option>Tannersville</option>
+</optgroup>
+<optgroup label="🏔️ Utah">
+  <option>Alta</option>
+  <option>Brighton</option>
+  <option>Deer Valley</option>
+  <option>Eden</option>
+  <option>Heber City</option>
+  <option>Midway</option>
+  <option>Ogden</option>
+  <option>Park City</option>
+  <option>Snowbird</option>
+  <option>Solitude</option>
+  <option>Sundance</option>
+</optgroup>
+<optgroup label="🏔️ Vermont">
+  <option>Burlington</option>
+  <option>Jay</option>
+  <option>Killington</option>
+  <option>Ludlow</option>
+  <option>Manchester</option>
+  <option>Stowe</option>
+  <option>Stratton</option>
+  <option>Waitsfield</option>
+  <option>Warren</option>
+  <option>West Dover</option>
+  <option>Woodstock</option>
+</optgroup>
+<optgroup label="🏔️ Virginia">
+  <option>Wintergreen</option>
+</optgroup>
+<optgroup label="🏔️ Washington">
+  <option>Crystal Mountain</option>
+  <option>Leavenworth</option>
+  <option>Mount Baker</option>
+  <option>Snoqualmie Pass</option>
+  <option>Winthrop</option>
+</optgroup>
+<optgroup label="🏔️ West Virginia">
+  <option>Davis</option>
+  <option>Snowshoe</option>
+</optgroup>
+<optgroup label="🏔️ Wisconsin">
+  <option>Wausau</option>
+</optgroup>
+<optgroup label="🏔️ Wyoming">
+  <option>Cody</option>
+  <option>Jackson Hole</option>
+  <option>Pinedale</option>
+  <option>Teton Village</option>
+</optgroup>
+</select>
+        <button class="controls-action-btn" onclick="updateOfficialTown()">Update</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="controls-group">
+      <span class="controls-subhead" style="color:#f7c948;">Make It Your Own</span>
+      <div class="controls-helper">Names, nicknames, places, or custom wording.</div>
+      <div class="controls-inline">
+        <input type="text" id="customTownInput" class="custom-town-input" placeholder="Enter custom wording..." maxlength="24"
+               onkeydown="if(event.key==='Enter')updateCustomTown()">
+        <button class="controls-action-btn" onclick="updateCustomTown()">Update</button>
+      </div>
+    </div>
+  </div>
+  <div class="controls-panel design-color-panel">
+    <span class="controls-label design-color-heading" style="color:#f7c948;">Choose Your Design Color</span>
+    <div class="gallery-color-swatches" id="designColorSwatches"></div>
+    <span class="swatch-label" id="designColorLabel">Black Ice</span>
+  </div>
+</div>
+
+
+<div class="gallery-grid" id="galleryGrid"></div>
+
+<div class="next-bar" id="nextBar">
+  <div class="next-bar-inner">
+    <span class="selected-preview" id="selectedPreview" style="font-size:1.8rem; font-weight:800; letter-spacing:0.5px;"></span>
+    <button class="next-bar-btn" onclick="goToProducts()">
+      Continue with This Design &rarr;
+    </button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal-box">
+    <div class="icon">⛷️</div>
+    <h2>Great Choice!</h2>
+    <p>Your design selection is saved:</p>
+    <div class="selection-summary" id="selectionSummary"></div>
+    <p>The product & checkout page is being built now.<br>Come back soon!</p>
+    <button class="modal-close" onclick="document.getElementById('modalOverlay').classList.remove('open')">
+      ← Keep Browsing
+    </button>
+  </div>
+</div>
+
+<script>
+const DESIGN_NUMS  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42];
+const DESIGNS_PATH = 'Designs/';
+const CS           = 440;   // canvas internal size (square — keeps circles round)
+
+let currentTown    = 'Vail';
+let currentColor   = '#1a1a1a';
+let currentColorName = 'Black Ice';
+let selectedDesign = null;
+let loadedImages   = {};
+
+const DESIGN_NAMES = {
+  1:"Racing Skier",
+  2:"Downhill Skier",
+  3:"Snowboarder",
+  4:"Snowboard Flip",
+  5:"Snowmobile Ride",
+  6:"Ski Tour",
+  7:"Snowshoe Trek",
+  8:"Chairlift Chairs",
+  9:"Groomed Trail",
+  10:"Smoky Cabin",
+  11:"Cabin Smoke",
+  12:"Two-Horse Sleigh",
+  13:"Dog Sled",
+  14:"Alpine Village",
+  15:"Marshmallow Roast",
+  16:"Camp Cooking",
+  17:"Sled Ride",
+  18:"Frozen Waterfall",
+  19:"Lake Sunset",
+  20:"Alpine Lake",
+  21:"Winter River",
+  22:"Hot Spring",
+  23:"Mountain Peaks",
+  24:"Above the Clouds",
+  25:"Mountain Elk",
+  26:"Snowy Heron",
+  27:"Arctic Fox",
+  28:"Snow Bunny",
+  29:"Ski Jumper",
+  30:"Snowcat",
+  31:"Skis in the Snow",
+  32:"Cross-Country Skiers",
+  33:"Snow Leopard",
+  34:"Ice Climber",
+  35:"Racing Skier (Women's)",
+  36:"Downhill Skier (Women's)",
+  37:"Snowboarder (Women's)",
+  38:"Snowmobile Ride (Women's)",
+  39:"Ski Tour (Women's)",
+  40:"Snowshoe Trek (Women's)",
+  41:"Ski Jumper (Women's)",
+  42:"Ice Climber (Women's)"
+};
+
+function getDesignName(num) {
+  return DESIGN_NAMES[num] || `Design ${num}`;
+}
+
+const DESIGN_COLORS = [
+  { name:'Black Ice',    hex:'#1a1a1a' },
+  { name:'Fresh Powder',      hex:'#FFFFFF' },
+  { name:'Deep Lake',    hex:'#1a7fa0' },
+  { name:'Glacier Ice',   hex:'#f7c948' },
+  { name:'Alpenglow',    hex:'#E84040' },
+  { name:'Ski Patrol Red', hex:'#C41230' },
+  { name:'Glacier Blue',hex:'#1C47A0' },
+  { name:'Evergreen',      hex:'#4A7B5C' },
+  { name:'Mountain Plum',    hex:'#9B2335' },
+  { name:'Après Pink',    hex:'#a64179' },
+];
+
+
+function normalizeTown(value) {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/\b([a-z])/g, m => m.toUpperCase());
+}
+
+function formatTownForDesign(value) {
+  return normalizeTown(value);
+}
+
+
+function setDisplayTown() {
+  const titleTown = currentTown
+    .toLowerCase()
+    .replace(/\b([a-z])/g, m => m.toUpperCase());
+  document.getElementById('townDisplay').textContent = titleTown;
+  document.title = `Slope Shirts – ${titleTown} Designs`;
+}
+
+function syncOfficialTownControl() {
+  const sel = document.getElementById('officialTownSelect');
+  if (!sel) return;
+  const options = [...sel.options];
+  const match = options.find(o => o.textContent.trim().toLowerCase() === currentTown.toLowerCase());
+  if (match) {
+    sel.value = match.value || match.textContent.trim();
+  } else {
+    sel.selectedIndex = 0;
+  }
+}
+
+function updateOfficialTown() {
+  const sel = document.getElementById('officialTownSelect');
+  const selectedText = sel && sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].textContent.trim() : '';
+  if (!selectedText) return;
+  currentTown = normalizeTown(selectedText);
+  setDisplayTown();
+  syncOfficialTownControl();
+  document.getElementById('customTownInput').value = '';
+  applyTownLabels();
+  redrawAll();
+  updateSelectedPreview();
+}
+
+function updateCustomTown() {
+  const input = document.getElementById('customTownInput');
+  const val = input.value.trim();
+  if (!val) return;
+  currentTown = normalizeTown(val);
+  input.value = currentTown;
+  setDisplayTown();
+  syncOfficialTownControl();
+  applyTownLabels();
+  redrawAll();
+  updateSelectedPreview();
+}
+
+function buildDesignColorSwatches() {
+  const wrap = document.getElementById('designColorSwatches');
+  wrap.innerHTML = '';
+  DESIGN_COLORS.forEach((c, i) => {
+    const s = document.createElement('div');
+    s.className = 'swatch' + (i === 0 ? ' active selected' : '');
+    s.title = c.name;
+    s.dataset.hex  = c.hex;
+    s.dataset.name = c.name;
+    s.style.background = c.hex;
+    if (c.hex === '#FFFFFF') s.style.borderColor = '#ccc';
+    s.onclick = () => {
+      currentColor = c.hex;
+      currentColorName = c.name;
+      document.querySelectorAll('#designColorSwatches .swatch').forEach(sw => {
+        sw.classList.toggle('active', sw.dataset.name === c.name);
+        sw.classList.toggle('selected', sw.dataset.name === c.name);
+      });
+      document.getElementById('designColorLabel').textContent = c.name;
+      applyTownLabels();
+      redrawAll();
+      updateSelectedPreview();
+    };
+    wrap.appendChild(s);
+  });
+}
+
+function townFontSize(name) {
+  const len = name.length;
+  if (len <= 8) return '56px';
+  if (len <= 12) return '50px';
+  if (len <= 16) return '44px';
+  if (len <= 20) return '38px';
+  return '34px';
+}
+
+function applyTownLabels() {
+  const displayTown = formatTownForDesign(currentTown);
+  document.querySelectorAll('.card-town-label').forEach(el => {
+    el.textContent = displayTown;
+    el.style.fontSize = townFontSize(displayTown);
+    el.style.color = currentColor;
+  });
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────
+function init() {
+  const params = new URLSearchParams(window.location.search);
+  const t = params.get('town');
+  const c = params.get('color');
+  if (t) currentTown = normalizeTown(t);
+  if (c) {
+    const found = DESIGN_COLORS.find(x => x.hex.toLowerCase() === c.toLowerCase());
+    if (found) {
+      currentColor = found.hex;
+      currentColorName = found.name;
+    }
+  }
+  setDisplayTown();
+  buildDesignColorSwatches();
+  syncOfficialTownControl();
+  const customInput = document.getElementById('customTownInput');
+  if (customInput) customInput.value = '';
+  document.getElementById('designColorLabel').textContent = currentColorName;
+  buildGrid();
+}
+
+// ── BUILD GRID ────────────────────────────────────────────────────────────
+function buildGrid() {
+  const grid = document.getElementById('galleryGrid');
+  grid.innerHTML = '';
+  DESIGN_NUMS.forEach(num => {
+    const card = document.createElement('div');
+    card.className  = 'design-card';
+    card.dataset.num = num;
+    card.onclick    = () => selectCard(card, num);
+    card.innerHTML  = `
+      <div class="card-canvas-wrap">
+        <canvas id="canvas_${num}" width="${CS}" height="${CS}"></canvas>
+      </div>
+      <div class="card-town-label" id="town_${num}" style="color:${currentColor}">${formatTownForDesign(currentTown)}</div>
+      <div class="card-design-name" aria-label="Design name"><span class="design-label">Design:</span> ${getDesignName(num)}</div>
+      <div class="card-footer">
+        <button class="select-btn">Select This Design</button>
+      </div>`;
+    grid.appendChild(card);
+    loadAndDraw(num);
+  });
+  applyTownLabels();
+}
+
+// ── LOAD + DRAW ───────────────────────────────────────────────────────────
+function loadAndDraw(num) {
+  if (loadedImages[num]) { drawCanvas(num, loadedImages[num]); return; }
+  const img  = new Image();
+  img.onload  = () => { loadedImages[num] = img; drawCanvas(num, img); };
+  img.onerror = () => drawPlaceholder(num);
+  img.src     = `${DESIGNS_PATH}${num}.png`;
+}
+
+function drawCanvas(num, img) {
+  const canvas = document.getElementById(`canvas_${num}`);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, CS, CS);
+
+  // ── STEP 1: Flood fill with chosen color ─────────────────────────────
+  ctx.fillStyle = currentColor;
+  ctx.fillRect(0, 0, CS, CS);
+
+  // ── STEP 2: Cut to image shape using destination-in ──────────────────
+  // Draws image at CS×CS (source is 2000×2000 square → circles stay round)
+  ctx.globalCompositeOperation = 'destination-in';
+  ctx.drawImage(img, 0, 0, CS, CS);
+  ctx.globalCompositeOperation = 'source-over';
+
+  // Town name is rendered as HTML below the canvas — not on canvas
+}
+
+function drawPlaceholder(num) {
+  const canvas = document.getElementById(`canvas_${num}`);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'rgba(7,28,44,0.06)';
+  ctx.beginPath();
+  ctx.arc(CS/2, CS/2 - 20, CS/2 - 20, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = 'rgba(7,28,44,0.25)';
+  ctx.font = '22px Nunito, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(`Design ${num}`, CS/2, CS/2 - 10);
+}
+
+function redrawAll() {
+  DESIGN_NUMS.forEach(num => {
+    if (loadedImages[num]) drawCanvas(num, loadedImages[num]);
+  });
+}
+
+// ── CONTROLS ───────────────────────────────────────────────────────────────
+// ── SELECT CARD ───────────────────────────────────────────────────────────
+function selectCard(card, num) {
+  document.querySelectorAll('.design-card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+  selectedDesign = num;
+  document.getElementById('nextBar').classList.add('visible');
+  updateSelectedPreview();
+  setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+}
+
+function updateSelectedPreview() {
+  if (!selectedDesign) return;
+  document.getElementById('selectedPreview').style.fontSize='1.8rem'; document.getElementById('selectedPreview').style.fontWeight='800'; document.getElementById('selectedPreview').textContent = `${currentTown} · ${currentColorName} · ${getDesignName(selectedDesign)}`;
+}
+
+// ── CONTINUE ──────────────────────────────────────────────────────────────
+function goToProducts() {
+  if (!selectedDesign) return;
+  window.location.href = `products.html?town=${encodeURIComponent(currentTown)}&design=${selectedDesign}&color=${encodeURIComponent(currentColor)}`;
+}
+
+function showModal() {
+  document.getElementById('selectionSummary').innerHTML =
+    `🎿 <strong>Town:</strong> ${currentTown}<br>
+     🎨 <strong>Color:</strong> ${currentColorName}<br>
+     🌀 <strong>Design:</strong> ${getDesignName(selectedDesign)}`;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modalOverlay'))
+    document.getElementById('modalOverlay').classList.remove('open');
+}
+
+// ── WAIT FOR FONTS ────────────────────────────────────────────────────────
+document.fonts.ready.then(() => init());
+
+// ── BASIC DESIGN PROTECTION DETERRENTS ─────────────────────────────────────
+document.addEventListener('contextmenu', (e) => {
+  if (e.target.closest && e.target.closest('.design-card')) e.preventDefault();
+});
+document.addEventListener('dragstart', (e) => {
+  if (e.target.closest && e.target.closest('.design-card')) e.preventDefault();
+});
+document.addEventListener('selectstart', (e) => {
+  if (e.target.closest && e.target.closest('.design-card')) e.preventDefault();
+});
+
+</script>
+</body>
+</html>
