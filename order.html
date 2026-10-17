@@ -15,22 +15,22 @@
 <meta name="twitter:description" content="Review your custom ski town apparel order, shipping details, promo codes and secure checkout for Slope Shirts.">
 
   <title>Place Your Custom Slope Shirts Order | Secure Checkout</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Permanent+Marker&family=Work+Sans:wght@400;600;700;800;900&family=Pacifico&family=Skyo&family=Bebas+Neue&display=swap" rel="stylesheet">
   <style>
     :root {
-      --gold:  #f7c948;
-      --coral: #E84040;
-      --navy:  #071c2c;
+      --gold:  #ff8a3d;
+      --coral: #1f8fd6;
+      --navy:  #10231c;
       --ocean: #1a7fa0;
       --sand:  #f0dfa8;
-      --foam:  #e8f4f8;
+      --foam:  #f1f5f2;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       min-height: 100vh;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Work Sans', sans-serif;
       overflow-x: hidden;
       background:
         linear-gradient(180deg, rgba(185,232,244,0.56) 0%, rgba(116,199,223,0.36) 34%, rgba(255,255,255,0.30) 100%),
@@ -50,23 +50,23 @@
       position: relative; z-index: 10;
       display: flex; align-items: center; justify-content: space-between;
       padding: 18px 32px;
-      background: rgba(7,28,44,0.85);
+      background: rgba(16,35,28,0.85);
       backdrop-filter: blur(12px);
-      border-bottom: 2px solid rgba(247,201,72,0.25);
+      border-bottom: 2px solid rgba(255,138,61,0.25);
     }
-    .brand { font-family: 'Pacifico', cursive; font-size: 1.6rem; color: var(--gold); text-decoration: none; text-shadow: 0 0 20px rgba(247,201,72,0.4); }
+    .brand { font-family: 'Pacifico', cursive; font-size: 1.6rem; color: var(--gold); text-decoration: none; text-shadow: 0 0 20px rgba(255,138,61,0.4); }
     .back-btn {
       display: inline-flex; align-items: center; justify-content: center;
       color: var(--navy); text-decoration: none;
       font-size: 0.98rem; font-weight: 900; letter-spacing: 0.2px; text-transform: none;
       padding: 13px 28px;
-      border: 2px solid rgba(7,28,44,0.22);
+      border: 2px solid rgba(16,35,28,0.22);
       border-radius: 22px;
-      background: linear-gradient(135deg, #ffd85a 0%, var(--gold) 100%);
-      box-shadow: 0 4px 0 rgba(7,28,44,0.18), 0 10px 26px rgba(7,28,44,0.18);
+      background: linear-gradient(135deg, #ffa66b 0%, var(--gold) 100%);
+      box-shadow: 0 4px 0 rgba(16,35,28,0.18), 0 10px 26px rgba(16,35,28,0.18);
       transition: transform 0.18s, box-shadow 0.18s, filter 0.18s;
     }
-    .back-btn:hover { color: var(--navy); transform: translateY(-1px); filter: brightness(1.03); box-shadow: 0 5px 0 rgba(7,28,44,0.18), 0 14px 30px rgba(7,28,44,0.22); }
+    .back-btn:hover { color: var(--navy); transform: translateY(-1px); filter: brightness(1.03); box-shadow: 0 5px 0 rgba(16,35,28,0.18), 0 14px 30px rgba(16,35,28,0.22); }
 
     /* ── HERO STRIP ──────────────────────────────────────────── */
     .hero-strip {
@@ -78,10 +78,10 @@
     .step-label {
       display: inline-block; font-size: 0.72rem; font-weight: 700;
       letter-spacing: 4px; text-transform: uppercase; color: var(--navy);
-      background: rgba(255,255,255,0.55); border: 1px solid rgba(7,28,44,0.2);
+      background: rgba(255,255,255,0.55); border: 1px solid rgba(16,35,28,0.2);
       border-radius: 20px; padding: 5px 16px; margin-bottom: 10px;
     }
-    .hero-strip h1 { font-size: clamp(0.95rem, 2.5vw, 1.3rem); font-weight: 400; color: rgba(7,28,44,0.72); margin-bottom: 2px; }
+    .hero-strip h1 { font-size: clamp(0.95rem, 2.5vw, 1.3rem); font-weight: 400; color: rgba(16,35,28,0.72); margin-bottom: 2px; }
     .hero-strip h2 {
       font-family: 'Bebas Neue', cursive;
       font-size: clamp(2.2rem, 6.5vw, 3.8rem);
@@ -102,13 +102,13 @@
       width: 32px; height: 32px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       font-size: 0.75rem; font-weight: 900;
-      background: rgba(255,255,255,0.35); color: rgba(7,28,44,0.5);
+      background: rgba(255,255,255,0.35); color: rgba(16,35,28,0.5);
       border: 2px solid rgba(255,255,255,0.5);
       transition: all 0.3s;
     }
     .prog-circle.done { background: var(--ocean); color: #fff; border-color: var(--ocean); }
-    .prog-circle.active { background: var(--gold); color: var(--navy); border-color: var(--gold); box-shadow: 0 0 0 4px rgba(247,201,72,0.25); }
-    .prog-label { font-size: 0.6rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(7,28,44,0.55); }
+    .prog-circle.active { background: var(--gold); color: var(--navy); border-color: var(--gold); box-shadow: 0 0 0 4px rgba(255,138,61,0.25); }
+    .prog-label { font-size: 0.6rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(16,35,28,0.55); }
     .prog-label.active { color: var(--navy); }
     .prog-line {
       height: 2px; flex: 1; margin-bottom: 18px;
@@ -134,12 +134,12 @@
       backdrop-filter: blur(16px);
       border-radius: 20px;
       border: 1px solid rgba(255,255,255,0.9);
-      box-shadow: 0 8px 32px rgba(7,28,44,0.12);
+      box-shadow: 0 8px 32px rgba(16,35,28,0.12);
       overflow: hidden;
     }
     .card-header {
       padding: 18px 22px 14px;
-      border-bottom: 1px solid rgba(7,28,44,0.07);
+      border-bottom: 1px solid rgba(16,35,28,0.07);
       display: flex; align-items: center; gap: 10px;
     }
     .card-icon {
@@ -159,15 +159,15 @@
     .order-item {
       display: flex; align-items: center; gap: 14px;
       padding: 12px 14px;
-      background: rgba(7,28,44,0.04);
+      background: rgba(16,35,28,0.04);
       border-radius: 12px;
-      border: 1px solid rgba(7,28,44,0.07);
+      border: 1px solid rgba(16,35,28,0.07);
       transition: background 0.2s;
     }
-    .order-item:hover { background: rgba(7,28,44,0.07); }
+    .order-item:hover { background: rgba(16,35,28,0.07); }
     .item-design-circle {
       width: 52px; height: 52px; border-radius: 50%;
-      border: 2px solid rgba(7,28,44,0.12);
+      border: 2px solid rgba(16,35,28,0.12);
       object-fit: contain;
       background: #fff;
       flex-shrink: 0;
@@ -177,19 +177,19 @@
     .item-design-circle img { width: 100%; height: 100%; object-fit: contain; }
     .item-design-placeholder {
       width: 52px; height: 52px; border-radius: 50%;
-      border: 2px solid rgba(7,28,44,0.12);
-      background: rgba(7,28,44,0.06);
+      border: 2px solid rgba(16,35,28,0.12);
+      background: rgba(16,35,28,0.06);
       flex-shrink: 0;
       display: flex; align-items: center; justify-content: center;
       font-size: 1.3rem;
     }
     .item-info { flex: 1; min-width: 0; }
     .item-name { font-weight: 900; font-size: 0.88rem; color: var(--navy); }
-    .item-meta { font-size: 0.72rem; color: rgba(7,28,44,0.55); margin-top: 2px; }
+    .item-meta { font-size: 0.72rem; color: rgba(16,35,28,0.55); margin-top: 2px; }
     .item-town { font-family: 'Pacifico', cursive; font-size: 0.75rem; margin-top: 1px; }
     .item-right { text-align: right; flex-shrink: 0; }
     .item-price { font-weight: 900; font-size: 0.9rem; color: var(--navy); }
-    .item-qty { font-size: 0.7rem; color: rgba(7,28,44,0.45); margin-bottom: 2px; }
+    .item-qty { font-size: 0.7rem; color: rgba(16,35,28,0.45); margin-bottom: 2px; }
     .qty-controls {
       display: inline-flex;
       align-items: center;
@@ -197,7 +197,7 @@
       gap: 6px;
       margin: 4px 0 5px;
       background: rgba(255,255,255,0.72);
-      border: 1px solid rgba(7,28,44,0.12);
+      border: 1px solid rgba(16,35,28,0.12);
       border-radius: 999px;
       padding: 3px 6px;
     }
@@ -214,7 +214,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 2px 8px rgba(7,28,44,0.12);
+      box-shadow: 0 2px 8px rgba(16,35,28,0.12);
     }
     .qty-btn:hover { filter: brightness(0.96); }
     .qty-number {
@@ -226,14 +226,14 @@
     }
     .remove-btn {
       background: none; border: none; cursor: pointer;
-      color: rgba(7,28,44,0.25); font-size: 0.9rem; padding: 2px 4px;
+      color: rgba(16,35,28,0.25); font-size: 0.9rem; padding: 2px 4px;
       border-radius: 4px; transition: color 0.2s;
       margin-top: 4px;
     }
     .remove-btn:hover { color: var(--coral); }
     .empty-cart {
       text-align: center; padding: 40px 20px;
-      color: rgba(7,28,44,0.4);
+      color: rgba(16,35,28,0.4);
     }
     .empty-cart .empty-icon { font-size: 2.5rem; margin-bottom: 10px; }
     .empty-cart p { font-size: 0.9rem; }
@@ -243,10 +243,10 @@
     .summary-lines { display: flex; flex-direction: column; gap: 8px; }
     .summary-line {
       display: flex; justify-content: space-between; align-items: center;
-      font-size: 0.85rem; color: rgba(7,28,44,0.65);
+      font-size: 0.85rem; color: rgba(16,35,28,0.65);
     }
     .summary-line.total {
-      border-top: 1.5px solid rgba(7,28,44,0.1);
+      border-top: 1.5px solid rgba(16,35,28,0.1);
       padding-top: 10px; margin-top: 4px;
       font-weight: 900; font-size: 1rem; color: var(--navy);
     }
@@ -257,7 +257,7 @@
       border-radius: 10px;
       padding: 10px 14px;
       font-size: 0.75rem;
-      color: rgba(7,28,44,0.65);
+      color: rgba(16,35,28,0.65);
       line-height: 1.5;
     }
     .summary-note strong { color: var(--navy); }
@@ -274,28 +274,28 @@
     .form-group.full { grid-column: 1 / -1; }
     .form-label {
       font-size: 0.67rem; font-weight: 700; letter-spacing: 2px;
-      text-transform: uppercase; color: rgba(7,28,44,0.5);
+      text-transform: uppercase; color: rgba(16,35,28,0.5);
     }
     .form-label .req { color: var(--coral); margin-left: 2px; }
     .form-input, .form-textarea, .form-select {
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Work Sans', sans-serif;
       font-size: 0.9rem; font-weight: 700;
       color: var(--navy);
       background: rgba(255,255,255,0.7);
-      border: 1.5px solid rgba(7,28,44,0.15);
+      border: 1.5px solid rgba(16,35,28,0.15);
       border-radius: 10px;
       padding: 10px 14px;
       outline: none;
       transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
       width: 100%;
     }
-    .form-input::placeholder, .form-textarea::placeholder { color: rgba(7,28,44,0.25); font-weight: 400; }
+    .form-input::placeholder, .form-textarea::placeholder { color: rgba(16,35,28,0.25); font-weight: 400; }
     .form-input:focus, .form-textarea:focus, .form-select:focus {
       border-color: var(--ocean);
       background: rgba(255,255,255,0.9);
       box-shadow: 0 0 0 3px rgba(26,127,160,0.12);
     }
-    .form-input.error { border-color: var(--coral); box-shadow: 0 0 0 3px rgba(232,64,64,0.1); }
+    .form-input.error { border-color: var(--coral); box-shadow: 0 0 0 3px rgba(31,143,214,0.1); }
     .form-textarea { resize: vertical; min-height: 80px; }
     .form-error-msg {
       font-size: 0.67rem; color: var(--coral); font-weight: 700;
@@ -306,18 +306,18 @@
     /* ── SUBMIT BTN ──────────────────────────────────────────── */
     .submit-btn {
       width: 100%; margin-top: 20px;
-      background: linear-gradient(135deg, var(--gold) 0%, #e6a800 100%);
+      background: linear-gradient(135deg, var(--gold) 0%, #e0662a 100%);
       color: var(--navy); border: none; border-radius: 50px;
       padding: 16px 32px;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Work Sans', sans-serif;
       font-size: 1rem; font-weight: 900;
       letter-spacing: 1px; text-transform: uppercase;
       cursor: pointer;
       display: flex; align-items: center; justify-content: center; gap: 10px;
-      box-shadow: 0 6px 24px rgba(247,201,72,0.35);
+      box-shadow: 0 6px 24px rgba(255,138,61,0.35);
       transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
     }
-    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(247,201,72,0.45); }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(255,138,61,0.45); }
     .submit-btn:active { transform: translateY(0); }
     .submit-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
     .submit-btn .btn-icon { font-size: 1.1rem; }
@@ -336,7 +336,7 @@
     /* ── CONFIRMATION OVERLAY ────────────────────────────────── */
     .confirmation-overlay {
       position: fixed; inset: 0; z-index: 100;
-      background: rgba(7,28,44,0.7);
+      background: rgba(16,35,28,0.7);
       backdrop-filter: blur(8px);
       display: flex; align-items: center; justify-content: center;
       padding: 20px;
@@ -352,16 +352,16 @@
       text-align: center;
       transform: translateY(30px) scale(0.96);
       transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1);
-      box-shadow: 0 24px 80px rgba(7,28,44,0.3);
+      box-shadow: 0 24px 80px rgba(16,35,28,0.3);
     }
     .confirmation-overlay.visible .confirmation-card { transform: translateY(0) scale(1); }
     .confirm-icon {
       width: 80px; height: 80px; border-radius: 50%;
-      background: linear-gradient(135deg, var(--gold), #e6a800);
+      background: linear-gradient(135deg, var(--gold), #e0662a);
       margin: 0 auto 22px;
       display: flex; align-items: center; justify-content: center;
       font-size: 2.2rem;
-      box-shadow: 0 8px 28px rgba(247,201,72,0.4);
+      box-shadow: 0 8px 28px rgba(255,138,61,0.4);
     }
     .confirm-brand {
       font-family: 'Pacifico', cursive; font-size: 1.4rem;
@@ -373,7 +373,7 @@
       line-height: 1.1; margin-bottom: 12px;
     }
     .confirm-msg {
-      font-size: 0.92rem; color: rgba(7,28,44,0.65); line-height: 1.6;
+      font-size: 0.92rem; color: rgba(16,35,28,0.65); line-height: 1.6;
       margin-bottom: 6px;
     }
     .confirm-email-display {
@@ -381,7 +381,7 @@
       margin-bottom: 22px;
     }
     .confirm-divider {
-      height: 1px; background: rgba(7,28,44,0.08); margin: 20px 0;
+      height: 1px; background: rgba(16,35,28,0.08); margin: 20px 0;
     }
     .confirm-details {
       display: flex; gap: 20px; justify-content: center; margin-bottom: 24px;
@@ -390,7 +390,7 @@
       display: flex; flex-direction: column; align-items: center; gap: 3px;
     }
     .confirm-detail-icon { font-size: 1.3rem; }
-    .confirm-detail-label { font-size: 0.6rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(7,28,44,0.4); }
+    .confirm-detail-label { font-size: 0.6rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(16,35,28,0.4); }
     .confirm-detail-value { font-weight: 900; font-size: 0.85rem; color: var(--navy); }
     .confirm-cta {
       display: inline-block;
@@ -401,7 +401,7 @@
       letter-spacing: 1px; text-transform: uppercase;
       transition: background 0.2s;
     }
-    .confirm-cta:hover { background: #0a2740; }
+    .confirm-cta:hover { background: #15302a; }
     .wave-emoji { font-size: 0.9rem; }
 
     /* ── RESPONSIVE ──────────────────────────────────────────── */
@@ -485,19 +485,19 @@ body::after {
   line-height: 1;
 }
 .order-step-number {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: clamp(1.15rem, 2.4vw, 1.85rem);
   font-weight: 900;
   letter-spacing: 0.42em;
   color: var(--gold);
-  text-shadow: 0 4px 20px rgba(7,28,44,0.20);
+  text-shadow: 0 4px 20px rgba(16,35,28,0.20);
   margin-bottom: 6px;
 }
 .order-step-title {
   font-family: 'Pacifico', cursive;
   font-size: clamp(3.2rem, 8.4vw, 6.4rem);
   color: var(--gold);
-  text-shadow: 0 10px 38px rgba(7,28,44,0.20);
+  text-shadow: 0 10px 38px rgba(16,35,28,0.20);
   line-height: 0.95;
 }
 .shipping-banner {
@@ -508,7 +508,7 @@ body::after {
   margin-bottom: 14px;
   border-radius: 14px;
   background: rgba(255,255,255,0.66);
-  border: 1px solid rgba(7,28,44,0.10);
+  border: 1px solid rgba(16,35,28,0.10);
   color: var(--navy);
   font-weight: 800;
   line-height: 1.25;
@@ -516,7 +516,7 @@ body::after {
 .shipping-banner small {
   display:block;
   margin-top:3px;
-  color: rgba(7,28,44,0.58);
+  color: rgba(16,35,28,0.58);
   font-weight: 700;
 }
 .order-item {
@@ -539,7 +539,7 @@ body::after {
   line-height: 1.15;
 }
 .meta-line {
-  color: rgba(7,28,44,0.62);
+  color: rgba(16,35,28,0.62);
 }
 .meta-line strong {
   color: var(--navy);
@@ -552,7 +552,7 @@ body::after {
   border-radius: 999px;
   background: rgba(255,255,255,0.55);
   color: var(--navy) !important;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 0.72rem;
   font-weight: 900;
 }
@@ -561,7 +561,7 @@ body::after {
   padding: 13px 14px;
   border-radius: 14px;
   background: rgba(255,255,255,0.58);
-  border: 1px solid rgba(7,28,44,0.10);
+  border: 1px solid rgba(16,35,28,0.10);
 }
 .promo-label {
   display:block;
@@ -569,7 +569,7 @@ body::after {
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(7,28,44,0.65);
+  color: rgba(16,35,28,0.65);
   margin-bottom: 7px;
 }
 .promo-row {
@@ -582,8 +582,8 @@ body::after {
   height:40px;
   padding: 0 12px;
   border-radius: 12px;
-  border: 1px solid rgba(7,28,44,0.16);
-  font-family:'Nunito', sans-serif;
+  border: 1px solid rgba(16,35,28,0.16);
+  font-family:'Work Sans', sans-serif;
   font-weight:800;
   color:var(--navy);
 }
@@ -600,12 +600,12 @@ body::after {
 .promo-note {
   margin-top:7px;
   font-size:0.72rem;
-  color: rgba(7,28,44,0.56);
+  color: rgba(16,35,28,0.56);
   line-height:1.25;
 }
 .promo-note.promo-saved { color: #15803d; font-weight: 900; }
 .promo-note.promo-error { color: #c1121f; font-weight: 900; }
-.promo-note.promo-loading { color: rgba(7,28,44,0.70); font-weight: 900; }
+.promo-note.promo-loading { color: rgba(16,35,28,0.70); font-weight: 900; }
 .free-ship-note {
   color: #15803d;
   font-weight: 900;
@@ -619,6 +619,22 @@ body::after {
   .page-body.mobile-order-flow > .shipping-banner { width:100%; }
 }
 
+</style>
+
+<style id="slope-theme">
+body, button, input, select, textarea { font-family: 'Work Sans', 'Nunito', sans-serif; }
+.hero-title, .section-title, .gallery-step-title, .products-step-title, .order-step-title, .choose-title,
+.demo-section h2, .cta-section h2, .photo-split h2 { font-family: 'Archivo Black', 'Work Sans', sans-serif !important; font-weight: 400 !important; letter-spacing: -0.01em; }
+.hero-title span { color: #ff8a3d !important; }
+.gallery-step-title, .products-step-title, .order-step-title { color: #10231c !important; text-shadow: none !important; }
+.gallery-step-number, .products-step-number, .order-step-number { color: #e0662a !important; text-shadow: none !important; }
+.footer-brand { font-family: 'Permanent Marker', cursive !important; color: #ff8a3d !important; }
+.btn-primary, .nav-cta, .happy-place-continue-btn { background: #1f8fd6 !important; border-color: #1f8fd6 !important; color: #fff !important; box-shadow: 0 8px 22px rgba(31,143,214,.35) !important; }
+.ticker-strip { background: #ff8a3d !important; }
+.ticker-strip, .ticker-strip span { color: #10231c !important; }
+.btn-secondary { background: transparent !important; border: 2px solid #ff8a3d !important; color: #ff8a3d !important; box-shadow: none !important; }
+.hero-strip p { color: #2e4a3e !important; text-shadow: none !important; }
+.slope-light { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 160' preserveAspectRatio='none'%3E%3Cpath fill='%2310231c' fill-opacity='.10' d='M0 160V95l60-55 50 45 70-75 80 70 60-40 90 60 70-50 80 55 60-35 90 65 70-45 80 50 60-30 70 45 60-40 90 60 50-25 60 35V160z'/%3E%3Cpath fill='%2310231c' fill-opacity='.14' d='M0 160v-30l40-20 35 18 50-35 45 30 60-25 55 28 45-18 60 30 50-22 55 26 60-30 50 24 45-16 60 28 55-24 50 20 40-12 60 25 50-18 55 22V160z'/%3E%3C/svg%3E"), var(--slope-bg) !important; background-repeat: no-repeat, no-repeat !important; background-position: bottom center, top left !important; background-size: 100% 160px, 100% 100% !important; background-attachment: fixed, fixed !important; }
 </style>
 </head>
 <body>
@@ -789,7 +805,7 @@ body::after {
       </div>
       <div class="card-body">
         <div class="form-group">
-          <label class="form-label">Notes / Requests <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:0.7rem;color:rgba(7,28,44,0.35)">(optional)</span></label>
+          <label class="form-label">Notes / Requests <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:0.7rem;color:rgba(16,35,28,0.35)">(optional)</span></label>
           <textarea class="form-textarea" id="notes" placeholder="Any special instructions, alternate color ideas, gift notes, etc.…"></textarea>
         </div>
         <button class="submit-btn" id="submitBtn" onclick="submitOrder()">

@@ -15,7 +15,7 @@
 <meta name="twitter:description" content="Pick your ski town, choose a mountain design, and personalize your Slope Shirts apparel with custom design colors.">
 
 <title>Choose Your Ski Town Design &amp; Color | Slope Shirts</title>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Permanent+Marker&family=Work+Sans:wght@400;600;700;800;900&family=Pacifico&family=Skyo&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
   @font-face {
     font-family: 'Porcelain';
@@ -25,18 +25,18 @@
     font-display: swap;
   }
   :root {
-    --gold:   #f7c948;
-    --coral:  #E84040;
-    --navy:   #071c2c;
+    --gold:   #ff8a3d;
+    --coral:  #1f8fd6;
+    --navy:   #10231c;
     --ocean:  #1a7fa0;
     --sand:   #e9f3fa;
-    --foam:   #e8f4f8;
+    --foam:   #f1f5f2;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
     min-height: 100vh;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
     /* Winter gradient: sky → snow */
     background:
@@ -80,22 +80,22 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 32px;
-    background: rgba(7,28,44,0.85);
+    background: rgba(16,35,28,0.85);
     backdrop-filter: blur(12px);
-    border-bottom: 2px solid rgba(247,201,72,0.25);
+    border-bottom: 2px solid rgba(255,138,61,0.25);
   }
   .brand {
     font-family: 'Pacifico', cursive;
     font-size: 1.6rem;
     color: var(--gold);
     text-decoration: none;
-    text-shadow: 0 0 20px rgba(247,201,72,0.4);
+    text-shadow: 0 0 20px rgba(255,138,61,0.4);
   }
   .back-btn {
     display: inline-block;
     text-decoration: none;
     width: auto;
-    border: 2px solid rgba(7,28,44,.28);
+    border: 2px solid rgba(16,35,28,.28);
     border-radius: 18px;
     padding: 13px 18px;
     font-size: 1rem;
@@ -105,7 +105,7 @@
     cursor: pointer;
     background: var(--gold);
     color: var(--navy);
-    box-shadow: 0 10px 20px rgba(7,28,44,.10);
+    box-shadow: 0 10px 20px rgba(16,35,28,.10);
     transition: transform 0.2s, border-color 0.2s;
   }
   .back-btn:hover {
@@ -129,7 +129,7 @@
     text-transform: uppercase;
     color: var(--navy);
     background: rgba(255,255,255,0.55);
-    border: 1px solid rgba(7,28,44,0.2);
+    border: 1px solid rgba(16,35,28,0.2);
     border-radius: 20px;
     padding: 5px 16px;
     margin-bottom: 12px;
@@ -137,7 +137,7 @@
   .hero-strip h1 {
     font-size: clamp(1rem, 3vw, 1.5rem);
     font-weight: 400;
-    color: rgba(7,28,44,0.75);
+    color: rgba(16,35,28,0.75);
     margin-bottom: 4px;
   }
   .town-name-display {
@@ -145,13 +145,13 @@
     font-size: clamp(2.6rem, 8vw, 4.5rem);
     color: var(--navy);
     letter-spacing: 5px;
-    text-shadow: 2px 3px 0px rgba(255,255,255,0.4), 0 4px 12px rgba(7,28,44,0.25);
+    text-shadow: 2px 3px 0px rgba(255,255,255,0.4), 0 4px 12px rgba(16,35,28,0.25);
     line-height: 1;
   }
   .hero-strip p {
     margin-top: 8px;
     font-size: 0.88rem;
-    color: rgba(7,28,44,0.6);
+    color: rgba(16,35,28,0.6);
   }
 
   /* ── CONTROLS ────────────────────────────────────────────────────── */
@@ -176,14 +176,14 @@
     gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
-    box-shadow: 0 4px 16px rgba(7,28,44,0.12);
+    box-shadow: 0 4px 16px rgba(16,35,28,0.12);
   }
   .controls-label {
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(7,28,44,0.55);
+    color: rgba(16,35,28,0.55);
     white-space: nowrap;
   }
   .color-swatches { display: flex; gap: 8px; align-items: center; }
@@ -198,13 +198,13 @@
   .swatch:hover { transform: scale(1.2); }
   .swatch.active { border-color: var(--navy); transform: scale(1.2); box-shadow: 0 2px 10px rgba(0,0,0,0.35); }
 
-  .divider { width: 1px; height: 24px; background: rgba(7,28,44,0.15); }
+  .divider { width: 1px; height: 24px; background: rgba(16,35,28,0.15); }
 
   .change-town-wrap { display: flex; align-items: center; gap: 8px; }
   .change-town-wrap input {
     padding: 7px 12px;
     background: rgba(255,255,255,0.8);
-    border: 1px solid rgba(7,28,44,0.2);
+    border: 1px solid rgba(16,35,28,0.2);
     border-radius: 8px;
     color: var(--navy);
     font-family: 'Bebas Neue', cursive;
@@ -215,14 +215,14 @@
     transition: border-color 0.2s;
   }
   .change-town-wrap input:focus { outline: none; border-color: var(--ocean); }
-  .change-town-wrap input::placeholder { color: rgba(7,28,44,0.35); }
+  .change-town-wrap input::placeholder { color: rgba(16,35,28,0.35); }
   .change-town-wrap button {
     padding: 8px 14px;
     background: var(--navy);
     color: var(--gold);
     border: none;
     border-radius: 8px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 900;
     font-size: 0.75rem;
     letter-spacing: 1px;
@@ -249,11 +249,11 @@
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(7,28,44,0.55);
+    color: rgba(16,35,28,0.55);
   }
   .controls-helper {
     font-size: 0.92rem;
-    color: rgba(7,28,44,0.55);
+    color: rgba(16,35,28,0.55);
     margin-top: -2px;
   }
   .controls-inline {
@@ -265,10 +265,10 @@
   .town-select {
     padding: 8px 12px;
     background: rgba(255,255,255,0.86);
-    border: 1px solid rgba(7,28,44,0.18);
+    border: 1px solid rgba(16,35,28,0.18);
     border-radius: 10px;
     color: var(--navy);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 0.96rem;
     font-weight: 700;
     min-width: 250px;
@@ -277,10 +277,10 @@
   .custom-town-input {
     padding: 8px 12px;
     background: rgba(255,255,255,0.86);
-    border: 1px solid rgba(7,28,44,0.18);
+    border: 1px solid rgba(16,35,28,0.18);
     border-radius: 10px;
     color: var(--navy);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     min-width: 250px;
@@ -291,7 +291,7 @@
     color: var(--gold);
     border: none;
     border-radius: 8px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 900;
     font-size: 0.75rem;
     letter-spacing: 1px;
@@ -359,17 +359,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 20px rgba(7,28,44,0.12);
+    box-shadow: 0 4px 20px rgba(16,35,28,0.12);
     backdrop-filter: blur(4px);
   }
   .design-card:hover {
     transform: translateY(-6px);
     border-color: var(--gold);
-    box-shadow: 0 14px 40px rgba(7,28,44,0.2), 0 0 0 1px rgba(247,201,72,0.5);
+    box-shadow: 0 14px 40px rgba(16,35,28,0.2), 0 0 0 1px rgba(255,138,61,0.5);
   }
   .design-card.selected {
     border-color: var(--coral);
-    box-shadow: 0 0 0 3px var(--coral), 0 14px 40px rgba(232,64,64,0.2);
+    box-shadow: 0 0 0 3px var(--coral), 0 14px 40px rgba(31,143,214,0.2);
   }
 
   .card-canvas-wrap {
@@ -396,7 +396,7 @@
     margin-top: -28px;
     padding: 0 10px 0;
     line-height: 0.82;
-    color: #071c2c;
+    color: #10231c;
     letter-spacing: 0;
     transition: color 0.2s;
     width: 100%;
@@ -407,10 +407,10 @@
     margin: 8px 14px 8px;
     padding: 7px 10px;
     border-radius: 999px;
-    background: rgba(7,28,44,0.08);
-    border: 1px solid rgba(7,28,44,0.14);
+    background: rgba(16,35,28,0.08);
+    border: 1px solid rgba(16,35,28,0.14);
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 0.82rem;
     line-height: 1.15;
     color: var(--navy);
@@ -439,11 +439,11 @@
   .select-btn {
     width: 100%;
     padding: 10px;
-    background: rgba(7,28,44,0.07);
-    border: 1.5px solid rgba(7,28,44,0.2);
+    background: rgba(16,35,28,0.07);
+    border: 1.5px solid rgba(16,35,28,0.2);
     border-radius: 8px;
     color: var(--navy);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 900;
     font-size: 0.92rem;
     letter-spacing: 1.5px;
@@ -461,22 +461,22 @@
     bottom: 0; left: 0; right: 0;
     z-index: 100;
     padding: 14px 24px 18px;
-    background: linear-gradient(to top, rgba(7,28,44,0.97) 65%, transparent);
+    background: linear-gradient(to top, rgba(16,35,28,0.97) 65%, transparent);
     text-align: center;
   }
   .next-bar.visible { display: block; }
   .next-bar-inner { display: inline-flex; align-items: center; gap: 16px; }
   .selected-preview {
-    color: rgba(232,244,248,0.7);
+    color: rgba(241,245,242,0.7);
     font-size: 0.8rem;
     font-weight: 700;
   }
   .next-bar-btn {
     display: inline-block;
     padding: 14px 44px;
-    background: linear-gradient(135deg, var(--gold) 0%, #e6a800 100%);
+    background: linear-gradient(135deg, var(--gold) 0%, #e0662a 100%);
     color: var(--navy);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 900;
     font-size: 0.95rem;
     letter-spacing: 2px;
@@ -484,25 +484,25 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0 4px 24px rgba(247,201,72,0.5);
+    box-shadow: 0 4px 24px rgba(255,138,61,0.5);
     transition: transform 0.15s, box-shadow 0.15s;
   }
-  .next-bar-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(247,201,72,0.65); }
+  .next-bar-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(255,138,61,0.65); }
 
   /* ── MODAL ────────────────────────────────────────────────────────── */
   .modal-overlay {
     display: none;
     position: fixed;
     inset: 0; z-index: 200;
-    background: rgba(7,28,44,0.82);
+    background: rgba(16,35,28,0.82);
     backdrop-filter: blur(8px);
     align-items: center;
     justify-content: center;
   }
   .modal-overlay.open { display: flex; }
   .modal-box {
-    background: #0d3352;
-    border: 1px solid rgba(247,201,72,0.35);
+    background: #1b3a2e;
+    border: 1px solid rgba(255,138,61,0.35);
     border-radius: 22px;
     padding: 42px 36px;
     max-width: 400px;
@@ -513,10 +513,10 @@
   }
   .modal-box .icon { font-size: 2.8rem; margin-bottom: 14px; }
   .modal-box h2 { font-family: 'Pacifico', cursive; color: var(--gold); font-size: 1.6rem; margin-bottom: 10px; }
-  .modal-box p { color: rgba(232,244,248,0.72); font-size: 0.9rem; line-height: 1.65; margin-bottom: 6px; }
+  .modal-box p { color: rgba(241,245,242,0.72); font-size: 0.9rem; line-height: 1.65; margin-bottom: 6px; }
   .selection-summary {
-    background: rgba(247,201,72,0.08);
-    border: 1px solid rgba(247,201,72,0.2);
+    background: rgba(255,138,61,0.08);
+    border: 1px solid rgba(255,138,61,0.2);
     border-radius: 10px;
     padding: 14px;
     margin: 14px 0;
@@ -532,7 +532,7 @@
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 10px;
     color: var(--foam);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 0.88rem;
     cursor: pointer;
@@ -581,7 +581,7 @@
 .controls-subhead{
   font-weight:900 !important;
   color: var(--gold) !important;
-  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(247,201,72,.18);
+  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(255,138,61,.18);
   letter-spacing:.16em;
 }
 .town-name-display{
@@ -589,14 +589,14 @@
   font-size: clamp(2.8rem, 8vw, 5rem) !important;
   font-weight:700 !important;
   color:#072033 !important;
-  text-shadow: 0 2px 0 rgba(255,255,255,.60), 0 6px 18px rgba(7,28,44,.18);
+  text-shadow: 0 2px 0 rgba(255,255,255,.60), 0 6px 18px rgba(16,35,28,.18);
   letter-spacing:2px !important;
 }
 .hero-strip p{
   color: #ffffff !important;
   font-weight:800 !important;
   font-size:1rem !important;
-  text-shadow: 0 1px 0 rgba(7,28,44,.22);
+  text-shadow: 0 1px 0 rgba(16,35,28,.22);
 }
 
 
@@ -615,7 +615,7 @@
 .hero-strip p {
   color: #ffffff !important;
   font-weight: 900 !important;
-  text-shadow: 0 2px 8px rgba(7,28,44,.35);
+  text-shadow: 0 2px 8px rgba(16,35,28,.35);
 }
 @media (max-width: 700px) {
   .brand-logo-link img { height: 56px; }
@@ -732,7 +732,7 @@ header{
   font-size: clamp(1rem, 2.2vw, 1.45rem);
   letter-spacing: .34em;
   text-transform: uppercase;
-  text-shadow: 0 2px 8px rgba(7,28,44,.28);
+  text-shadow: 0 2px 8px rgba(16,35,28,.28);
   margin-bottom: 6px;
 }
 .gallery-step-title{
@@ -743,7 +743,7 @@ header{
   letter-spacing: 0;
   text-transform: none;
   line-height: .98;
-  text-shadow: 0 4px 28px rgba(7,28,44,.45);
+  text-shadow: 0 4px 28px rgba(16,35,28,.45);
 }
 .gallery-step-title .gallery-title-accent{
   color: inherit;
@@ -755,7 +755,7 @@ header{
   font-weight: 900 !important;
   letter-spacing: .16em !important;
   text-transform: uppercase !important;
-  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(247,201,72,.18);
+  text-shadow: 0 1px 0 rgba(255,255,255,.55), 0 0 10px rgba(255,138,61,.18);
   margin-bottom: 10px;
 }
 @media (max-width: 700px){
@@ -765,8 +765,24 @@ header{
 }
 
 </style>
+
+<style id="slope-theme">
+body, button, input, select, textarea { font-family: 'Work Sans', 'Nunito', sans-serif; }
+.hero-title, .section-title, .gallery-step-title, .products-step-title, .order-step-title, .choose-title,
+.demo-section h2, .cta-section h2, .photo-split h2 { font-family: 'Archivo Black', 'Work Sans', sans-serif !important; font-weight: 400 !important; letter-spacing: -0.01em; }
+.hero-title span { color: #ff8a3d !important; }
+.gallery-step-title, .products-step-title, .order-step-title { color: #10231c !important; text-shadow: none !important; }
+.gallery-step-number, .products-step-number, .order-step-number { color: #e0662a !important; text-shadow: none !important; }
+.footer-brand { font-family: 'Permanent Marker', cursive !important; color: #ff8a3d !important; }
+.btn-primary, .nav-cta, .happy-place-continue-btn { background: #1f8fd6 !important; border-color: #1f8fd6 !important; color: #fff !important; box-shadow: 0 8px 22px rgba(31,143,214,.35) !important; }
+.ticker-strip { background: #ff8a3d !important; }
+.ticker-strip, .ticker-strip span { color: #10231c !important; }
+.btn-secondary { background: transparent !important; border: 2px solid #ff8a3d !important; color: #ff8a3d !important; box-shadow: none !important; }
+.hero-strip p { color: #2e4a3e !important; text-shadow: none !important; }
+.slope-light { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 160' preserveAspectRatio='none'%3E%3Cpath fill='%2310231c' fill-opacity='.10' d='M0 160V95l60-55 50 45 70-75 80 70 60-40 90 60 70-50 80 55 60-35 90 65 70-45 80 50 60-30 70 45 60-40 90 60 50-25 60 35V160z'/%3E%3Cpath fill='%2310231c' fill-opacity='.14' d='M0 160v-30l40-20 35 18 50-35 45 30 60-25 55 28 45-18 60 30 50-22 55 26 60-30 50 24 45-16 60 28 55-24 50 20 40-12 60 25 50-18 55 22V160z'/%3E%3C/svg%3E"), var(--slope-bg) !important; background-repeat: no-repeat, no-repeat !important; background-position: bottom center, top left !important; background-size: 100% 160px, 100% 100% !important; background-attachment: fixed, fixed !important; }
+</style>
 </head>
-<body>
+<body class="slope-light" style="--slope-bg: linear-gradient(180deg,#c9dbe3 0%,#dde8ec 30%,#eef3f4 62%,#ffffff 100%);">
 
 <header>
   <a href="index.html" class="brand brand-logo-link"><img src="slopeshirts_logo.png" alt="Slope Shirts"></a>
@@ -787,7 +803,7 @@ header{
 <div class="controls-bar">
   <div class="controls-panel controls-stack">
     <div class="controls-group">
-      <span class="controls-subhead" style="color:#f7c948;">Your Ski Town</span>
+      <span class="controls-subhead" style="color:#ff8a3d;">Your Ski Town</span>
       <div class="controls-inline">
         <select id="officialTownSelect" class="town-select">
 <option value="" disabled>Choose your ski town</option>
@@ -985,7 +1001,7 @@ header{
     </div>
     <div class="divider"></div>
     <div class="controls-group">
-      <span class="controls-subhead" style="color:#f7c948;">Make It Your Own</span>
+      <span class="controls-subhead" style="color:#ff8a3d;">Make It Your Own</span>
       <div class="controls-helper">Names, nicknames, places, or custom wording.</div>
       <div class="controls-inline">
         <input type="text" id="customTownInput" class="custom-town-input" placeholder="Enter custom wording..." maxlength="24"
@@ -995,7 +1011,7 @@ header{
     </div>
   </div>
   <div class="controls-panel design-color-panel">
-    <span class="controls-label design-color-heading" style="color:#f7c948;">Choose Your Design Color</span>
+    <span class="controls-label design-color-heading" style="color:#ff8a3d;">Choose Your Design Color</span>
     <div class="gallery-color-swatches" id="designColorSwatches"></div>
     <span class="swatch-label" id="designColorLabel">Black Ice</span>
   </div>
@@ -1090,8 +1106,8 @@ const DESIGN_COLORS = [
   { name:'Black Ice',    hex:'#1a1a1a' },
   { name:'Fresh Powder',      hex:'#FFFFFF' },
   { name:'Deep Lake',    hex:'#1a7fa0' },
-  { name:'Glacier Ice',   hex:'#f7c948' },
-  { name:'Alpenglow',    hex:'#E84040' },
+  { name:'Sunshine Gold',   hex:'#f7c948' },
+  { name:'Ember',    hex:'#E84040' },
   { name:'Ski Patrol Red', hex:'#C41230' },
   { name:'Glacier Blue',hex:'#1C47A0' },
   { name:'Evergreen',      hex:'#4A7B5C' },
@@ -1282,11 +1298,11 @@ function drawPlaceholder(num) {
   const canvas = document.getElementById(`canvas_${num}`);
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
-  ctx.fillStyle = 'rgba(7,28,44,0.06)';
+  ctx.fillStyle = 'rgba(16,35,28,0.06)';
   ctx.beginPath();
   ctx.arc(CS/2, CS/2 - 20, CS/2 - 20, 0, Math.PI*2);
   ctx.fill();
-  ctx.fillStyle = 'rgba(7,28,44,0.25)';
+  ctx.fillStyle = 'rgba(16,35,28,0.25)';
   ctx.font = '22px Nunito, sans-serif';
   ctx.textAlign = 'center';
   ctx.fillText(`Design ${num}`, CS/2, CS/2 - 10);
