@@ -1535,6 +1535,37 @@ body, button, input, select, textarea { font-family: 'Work Sans', 'Nunito', sans
 </section>
 
 
+<!-- SHOP-BY-PRODUCT START -->
+<section class="shop-section" id="shop">
+  <div class="shop-inner">
+    <p class="section-label">Shop by Product</p>
+    <h2 class="section-title">Pick It, Make It Yours</h2>
+    <p class="section-body">Every piece is printed in-house with your town and your design. Pick a product, then choose your town and design.</p>
+    <div class="shop-grid"><button class="shop-card" type="button" data-product="forever_tee"><img src="merchant/forever_tee.jpg" alt="T-Shirt" loading="lazy" width="500" height="500"><span class="shop-name">T-Shirt</span><span class="shop-price">$29.99</span></button><button class="shop-card" type="button" data-product="crewneck"><img src="merchant/crewneck.jpg" alt="Crewneck" loading="lazy" width="500" height="500"><span class="shop-name">Crewneck</span><span class="shop-price">$49.99</span></button><button class="shop-card" type="button" data-product="quarter_zip"><img src="merchant/quarter_zip.jpg" alt="Quarter-Zip" loading="lazy" width="500" height="500"><span class="shop-name">Quarter-Zip</span><span class="shop-price">$59.99</span></button><button class="shop-card" type="button" data-product="forever_hoodie"><img src="merchant/forever_hoodie.jpg" alt="Hoodie" loading="lazy" width="500" height="500"><span class="shop-name">Hoodie</span><span class="shop-price">$59.99</span></button><button class="shop-card" type="button" data-product="everyday_light_hoodie"><img src="merchant/everyday_light_hoodie.jpg" alt="Light Hoodie" loading="lazy" width="500" height="500"><span class="shop-name">Light Hoodie</span><span class="shop-price">$34.99</span></button><button class="shop-card" type="button" data-product="womens_crop_hoodie"><img src="merchant/womens_crop_hoodie.jpg" alt="Women&#x27;s Crop Hoodie" loading="lazy" width="500" height="500"><span class="shop-name">Women&#x27;s Crop Hoodie</span><span class="shop-price">$54.99</span></button><button class="shop-card" type="button" data-product="zip_up"><img src="merchant/zip_up.jpg" alt="Zip Up" loading="lazy" width="500" height="500"><span class="shop-name">Zip Up</span><span class="shop-price">$59.99</span></button><button class="shop-card" type="button" data-product="youth_hoodie"><img src="merchant/youth_hoodie.jpg" alt="Kids&#x27; Hoodie" loading="lazy" width="500" height="500"><span class="shop-name">Kids&#x27; Hoodie</span><span class="shop-price">$34.99</span></button><button class="shop-card" type="button" data-product="beach_blanket"><img src="merchant/beach_blanket.jpg" alt="Lodge Blanket" loading="lazy" width="500" height="500"><span class="shop-name">Lodge Blanket</span><span class="shop-price">$49.99</span></button><button class="shop-card" type="button" data-product="pajama_pants"><img src="merchant/pajama_pants.jpg" alt="Pajama Pants" loading="lazy" width="500" height="500"><span class="shop-name">Pajama Pants</span><span class="shop-price">$39.99</span></button></div>
+    <p class="shop-note">Free shipping on orders over $100 · Flat $6.95 shipping otherwise</p>
+  </div>
+</section>
+<style>
+.shop-section{background:#fff;padding:64px 16px}
+.shop-inner{max-width:1180px;margin:0 auto;text-align:center}
+.shop-section .section-title{color:#071c2c}
+.shop-section .section-body{color:#33465a;max-width:640px;margin:0 auto 26px}
+.shop-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
+.shop-card{background:#f6f8f9;border:1px solid #e3e8ec;border-radius:18px;padding:10px 10px 14px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;font:inherit;transition:transform .15s,box-shadow .15s}
+.shop-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(7,28,44,.12)}
+.shop-card img{width:100%;height:auto;border-radius:12px;background:#fff}
+.shop-name{font-weight:900;color:#071c2c;font-size:15px;margin-top:6px}
+.shop-price{font-weight:800;color:#c4561d;font-size:15px}
+.shop-note{margin-top:22px;color:#33465a;font-weight:700}
+@media(max-width:600px){.shop-grid{grid-template-columns:repeat(2,1fr);gap:10px}.shop-section{padding:44px 12px}}
+</style>
+<script>
+document.querySelectorAll('.shop-card').forEach(function(c){c.addEventListener('click',function(){
+  try{var k='slopeshirts_selection';var s=JSON.parse(localStorage.getItem(k)||'{}');s.product=c.dataset.product;delete s.apparelColor;delete s.size;localStorage.setItem(k,JSON.stringify(s));}catch(e){}
+  var t=document.getElementById('choose-town'); if(t) t.scrollIntoView({behavior:'smooth'});
+});});
+</script>
+<!-- SHOP-BY-PRODUCT END -->
 <!-- ─── CHOOSE YOUR TOWN ─── -->
 <section class="demo-section" id="choose-town">
 <div class="demo-inner choose-town-layout">
