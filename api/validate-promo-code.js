@@ -5,16 +5,20 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
 });
 
 const PRODUCT_PRICES = {
-  'The Forever Tee': 2999,
+  "The Forever Tee": 2999,
+  "The Comfort Crewneck": 4999,
+  "The Lodge Quarter-Zip": 5999,
+  "The Forever Hoodie": 5999,
+  "The Everyday Light Hoodie": 3499,
+  "Kids' Hoodie": 3499,
+  "Women's Crop Hoodie": 5499,
+  "The Zip Up": 5999,
   "Men's Tank": 2499,
   "Women's Full Tank": 2499,
   "Women's Half Tank": 2499,
-  'The Everyday Light Hoodie': 3499,
-  'The Forever Hoodie': 5999,
-  "Women's Crop Hoodie": 5999,
-  'The Zip Up': 5999,
-  'Lodge Blanket': 4999,
-  'Pajama Pants': 3999
+  "Lodge Blanket": 4999,
+  "Pajama Pants": 3999,
+  "Beach Blanket": 4999
 };
 
 function cleanText(value, max = 120) {

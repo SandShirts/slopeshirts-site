@@ -8,29 +8,37 @@ const FLAT_SHIPPING_CENTS = 695;
 const FREE_SHIPPING_THRESHOLD_CENTS = 10000;
 
 const PRODUCT_PRICES = {
-  'The Forever Tee': 2999,
+  "The Forever Tee": 2999,
+  "The Comfort Crewneck": 4999,
+  "The Lodge Quarter-Zip": 5999,
+  "The Forever Hoodie": 5999,
+  "The Everyday Light Hoodie": 3499,
+  "Kids' Hoodie": 3499,
+  "Women's Crop Hoodie": 5499,
+  "The Zip Up": 5999,
   "Men's Tank": 2499,
   "Women's Full Tank": 2499,
   "Women's Half Tank": 2499,
-  'The Everyday Light Hoodie': 3499,
-  'The Forever Hoodie': 5999,
-  "Women's Crop Hoodie": 5999,
-  'The Zip Up': 5999,
-  'Lodge Blanket': 4999,
-  'Pajama Pants': 3999
+  "Lodge Blanket": 4999,
+  "Pajama Pants": 3999,
+  "Beach Blanket": 4999
 };
 
 const STYLE_NUMBERS = {
-  'The Forever Tee': '6010',
-  "Men's Tank": '3633',
-  "Women's Full Tank": '8430',
-  "Women's Half Tank": '6682',
-  'The Everyday Light Hoodie': '3512',
-  'The Forever Hoodie': '9302',
-  "Women's Crop Hoodie": '9384',
-  'The Zip Up': '3739',
-  'Lodge Blanket': 'INDBKTSB',
-  'Pajama Pants': 'BM6624'
+  "The Forever Tee": "6010",
+  "The Comfort Crewneck": "1566",
+  "The Lodge Quarter-Zip": "1580",
+  "The Forever Hoodie": "9302",
+  "The Everyday Light Hoodie": "3512",
+  "Kids' Hoodie": "18500B",
+  "Women's Crop Hoodie": "7502",
+  "The Zip Up": "3739",
+  "Men's Tank": "3633",
+  "Women's Full Tank": "1533",
+  "Women's Half Tank": "6682",
+  "Lodge Blanket": "INDBKTSB",
+  "Pajama Pants": "BM6624",
+  "Beach Blanket": "INDBKTSB"
 };
 
 function cleanText(value, max = 120) {
@@ -294,19 +302,15 @@ module.exports = async function handler(req, res) {
 
       const STRIPE_NAME_ALIAS = { 'Lodge Blanket': 'Beach Blanket' };
       const stripeProductId = stripeProducts[productName] || stripeProducts[STRIPE_NAME_ALIAS[productName]];
-      if (!stripeProductId) {
-        throw new Error(`Stripe product is missing or inactive for: ${productName}`);
-      }
-
       subtotalCents += unit_amount * quantity;
 
+      // Use the matching Stripe product when it exists; otherwise create the line item by name
+      // so a newly added product never blocks checkout.
       return {
         quantity,
-        price_data: {
-          currency: 'usd',
-          unit_amount,
-          product: stripeProductId
-        }
+        price_data: stripeProductId
+          ? { currency: 'usd', unit_amount, product: stripeProductId }
+          : { currency: 'usd', unit_amount, product_data: { name: productName } }
       };
     });
 
