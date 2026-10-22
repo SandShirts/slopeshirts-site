@@ -40,6 +40,10 @@
       "destination": "/aspen/index.html"
     },
     {
+      "source": "/snowmass-village",
+      "destination": "/snowmass-village/index.html"
+    },
+    {
       "source": "/breckenridge",
       "destination": "/breckenridge/index.html"
     },
