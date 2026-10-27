@@ -12,8 +12,13 @@
 - Added to vercel.json rewrites, sitemap.xml (lastmod 2026-10-22), /ski-towns Colorado grid (after Aspen), and linked from the Aspen page's "More ski towns" grid.
 - Town picker already had Snowmass Village; no index.html/gallery.html changes.
 
+## 2026-10-27 — Copper Mountain town page
+- New page /copper-mountain (copper-mountain/index.html), built from the snowmass-village template: title "Copper Mountain Shirts, Hoodies & Custom Copper Mountain CO Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Copper/Summit County/Frisco custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (I-70 in Summit County at the foot of Vail Pass near Frisco, naturally divided terrain west/middle/east, Union Peak and Copper Peak bowls, Tucker Mountain snowcat, West/Center/East Villages, Woodward Copper), links to Breckenridge, Keystone, Vail, Beaver Creek, Winter Park, Steamboat Springs.
+- Added to vercel.json rewrites (after /keystone), sitemap.xml (lastmod 2026-10-27), /ski-towns Colorado grid (after Keystone), and linked from the Breckenridge and Keystone "More ski towns" grids.
+- Town picker already had Copper Mountain; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Copper Mountain, Durango, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Durango, Frisco, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - Tanks were dropped from the catalog (2026-10-20) but all 25 original town pages still say "tanks" in the hoodie FAQ (visible + JSON-LD), and homepage/products meta descriptions + homepage OnlineStore description still list tanks. Fix town pages in a batch; homepage/products meta needs owner OK (products.html is off-limits).
