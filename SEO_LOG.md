@@ -17,10 +17,16 @@
 - Added to vercel.json rewrites (after /keystone), sitemap.xml (lastmod 2026-10-27), /ski-towns Colorado grid (after Keystone), and linked from the Breckenridge and Keystone "More ski towns" grids.
 - Town picker already had Copper Mountain; no index.html/gallery.html changes.
 
+## 2026-10-29 — Removed discontinued tanks from town pages and homepage metadata
+- All 25 original town pages (vail, beaver-creek, aspen, breckenridge, keystone, winter-park, steamboat-springs, telluride, crested-butte, park-city, jackson-hole, big-sky, whitefish, sun-valley, lake-tahoe, mammoth-lakes, big-bear-lake, taos, leavenworth, stowe, killington, north-conway, lake-placid, poconos, jim-thorpe): hoodie FAQ answer (visible + FAQPage JSON-LD) now reads "available on tees, hoodies, crewnecks, quarter-zips, zip-ups, crop hoodies, kids' hoodies, pajama pants and lodge blankets" (matches current catalog and the snowmass/copper pages; tanks removed).
+- index.html metadata only: meta description, og:description, twitter:description and OnlineStore JSON-LD description now say "quarter-zips" instead of "tanks". No body/design changes.
+- products.html meta still mentions tanks (file is off-limits to this task) — needs owner.
+
 ## Next ideas
 - New town pages: Durango, Frisco, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
-- Tanks were dropped from the catalog (2026-10-20) but all 25 original town pages still say "tanks" in the hoodie FAQ (visible + JSON-LD), and homepage/products meta descriptions + homepage OnlineStore description still list tanks. Fix town pages in a batch; homepage/products meta needs owner OK (products.html is off-limits).
+- products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
+- Original 25 town pages' apparel tile grids list only 6 products (no Crewnecks / Quarter-Zips / Kids' Hoodies tiles); could align with snowmass/copper tiles.
 - Product pages: /custom-ski-shirts, /custom-ski-hoodies, /custom-lodge-blankets.
 - Better alt text on homepage design marquee (already named per design).
