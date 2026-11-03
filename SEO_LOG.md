@@ -22,11 +22,17 @@
 - index.html metadata only: meta description, og:description, twitter:description and OnlineStore JSON-LD description now say "quarter-zips" instead of "tanks". No body/design changes.
 - products.html meta still mentions tanks (file is off-limits to this task) — needs owner.
 
+## 2026-11-03 — Durango town page
+- New page /durango (durango/index.html), built from the copper-mountain template: title "Durango Shirts, Hoodies & Custom Durango CO Ski Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Purgatory/Silverton custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (Animas River, San Juan Mountains, historic Main Avenue, Fort Lewis College, Durango & Silverton Narrow Gauge Railroad since the 1880s, Purgatory Resort ~25 miles north on Highway 550, Chapman Hill in-town ski hill and ice rink), links to Telluride, Crested Butte, Taos, Aspen, Snowmass Village, Steamboat Springs.
+- Added to vercel.json rewrites (after /copper-mountain), sitemap.xml (lastmod 2026-11-03, after Telluride), /ski-towns Colorado grid (after Crested Butte), and linked from the Telluride "More ski towns" grid.
+- Town picker already had Durango; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Durango, Frisco, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Frisco, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
 - Original 25 town pages' apparel tile grids list only 6 products (no Crewnecks / Quarter-Zips / Kids' Hoodies tiles); could align with snowmass/copper tiles.
 - Product pages: /custom-ski-shirts, /custom-ski-hoodies, /custom-lodge-blankets.
+- Link /durango from the Taos and Crested Butte "More ski towns" grids too.
 - Better alt text on homepage design marquee (already named per design).

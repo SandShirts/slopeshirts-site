@@ -56,6 +56,10 @@
       "destination": "/copper-mountain/index.html"
     },
     {
+      "source": "/durango",
+      "destination": "/durango/index.html"
+    },
+    {
       "source": "/winter-park",
       "destination": "/winter-park/index.html"
     },
