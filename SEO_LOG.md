@@ -27,12 +27,19 @@
 - Added to vercel.json rewrites (after /copper-mountain), sitemap.xml (lastmod 2026-11-03, after Telluride), /ski-towns Colorado grid (after Crested Butte), and linked from the Telluride "More ski towns" grid.
 - Town picker already had Durango; no index.html/gallery.html changes.
 
+## 2026-11-05 — Frisco town page + Durango cross-links
+- New page /frisco (frisco/index.html), built from the copper-mountain template: title "Frisco Shirts, Hoodies & Custom Frisco CO Ski Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Summit County/Lake Dillon custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (center of Summit County between the Tenmile Range and Dillon Reservoir, historic Main Street below Mount Royal and Peak One, Frisco Historic Park & Museum, short drive to Copper/Breckenridge/Keystone/Arapahoe Basin, free Summit Stage bus and recpath, Frisco Adventure Park tubing hill, beginner ski hill and Nordic/snowshoe trails), designs 2/20/6/32/8/14, links to Copper Mountain, Breckenridge, Keystone, Vail, Beaver Creek, Winter Park.
+- Added to vercel.json rewrites (after /copper-mountain), sitemap.xml (lastmod 2026-11-05, after Copper Mountain), /ski-towns Colorado grid (after Copper Mountain), and linked from the Copper Mountain, Breckenridge and Keystone "More ski towns" grids.
+- Durango now also linked from the Taos and Crested Butte "More ski towns" grids (from Next ideas).
+- Town picker already had Frisco; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Frisco, Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
 - Original 25 town pages' apparel tile grids list only 6 products (no Crewnecks / Quarter-Zips / Kids' Hoodies tiles); could align with snowmass/copper tiles.
 - Product pages: /custom-ski-shirts, /custom-ski-hoodies, /custom-lodge-blankets.
-- Link /durango from the Taos and Crested Butte "More ski towns" grids too.
+- Colorado now has 14 town pages; prioritize other states next (Deer Valley/Alta in Utah, Truckee/South Lake Tahoe in CA, Vermont and New York towns) for broader coverage.
+- Could add Dillon/Silverthorne pages later and cross-link the Summit County cluster.
 - Better alt text on homepage design marquee (already named per design).

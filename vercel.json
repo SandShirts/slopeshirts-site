@@ -56,6 +56,10 @@
       "destination": "/copper-mountain/index.html"
     },
     {
+      "source": "/frisco",
+      "destination": "/frisco/index.html"
+    },
+    {
       "source": "/durango",
       "destination": "/durango/index.html"
     },
