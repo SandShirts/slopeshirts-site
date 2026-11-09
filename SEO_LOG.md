@@ -43,3 +43,4 @@
 - Colorado now has 14 town pages; prioritize other states next (Deer Valley/Alta in Utah, Truckee/South Lake Tahoe in CA, Vermont and New York towns) for broader coverage.
 - Could add Dillon/Silverthorne pages later and cross-link the Summit County cluster.
 - Better alt text on homepage design marquee (already named per design).
+- 2026-11-08: Added 10 Yeti designs (43-52) to gallery, product/order name maps, and homepage marquee.
