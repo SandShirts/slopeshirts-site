@@ -104,6 +104,10 @@
       "destination": "/lake-tahoe/index.html"
     },
     {
+      "source": "/truckee",
+      "destination": "/truckee/index.html"
+    },
+    {
       "source": "/mammoth-lakes",
       "destination": "/mammoth-lakes/index.html"
     },

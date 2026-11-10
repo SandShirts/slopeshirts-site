@@ -33,8 +33,14 @@
 - Durango now also linked from the Taos and Crested Butte "More ski towns" grids (from Next ideas).
 - Town picker already had Frisco; no index.html/gallery.html changes.
 
+## 2026-11-10 — Truckee town page (first new California page)
+- New page /truckee (truckee/index.html), built from the frisco template: title "Truckee Shirts, Hoodies & Custom Truckee CA Ski Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Donner Lake/Tahoe Donner/Donner Summit custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (railroad/logging town just north of Lake Tahoe on I-80 below Donner Pass, Commercial Row downtown, Amtrak California Zephyr depot, Truckee River, Donner Lake and Donner Memorial State Park, Northstar, Palisades Tahoe/1960 Olympics via Hwy 89, Sugar Bowl, Boreal, Royal Gorge, Tahoe Donner downhill and XC), designs 2/20/8/32/29/10, links to Lake Tahoe, Mammoth Lakes, Big Bear Lake, Sun Valley, Park City, Leavenworth.
+- Added to vercel.json rewrites (before /mammoth-lakes), sitemap.xml (lastmod 2026-11-10, after Lake Tahoe; Lake Tahoe lastmod bumped), /ski-towns California grid (after Lake Tahoe), and linked from the Lake Tahoe and Mammoth Lakes "More ski towns" grids.
+- Fixed a typo on /frisco: "within a short drive of Frisco, Breckenridge..." now reads "Copper Mountain, Breckenridge...".
+- Town picker already had Truckee; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Ketchum, Deer Valley, Alta/Snowbird, Teton Village, Truckee, South Lake Tahoe, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Ketchum, Deer Valley, Alta/Snowbird, Teton Village, South Lake Tahoe, Olympic Valley, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
