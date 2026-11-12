@@ -84,6 +84,10 @@
       "destination": "/park-city/index.html"
     },
     {
+      "source": "/deer-valley",
+      "destination": "/deer-valley/index.html"
+    },
+    {
       "source": "/jackson-hole",
       "destination": "/jackson-hole/index.html"
     },

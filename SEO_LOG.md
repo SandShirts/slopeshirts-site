@@ -39,14 +39,20 @@
 - Fixed a typo on /frisco: "within a short drive of Frisco, Breckenridge..." now reads "Copper Mountain, Breckenridge...".
 - Town picker already had Truckee; no index.html/gallery.html changes.
 
+## 2026-11-12 — Deer Valley town page (second Utah page)
+- New page /deer-valley (deer-valley/index.html), built from the truckee template: title "Deer Valley Shirts, Hoodies & Custom Deer Valley UT Ski Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Park City/Silver Lake/Empire Canyon custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (east side of Park City in the Wasatch, opened 1981, grooming, limited daily skiers, turkey chili, skiers-only, Bald Eagle/Bald/Flagstaff Mountains, Empire Canyon, Silver Lake Village, Snow Park Lodge, 2002 Olympic moguls/aerials/slalom, Champion run freestyle World Cup, Main Street nearby), skier-only designs 2/9/8/1/25/31 (no snowboard designs), links to Park City, Sun Valley, Jackson Hole, Lake Tahoe, Aspen, Telluride.
+- Added to vercel.json rewrites (after /park-city), sitemap.xml (lastmod 2026-11-12, after Park City; Park City lastmod bumped), /ski-towns Utah grid (after Park City), and linked first in the Park City "More ski towns" grid.
+- Town picker already had Deer Valley; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Ketchum, Deer Valley, Alta/Snowbird, Teton Village, South Lake Tahoe, Olympic Valley, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Ketchum, Alta/Snowbird, Solitude/Brighton, Teton Village, South Lake Tahoe, Olympic Valley, Bend, Mount Hood, Red River, Okemo/Ludlow, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
 - Original 25 town pages' apparel tile grids list only 6 products (no Crewnecks / Quarter-Zips / Kids' Hoodies tiles); could align with snowmass/copper tiles.
 - Product pages: /custom-ski-shirts, /custom-ski-hoodies, /custom-lodge-blankets.
-- Colorado now has 14 town pages; prioritize other states next (Deer Valley/Alta in Utah, Truckee/South Lake Tahoe in CA, Vermont and New York towns) for broader coverage.
+- Colorado now has 14 town pages; prioritize other states next (Alta/Snowbird in Utah, South Lake Tahoe/Olympic Valley in CA, Vermont and New York towns) for broader coverage.
 - Could add Dillon/Silverthorne pages later and cross-link the Summit County cluster.
 - Better alt text on homepage design marquee (already named per design).
 - 2026-11-08: Added 10 Yeti designs (43-52) to gallery, product/order name maps, and homepage marquee.
+- Park City page FAQ still lacks the $6.95 flat shipping line (newer pages have it); could add to original 25 pages.
