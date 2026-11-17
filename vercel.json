@@ -136,6 +136,10 @@
       "destination": "/killington/index.html"
     },
     {
+      "source": "/ludlow",
+      "destination": "/ludlow/index.html"
+    },
+    {
       "source": "/north-conway",
       "destination": "/north-conway/index.html"
     },
