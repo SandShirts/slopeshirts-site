@@ -49,8 +49,13 @@
 - Added to vercel.json rewrites (after /killington), sitemap.xml (lastmod 2026-11-17, after Killington; Killington and Stowe lastmod bumped), /ski-towns Vermont grid (after Killington), and linked from the Killington and Stowe "More ski towns" grids.
 - Town picker already had Ludlow; no index.html/gallery.html changes.
 
+## 2026-11-19 — Snowshoe town page (first West Virginia page)
+- New page /snowshoe (snowshoe/index.html), built from the ludlow template: title "Snowshoe Shirts, Hoodies & Custom Snowshoe WV Ski Apparel", meta description, canonical, og tags, FAQPage (5 Qs, incl. Snowshoe Mountain/Cheat Mountain/Silver Creek custom text and $6.95 flat shipping) + BreadcrumbList JSON-LD, local copy (top of Cheat Mountain in Pocahontas County, Allegheny Mountains, Monongahela National Forest, largest resort in WV, upside-down layout with the village at the summit, Basin and Silver Creek areas, Western Territory with Cupp Run and Shay's Revenge, Cass Scenic Railroad State Park Shay locomotives, Green Bank Observatory, Marlinton and the Greenbrier River Trail), designs 2/3/8/14/17/10, links to Poconos, Jim Thorpe, Ludlow, Killington, Lake Placid, North Conway.
+- Added to vercel.json rewrites (after /jim-thorpe), sitemap.xml (lastmod 2026-11-19, after Jim Thorpe; Poconos and Jim Thorpe lastmod bumped), new West Virginia section on /ski-towns (after Washington), and linked from the Poconos and Jim Thorpe "More ski towns" grids.
+- Town picker already had Snowshoe; no index.html/gallery.html changes.
+
 ## Next ideas
-- New town pages: Ketchum, Alta/Snowbird, Solitude/Brighton, Teton Village, South Lake Tahoe, Olympic Valley, Bend, Mount Hood, Red River, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Snowshoe WV, Boone/Banner Elk, Boyne, Lutsen.
+- New town pages: Ketchum, Alta/Snowbird, Solitude/Brighton, Teton Village, South Lake Tahoe, Olympic Valley, Bend, Mount Hood, Red River, Stratton, Sugarbush/Waitsfield, Bretton Woods, Lincoln NH, Hunter NY, Windham NY, Ellicottville, Camelback/Tannersville, Seven Springs/Champion, Davis WV (Canaan Valley/Timberline), Boone/Banner Elk, Boyne, Lutsen.
 - State hub pages (/colorado-ski-towns, /vermont-ski-towns, /utah-ski-towns) linking the town pages.
 - Homepage already has OnlineStore schema (done at launch); could add Product/Offer schema on product landing pages later.
 - products.html meta/og/twitter descriptions still list tanks; needs owner (file off-limits to the SEO task).
@@ -62,3 +67,4 @@
 - 2026-11-08: Added 10 Yeti designs (43-52) to gallery, product/order name maps, and homepage marquee.
 - Vermont now has 3 pages (Stowe, Killington, Ludlow); Stratton, Sugarbush/Waitsfield, Manchester, Jay next. Original Stowe/Killington pages have thin one-line local copy; worth expanding with real local detail.
 - Park City page FAQ still lacks the $6.95 flat shipping line (newer pages have it); could add to original 25 pages.
+- Mid-Atlantic/Southeast cluster now Poconos, Jim Thorpe, Snowshoe; Davis WV, Seven Springs/Champion PA, Wintergreen VA and Boone/Banner Elk NC would round it out and cross-link with Snowshoe.

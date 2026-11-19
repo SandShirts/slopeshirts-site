@@ -156,6 +156,10 @@
       "destination": "/jim-thorpe/index.html"
     },
     {
+      "source": "/snowshoe",
+      "destination": "/snowshoe/index.html"
+    },
+    {
       "source": "/ski-towns",
       "destination": "/ski-towns/index.html"
     }
